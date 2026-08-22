@@ -1,0 +1,1546 @@
+[
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+    "A [%s1] [%s2] réteg [%s2] %s3 képkockájának és %s4 mélységének áthelyezése a %s5 mélységbe."
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 mátrix[%s5] eltávolítva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 mátrix%s5°-ról/-ről%s6°-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 keverési mód[%s5]-ról/-ről[%s6]-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 kék komponenseltolás%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 kék komponens%s5%-ról/-ről%s6%-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 zöld komponenseltolás%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 zöld komponens%s5%-ról/-ről%s6%-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 piros komponenseltolás%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 piros komponens%s5%-ról/-ről%s6%-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 átlátszóságeltolás%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 átlátszóság%s5%-ról/-ről%s6%-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 középpont x-koordináta%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 középpont y-koordináta%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 középpont[%s5]-ról/-ről[%s6]-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 forgatás%s5°-ról/-ről%s6°-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 y-méretezés%s5%-ról/-ről%s6%-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 x-méretezés%s5%-ról/-ről%s6%-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 név%s5-ra/-re"
+  ],
+  [
+    "{{新規Text[%s1]を追加}}",
+    "Új szöveg[%s1]hozzáadva"
+  ],
+  [
+    "{{[%s1]のグラフィックを変更}}",
+    "[%s1] grafikaváltoztatás"
+  ],
+  [
+    "{{新規Shape[%s1]を追加}}",
+    "Új alakzat[%s1]hozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 y-koordináta%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+    "[%s1] réteg[%s2] %s3keret・mélység%s4 x-koordináta%s5-ról/-ről%s6-ra/-re"
+  ],
+  [
+    "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+    "Színpad háttérszín[%s1]-ról/-ről[%s2]-ra/-re"
+  ],
+  [
+    "{{ステージのFPSを%s1から%s2に変更}}",
+    "Színpad FPS%s1-ról/-ről%s2-ra/-re"
+  ],
+  [
+    "{{ステージの高さを%s1から%s2に変更}}",
+    "Színpad magasság%s1-ról/-ről%s2-ra/-re"
+  ],
+  [
+    "{{ステージの幅を%s1から%s2に変更}}",
+    "Színpad szélesség%s1-ról/-ről%s2-ra/-re"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベルを削除}}",
+    "[%s1] %s2keret címketörölve"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+    "[%s1] %s2keret címke[%s3][%s4]-ra/-re"
+  ],
+  [
+    "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+    "[%s1] %s2keret-bacímke[%s3]regisztráció"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+    "[%s1] %s2keret hang[%s3] hurok szám%s4-ról/-ről%s5-ra/-re"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+    "[%s1] %s2keret hang[%s3] hangerő%s4-ról/-ről%s5-ra/-re"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+    "[%s1] %s2keret hang[%s3]törölve"
+  ],
+  [
+    "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+    "[%s1] %s2keret-bahang[%s3]hozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+    "[%s1] réteg[%s2] %s3keret kulcskerettörölve"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+    "[%s1] réteg[%s2] %s3keret kulcskeretmindendelete"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+    "[%s1] réteg[%s2] %s3keret kulcskeretmindendelete"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+    "[%s1] réteg[%s2] %s3keret üres kulcskeretmindendelete"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+    "[%s1] réteg[%s2] %s3keret kulcskeret-ról/-ről%s4kerettörlés"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+    "[%s1] réteg[%s2] %s3keret üres kulcskeret-ról/-ről%s4kerettörlés"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+    "[%s1] réteg[%s2] %s3keret kulcskeretfelosztás"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+    "[%s1] réteg[%s2] %s3keret kulcskeret-ba%s4kerethozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+    "[%s1] réteg[%s2] %s3keret-ba[%s4]hozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+    "[%s1] réteg[%s2] %s3keret-ba%s4kerethozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+    "[%s1] réteg[%s2] %s3keret üres kulcskeretfelosztás"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+    "[%s1] réteg[%s2] %s3keret üres kulcskeret-ba%s4kerethozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+    "[%s1] réteg[%s2] %s3keret-baüres kulcskerethozzáadva"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+    "[%s1] réteg[%s2][%s3]-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+    "[%s1] réteg[%s2] kiemelésszín változás"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を移動}}",
+    "[%s1] réteg[%s2]mozgatás"
+  ],
+  [
+    "{{[%s1]を画像に上書き}}",
+    "[%s1]kép-bafelülírás"
+  ],
+  [
+    "{{[%s1]を動画に上書き}}",
+    "[%s1]videó-bafelülírás"
+  ],
+  [
+    "{{[%s1]を音声に上書き}}",
+    "[%s1]hang-bafelülírás"
+  ],
+  [
+    "{{ライブラリから[%s1]を削除}}",
+    "könyvtár-ról/-ről[%s1]törölve"
+  ],
+  [
+    "{{MoiveClip一覧}}",
+    "MoiveClip lista"
+  ],
+  [
+    "{{新規フォルダー[%s1]を追加}}",
+    "új mappa[%s1]hozzáadva"
+  ],
+  [
+    "{{新規MovieClip[%s1]を追加}}",
+    "újMovieClip[%s1]hozzáadva"
+  ],
+  [
+    "{{音声[%s1]を取り込み}}",
+    "hang[%s1]importálás"
+  ],
+  [
+    "{{動画[%s1]を取り込み}}",
+    "videó[%s1]importálás"
+  ],
+  [
+    "{{[%s1]のフォルダ移動}}",
+    "[%s1] Mappa áthelyezése"
+  ],
+  [
+    "{{画像[%s1]を取り込み}}",
+    "kép[%s1]importálás"
+  ],
+  [
+    "{{[%s1]のシンボル名を[%s2]に変更}}",
+    "[%s1] szimbólum név[%s2]-ra/-re"
+  ],
+  [
+    "{{[%s1]の名前を[%s2]に変更}}",
+    "[%s1] név[%s2]-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+    "[%s1] réteg neve[%s2][%s3]-ra/-re"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを削除}}",
+    "[%s1] %s2keret szkripttörölve"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを変更}}",
+    "[%s1] %s2keret szkriptchange"
+  ],
+  [
+    "{{[%s1]の%s2フレームにスクリプトを追加}}",
+    "[%s1] %s2keret-baszkripthozzáadva"
+  ],
+  [
+    "{{プロジェクト名[%s1]を[%s2]に変更}}",
+    "Projekt neve[%s1][%s2]-ra/-re"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を削除}}",
+    "[%s1] réteg[%s2]törölve"
+  ],
+  [
+    "{{[%s1]にレイヤー[%s2]を追加}}",
+    "[%s1]-baréteg[%s2]hozzáadva"
+  ],
+  [
+    "{{同名のシンボルが存在します}}",
+    "azonos név szimbólum létezik"
+  ],
+  [
+    "{{広告枠の非表示}}",
+    "Reklámfelület rejtett"
+  ],
+  [
+    "{{履歴}}",
+    "történelem"
+  ],
+  [
+    "{{エリア位置の移動}}",
+    "Terület elhelyezkedése mozgatas"
+  ],
+  [
+    "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+    "Ha videóhirdetést néz meg a támogató alkalmazásban, akkor 7 napra eltávolítjuk a működési korlátozásokat."
+  ],
+  [
+    "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+    "Az Animation Tool nyílt forráskódú és ingyenesen elérhető."
+  ],
+  [
+    "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+    "Nagyra értékelnénk, ha segítene jobb funkciók és új verziók fejlesztésében."
+  ],
+  [
+    "{{機能制限を解除}}",
+    "Funkciókorlátozás feloldása"
+  ],
+  [
+    "{{サポーターアプリをインストール}}",
+    "Támogatói alkalmazás telepítése"
+  ],
+  [
+    "{{画面共有}}",
+    "képernyőmegosztás"
+  ],
+  [
+    "{{画面共有の機能を起動}}",
+    "képernyőmegosztás funkció aktiválása"
+  ],
+  [
+    "{{前のキーフレームと座標を合わせる}}",
+    "Combine előző kulcskeret and koordináta"
+  ],
+  [
+    "{{前のキーフレームと変形を合わせる}}",
+    "Alakítsd át és párosítsd az előző kulcskerettel"
+  ],
+  [
+    "{{次のキーフレームと座標を合わせる}}",
+    "Подравняване на координатите с следващия ключов кадър"
+  ],
+  [
+    "{{次のキーフレームと変形を合わせる}}",
+    "Подравняване на трансформацията с следващия ключов кадър"
+  ],
+  [
+    "{{次のキーフレームに移動}}",
+    "Következő kulcskeret-ba lépés"
+  ],
+  [
+    "{{前のキーフレームに移動}}",
+    "előző kulcskeret-ba move"
+  ],
+  [
+    "{{全てのスクリプトをコピー}}",
+    "minden szkriptcopy"
+  ],
+  [
+    "{{スクリプトをコピー}}",
+    "szkriptmásolat"
+  ],
+  [
+    "{{スクリプトをペースト}}",
+    "szkript paszta"
+  ],
+  [
+    "{{全てのラベルをコピー}}",
+    "minden címkemásolás"
+  ],
+  [
+    "{{ラベルをコピー}}",
+    "címkemásolás"
+  ],
+  [
+    "{{ラベルをペースト}}",
+    "címkebeillesztés"
+  ],
+  [
+    "{{全てのサウンドをコピー}}",
+    "minden hangmásolás"
+  ],
+  [
+    "{{サウンドをコピー}}",
+    "hangmásolás"
+  ],
+  [
+    "{{サウンドをペースト}}",
+    "hangbeillesztés"
+  ],
+  [
+    "{{書き出し先の選択}}",
+    "Úticél kivalasztás"
+  ],
+  [
+    "{{画質}}",
+    "képminőség"
+  ],
+  [
+    "{{座標}}",
+    "koordináta"
+  ],
+  [
+    "{{MovieClipを編集}}",
+    "MovieClipszerkesztés"
+  ],
+  [
+    "{{親の階層へ移動}}",
+    "Ugrás a szülőhierarchiába"
+  ],
+  [
+    "{{ロックされたレイヤーです}}",
+    "Ez egy lezárt réteg"
+  ],
+  [
+    "{{トゥイーンには複数のオブジェクトを設置できません}}",
+    "A Tween-ba nem tud több objektumot beállítani"
+  ],
+  [
+    "{{名前が重複しています}}",
+    "név megkettőződött"
+  ],
+  [
+    "{{名前は必須です}}",
+    "név megadása kötelező"
+  ],
+  [
+    "{{基準点}}",
+    "Referenciapont"
+  ],
+  [
+    "{{自由変形ツール}}",
+    "Ingyenes átalakító eszköz"
+  ],
+  [
+    "{{キーフレームに変換}}",
+    "kulcskeret-bakonvertálás"
+  ],
+  [
+    "{{空のキーフレームに変換}}",
+    "üres kulcskeret-bakonvertálás"
+  ],
+  [
+    "{{最初のフレームに移動}}",
+    "első keret-ba lépés"
+  ],
+  [
+    "{{最後のフレームに移動}}",
+    "Utolsó keret-ba lépés"
+  ],
+  [
+    "{{SWFを解析中}}",
+    "SWF elemzés folyamatban"
+  ],
+  [
+    "{{JSONを生成}}",
+    "JSON generáció"
+  ],
+  [
+    "{{ファイルを生成}}",
+    "Fájlgenerálás"
+  ],
+  [
+    "{{N2Dファイルの読み込み}}",
+    "N2D fájl betöltés"
+  ],
+  [
+    "{{JSONの読み込み}}",
+    "JSON betöltés"
+  ],
+  [
+    "{{データを解凍中}}",
+    "Adatok kitömörítése"
+  ],
+  [
+    "{{データを圧縮中}}",
+    "Adattömörítés folyamatban"
+  ],
+  [
+    "{{エンコード}}",
+    "kódol"
+  ],
+  [
+    "{{外部ファイルの読み込み}}",
+    "külső fájl betöltés"
+  ],
+  [
+    "{{バイナリデータを生成}}",
+    "Bináris adatok generálása"
+  ],
+  [
+    "{{データベースを起動}}",
+    "Adatbázis indítása"
+  ],
+  [
+    "{{データを保存中}}",
+    "Adatok mentése"
+  ],
+  [
+    "{{完了}}",
+    "befejezése"
+  ],
+  [
+    "{{ステージ左揃え}}",
+    "Színpad balra igazítás"
+  ],
+  [
+    "{{ステージ中央揃え(水平方向)}}",
+    "Színpadközépre igazítás(vízszintes)"
+  ],
+  [
+    "{{ステージ右揃え}}",
+    "Színpad jobbra igazítás"
+  ],
+  [
+    "{{ステージ上揃え}}",
+    "Színpad felső igazítás"
+  ],
+  [
+    "{{ステージ中央揃え(垂直方向)}}",
+    "Színpadközépre igazítás(függőleges)"
+  ],
+  [
+    "{{ステージ下揃え}}",
+    "Színpad alsó igazítás"
+  ],
+  [
+    "{{定規}}",
+    "uralkodó"
+  ],
+  [
+    "{{表示}}",
+    "kijelző"
+  ],
+  [
+    "{{ショートカット}}",
+    "parancsikont"
+  ],
+  [
+    "{{レイヤーを複製}}",
+    "rétegmásolás"
+  ],
+  [
+    "{{未使用のフォルダを削除}}",
+    "Nem használt mappa törölve"
+  ],
+  [
+    "{{同名のアイテムが存在します}}",
+    "azonos név elem létezik"
+  ],
+  [
+    "{{追加ファイル}}",
+    "további fájl"
+  ],
+  [
+    "{{既存のコンテンツ}}",
+    "Meglévő tartalom"
+  ],
+  [
+    "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+    "Lehetősége van felülírni, átnevezni és fájlokat hozzáadni, vagy törölni a kiválasztást"
+  ],
+  [
+    "{{全て上書き}}",
+    "mindenfelülírás"
+  ],
+  [
+    "{{全てキャンセル}}",
+    "minden cancel"
+  ],
+  [
+    "{{追加・上書き}}",
+    "hozzáadás・felülírás"
+  ],
+  [
+    "{{キャンセル}}",
+    "törölni"
+  ],
+  [
+    "{{表示確認したいフレームを指定}}",
+    "keretmeghatározás ellenőrizni szeretné a kijelzőt"
+  ],
+  [
+    "{{ファイル名を指定}}",
+    "Fájlnévmeghatározás"
+  ],
+  [
+    "{{ファイル名}}",
+    "fájlnév"
+  ],
+  [
+    "{{終了フレームを指定}}",
+    "vége keretmeghatározás"
+  ],
+  [
+    "{{開始フレームを指定}}",
+    "Start keretmeghatározás"
+  ],
+  [
+    "{{フレーム設定}}",
+    "keretbeállítások"
+  ],
+  [
+    "{{書き出し設定}}",
+    "Beállítások exportálása"
+  ],
+  [
+    "{{ファイル形式の選択}}",
+    "Fájlformátum kivalasztás"
+  ],
+  [
+    "{{ファイル形式}}",
+    "fájlformátum"
+  ],
+  [
+    "{{サイズ設定}}",
+    "Méret beállítások"
+  ],
+  [
+    "{{左上}}",
+    "bal felső"
+  ],
+  [
+    "{{中央上}}",
+    "felső központ"
+  ],
+  [
+    "{{右上}}",
+    "jobb felső"
+  ],
+  [
+    "{{中央左}}",
+    "középen balra"
+  ],
+  [
+    "{{中央}}",
+    "központ"
+  ],
+  [
+    "{{中央右}}",
+    "középen jobbra"
+  ],
+  [
+    "{{左下}}",
+    "balra lent"
+  ],
+  [
+    "{{中央下}}",
+    "alsó középpont"
+  ],
+  [
+    "{{右下}}",
+    "jobbra lent"
+  ],
+  [
+    "{{中心点のX座標}}",
+    "középpont Xkoordináta"
+  ],
+  [
+    "{{中心点のY座標}}",
+    "középpont Ykoordináta"
+  ],
+  [
+    "{{MovieClipに変換}}",
+    "MovieClip-bakonvertálás"
+  ],
+  [
+    "{{変換}}",
+    "konvertálás"
+  ],
+  [
+    "{{ループ回数}}",
+    "hurok szám"
+  ],
+  [
+    "{{カーブポインターの削除}}",
+    "görbe mutató törlés"
+  ],
+  [
+    "{{ステージ基準}}",
+    "Színpad kritériumai"
+  ],
+  [
+    "{{閉じる}}",
+    "közeli"
+  ],
+  [
+    "{{保存}}",
+    "mentés"
+  ],
+  [
+    "{{リセット}}",
+    "reset"
+  ],
+  [
+    "{{スクリーン}}",
+    "képernyő"
+  ],
+  [
+    "{{ショートカット設定}}",
+    "Parancsikon beállítások"
+  ],
+  [
+    "{{レイヤーカラー}}",
+    "rétegszín"
+  ],
+  [
+    "{{Next2Dを支援する}}",
+    "Next2DSupport"
+  ],
+  [
+    "{{サポート}}",
+    "támogatás"
+  ],
+  [
+    "{{未使用のアイテムを削除}}",
+    "Nem használt cikk törölve"
+  ],
+  [
+    "{{レイヤーをペースト}}",
+    "rétegbeillesztés"
+  ],
+  [
+    "{{レイヤーをコピー}}",
+    "rétegmásolás"
+  ],
+  [
+    "{{フレームをペースト}}",
+    "keretbeillesztés"
+  ],
+  [
+    "{{フレームをコピー}}",
+    "keretmásolás"
+  ],
+  [
+    "{{キーフレームを削除}}",
+    "kulcskerettörölve"
+  ],
+  [
+    "{{キーフレームに空のキーフレームを追加できません}}",
+    "kulcskeret-baüres kulcskerethozzáadva can"
+  ],
+  [
+    "{{ズームツール}}",
+    "zoom eszköz"
+  ],
+  [
+    "{{タイムライン幅の拡大・縮小}}",
+    "Idővonal szélesség Nagyítás/Kicsinyítés"
+  ],
+  [
+    "{{ガイドレイヤー}}",
+    "útmutató réteg"
+  ],
+  [
+    "{{音量設定}}",
+    "hangerőbeállítások"
+  ],
+  [
+    "{{サウンドを削除}}",
+    "hangtörölve"
+  ],
+  [
+    "{{カスタムループ}}",
+    "egyéni hurok"
+  ],
+  [
+    "{{読込のみ}}",
+    "betöltés mi"
+  ],
+  [
+    "{{書込を許可}}",
+    "írási engedély"
+  ],
+  [
+    "{{単一行}}",
+    "egyetlen sor"
+  ],
+  [
+    "{{複数行}}",
+    "több sor"
+  ],
+  [
+    "{{自動で折り返し}}",
+    "Automatikus becsomagolás"
+  ],
+  [
+    "{{左寄せ}}",
+    "balra igazítás"
+  ],
+  [
+    "{{中央揃え}}",
+    "középre igazítás"
+  ],
+  [
+    "{{右寄せ}}",
+    "Jobb igazítás"
+  ],
+  [
+    "{{放射状グラデーション}}",
+    "radiális gradiens"
+  ],
+  [
+    "{{線形グラデーション}}",
+    "lineáris gradiens"
+  ],
+  [
+    "{{画像}}",
+    "kép"
+  ],
+  [
+    "{{画像選択}}",
+    "képkiválasztás"
+  ],
+  [
+    "{{種別}}",
+    "típus"
+  ],
+  [
+    "{{Shapeの色設定}}",
+    "Alakzat színbeállításai"
+  ],
+  [
+    "{{変形}}",
+    "deformáció"
+  ],
+  [
+    "{{カラー効果}}",
+    "szín hatás"
+  ],
+  [
+    "{{フィルター}}",
+    "szűrő"
+  ],
+  [
+    "{{Shapeを複製}}",
+    "Shapemásolás"
+  ],
+  [
+    "{{読み込み}}",
+    "betöltés"
+  ],
+  [
+    "{{新規フォルダー}}",
+    "új mappa"
+  ],
+  [
+    "{{新規MovieClip}}",
+    "újMovieClip"
+  ],
+  [
+    "{{枠に合わせてテキストをリサイズ}}",
+    "Szöveg átméretezése, hogy illeszkedjen frame-ba"
+  ],
+  [
+    "{{テキストに合わせて枠をリサイズ}}",
+    "Szöveg-ba Keret méretének átméretezése, hogy illeszkedjen"
+  ],
+  [
+    "{{リサイズしない}}",
+    "ne méretezzen át"
+  ],
+  [
+    "{{フォント}}",
+    "betűtípus"
+  ],
+  [
+    "{{テキスト}}",
+    "szöveg"
+  ],
+  [
+    "{{ループ}}",
+    "hurok"
+  ],
+  [
+    "{{音量}}",
+    "hangerő"
+  ],
+  [
+    "{{ビデオ}}",
+    "videó"
+  ],
+  [
+    "{{イージング}}",
+    "enyhülés"
+  ],
+  [
+    "{{サウンド}}",
+    "hang"
+  ],
+  [
+    "{{シンボル}}",
+    "szimbólum"
+  ],
+  [
+    "{{名前}}",
+    "név"
+  ],
+  [
+    "{{オブジェクト}}",
+    "objektum"
+  ],
+  [
+    "{{ステージ設定}}",
+    "Színpadbeállítások"
+  ],
+  [
+    "{{プレビュー}}",
+    "előnézet"
+  ],
+  [
+    "{{削除}}",
+    "törlés"
+  ],
+  [
+    "{{ペースト}}",
+    "beillesztés"
+  ],
+  [
+    "{{コピー}}",
+    "másolás"
+  ],
+  [
+    "{{プラグインメニュー}}",
+    "Plugin menü"
+  ],
+  [
+    "{{トゥイーン}}",
+    "tween"
+  ],
+  [
+    "{{カーブポインターの追加}}",
+    "görbe mutató hozzáadás"
+  ],
+  [
+    "{{パスの結合}}",
+    "pass egyesítés"
+  ],
+  [
+    "{{シェイプ}}",
+    "alak"
+  ],
+  [
+    "{{キーフレームに配分}}",
+    "kulcskeret-baelosztás"
+  ],
+  [
+    "{{レイヤーに配分}}",
+    "réteg-baelosztás"
+  ],
+  [
+    "{{タイムライン}}",
+    "idővonal"
+  ],
+  [
+    "{{整列}}",
+    "igazítás"
+  ],
+  [
+    "{{最背面}}",
+    "legmesszebb levő"
+  ],
+  [
+    "{{ひとつ背面へ}}",
+    "Menj egy lépést hátrafelé"
+  ],
+  [
+    "{{ひとつ前面へ}}",
+    "Az egyik előző oldalra"
+  ],
+  [
+    "{{最前面}}",
+    "legtöbb előző oldalon"
+  ],
+  [
+    "{{重ね順}}",
+    "halmozási sorrend"
+  ],
+  [
+    "{{プラグイン}}",
+    "plugin"
+  ],
+  [
+    "{{ライブラリ}}",
+    "könyvtár"
+  ],
+  [
+    "{{プロパティ}}",
+    "tulajdonságait"
+  ],
+  [
+    "{{マスクレイヤー}}",
+    "maszk réteg"
+  ],
+  [
+    "{{通常レイヤー}}",
+    "Általában réteg"
+  ],
+  [
+    "{{モーショントゥイーンの削除}}",
+    "mozgás torlés között"
+  ],
+  [
+    "{{モーショントゥイーンの追加}}",
+    "motion tween hozzáadás"
+  ],
+  [
+    "{{モーダル表示}}",
+    "Modális kijelző"
+  ],
+  [
+    "{{言語}}",
+    "nyelv"
+  ],
+  [
+    "{{フォーマット}}",
+    "formátum"
+  ],
+  [
+    "{{含める}}",
+    "tartalmazza"
+  ],
+  [
+    "{{含めない}}",
+    "nem tartalmazza"
+  ],
+  [
+    "{{使い方、リファレンス}}",
+    "Használat, hivatkozás"
+  ],
+  [
+    "{{非表示レイヤー}}",
+    "rejtettréteg"
+  ],
+  [
+    "{{設定}}",
+    "beállítások"
+  ],
+  [
+    "{{デフォルトのループを利用する}}",
+    "Használja az alapértelmezett hurkot"
+  ],
+  [
+    "{{フレームピッカー}}",
+    "keretszedő"
+  ],
+  [
+    "{{左揃え}}",
+    "balra igazítás"
+  ],
+  [
+    "{{中央揃え(水平方向)}}",
+    "középre igazítás(vízszintes)"
+  ],
+  [
+    "{{右揃え}}",
+    "Jobb igazítás"
+  ],
+  [
+    "{{上揃え}}",
+    "Felső igazítás"
+  ],
+  [
+    "{{中央揃え(垂直方向)}}",
+    "középre igazítás(függőleges)"
+  ],
+  [
+    "{{下揃え}}",
+    "Alsó igazítás"
+  ],
+  [
+    "{{開始フレーム}}",
+    "start keret"
+  ],
+  [
+    "{{終了フレーム}}",
+    "vége keret"
+  ],
+  [
+    "{{ループで再生}}",
+    "hurokban játszani"
+  ],
+  [
+    "{{1回再生}}",
+    "Játssz egyszer"
+  ],
+  [
+    "{{指定したフレームで固定}}",
+    "meghatározott keretben rögzített"
+  ],
+  [
+    "{{1回逆再生}}",
+    "Egyszer fordított lejátszás"
+  ],
+  [
+    "{{逆ループで再生}}",
+    "Játssz fordított hurokban"
+  ],
+  [
+    "{{画面の拡大・縮小}}",
+    "Képernyő nagyítás/kicsinyítés"
+  ],
+  [
+    "{{カスタムイージングデータを保存}}",
+    "Egyedi egyszerűsítő adattárolás"
+  ],
+  [
+    "{{カスタムイージングデータの読込}}",
+    "Egyedi könnyítési adatok betöltés"
+  ],
+  [
+    "{{プレビューのON/OFF}}",
+    "Előnézet BE/KI"
+  ],
+  [
+    "{{フォント枠サイズ}}",
+    "betűkeret mérete"
+  ],
+  [
+    "{{フォント枠カラー}}",
+    "betűkeret szín"
+  ],
+  [
+    "{{オニオンスキン}}",
+    "hagymahéj"
+  ],
+  [
+    "{{バケツツール}}",
+    "vödör szerszámok"
+  ],
+  [
+    "{{ペンツール}}",
+    "toll eszköz"
+  ],
+  [
+    "{{ダブルクリックでカーブポイントが追加されます}}",
+    "Kattintson duplán a görbepontok hozzáadásához"
+  ],
+  [
+    "{{選択ツール}}",
+    "kivalasztásTools"
+  ],
+  [
+    "{{Shape変形ツール}}",
+    "Alakzat átalakító eszköz"
+  ],
+  [
+    "{{テキストツール}}",
+    "szöveges eszközök"
+  ],
+  [
+    "{{矩形ツール}}",
+    "téglalap eszköz"
+  ],
+  [
+    "{{楕円ツール}}",
+    "Ellipszis eszköz"
+  ],
+  [
+    "{{角丸矩形ツール}}",
+    "Lekerekített téglalap eszköz"
+  ],
+  [
+    "{{塗りのカラー}}",
+    "festmény szín"
+  ],
+  [
+    "{{線のカラー}}",
+    "vonal szín"
+  ],
+  [
+    "{{線の太さ}}",
+    "vonalvastagság"
+  ],
+  [
+    "{{プロジェクトデータの読込}}",
+    "Projekt adatok betöltés"
+  ],
+  [
+    "{{プロジェクトデータを保存}}",
+    "Projektadatok mentése"
+  ],
+  [
+    "{{書き出し}}",
+    "exportálás"
+  ],
+  [
+    "{{Discordへ移動}}",
+    "Lépjen a Discord-ba"
+  ],
+  [
+    "{{バグ報告}}",
+    "Hibajelentés"
+  ],
+  [
+    "{{設定}}",
+    "beállítások"
+  ],
+  [
+    "{{タブを追加}}",
+    "laphozzáadva"
+  ],
+  [
+    "{{タブの一覧を表示・移動}}",
+    "körlista megjelenítése/mozgatas"
+  ],
+  [
+    "{{スクリプトを追加}}",
+    "szkripthozzáadva"
+  ],
+  [
+    "{{キーフレームを追加}}",
+    "kulcskerethozzáadva"
+  ],
+  [
+    "{{空のキーフレームを追加}}",
+    "üres kulcskerethozzáadva"
+  ],
+  [
+    "{{フレームを追加}}",
+    "kerethozzáadva"
+  ],
+  [
+    "{{フレームを削除}}",
+    "kerettörölve"
+  ],
+  [
+    "{{再生}}",
+    "reprodukció"
+  ],
+  [
+    "{{停止}}",
+    "Stop"
+  ],
+  [
+    "{{ループ設定}}",
+    "Hurok beállításai"
+  ],
+  [
+    "{{レイヤーを追加}}",
+    "réteghozzáadva"
+  ],
+  [
+    "{{レイヤーを削除}}",
+    "rétegtörölve"
+  ],
+  [
+    "{{全てのレイヤーをハイライト}}",
+    "minden rétegkiemelés"
+  ],
+  [
+    "{{全てのレイヤーを非表示}}",
+    "minden rétegrejtett"
+  ],
+  [
+    "{{全てのレイヤーをロック}}",
+    "minden réteg zár"
+  ],
+  [
+    "{{比率を固定}}",
+    "rögzített arány"
+  ],
+  [
+    "{{ステージの幅}}",
+    "Színpad szélesség"
+  ],
+  [
+    "{{背景色}}",
+    "háttérszín"
+  ],
+  [
+    "{{ステージの高さ}}",
+    "Színpad magasság"
+  ],
+  [
+    "{{フレームレート}}",
+    "keret ráta"
+  ],
+  [
+    "{{シンボル名}}",
+    "szimbólum név"
+  ],
+  [
+    "{{イージング設定}}",
+    "Könnyítő beállítások"
+  ],
+  [
+    "{{ビデオの音量設定}}",
+    "Video hangerőbeállítások"
+  ],
+  [
+    "{{自動再生}}",
+    "automatikus lejátszás"
+  ],
+  [
+    "{{テキストエリアのボーダー設定}}",
+    "Szövegterület szegély beállításai"
+  ],
+  [
+    "{{テキスト入力設定}}",
+    "Szövegbeviteli beállítások"
+  ],
+  [
+    "{{フォント選択}}",
+    "font kivalasztás"
+  ],
+  [
+    "{{自動サイズ調整}}",
+    "automatikus méretbeállítás"
+  ],
+  [
+    "{{フォントスタイルタイプ}}",
+    "betűstílus típusa"
+  ],
+  [
+    "{{行揃え}}",
+    "vonaligazítás"
+  ],
+  [
+    "{{改行設定}}",
+    "Sortörés beállításai"
+  ],
+  [
+    "{{スクロール設定}}",
+    "görgetés beállításai"
+  ],
+  [
+    "{{フォントサイズ}}",
+    "betűméret"
+  ],
+  [
+    "{{フォントカラー}}",
+    "font szín"
+  ],
+  [
+    "{{行間}}",
+    "Sorok között"
+  ],
+  [
+    "{{文字幅}}",
+    "betűk szélessége"
+  ],
+  [
+    "{{左マージン}}",
+    "bal margó"
+  ],
+  [
+    "{{右マージン}}",
+    "jobb margó"
+  ],
+  [
+    "{{カラー種別の選択}}",
+    "szín típusú kivalasztás"
+  ],
+  [
+    "{{背景画像の選択}}",
+    "Háttér kép kivalasztás"
+  ],
+  [
+    "{{カラーポインターを追加}}",
+    "szín pointer hozzáadva"
+  ],
+  [
+    "{{カラー値}}",
+    "szín érték"
+  ],
+  [
+    "{{アルファ(0%-100%)}}",
+    "alfa(0%-100%)"
+  ],
+  [
+    "{{アルファ値}}",
+    "alfa érték"
+  ],
+  [
+    "{{選択対象の幅}}",
+    "kiválasztott elem szélesség"
+  ],
+  [
+    "{{選択対象のX座標}}",
+    "kiválasztott elem Xkoordináta"
+  ],
+  [
+    "{{選択対象の高さ}}",
+    "kiválasztott elem magasság"
+  ],
+  [
+    "{{選択対象のY座標}}",
+    "kiválasztott elem Ykoordináta"
+  ],
+  [
+    "{{選択対象の幅の伸縮}}",
+    "kivalasztott elem szélesség kiterjesztése és összehúzódása"
+  ],
+  [
+    "{{選択対象を回転}}",
+    "kiválasztott elemforgatás"
+  ],
+  [
+    "{{選択対象の高さの伸縮}}",
+    "kivalasztott elem magasság teleszkópos"
+  ],
+  [
+    "{{アルファオフセット(-255〜255)}}",
+    "alfaeltolás(-255〜255)"
+  ],
+  [
+    "{{赤(0%-100%)}}",
+    "piros (0%-100%)"
+  ],
+  [
+    "{{赤オフセット(-255〜255)}}",
+    "Piros eltola (-255-255)"
+  ],
+  [
+    "{{緑(0%-100%)}}",
+    "zöld (0%-100%)"
+  ],
+  [
+    "{{緑オフセット(-255〜255)}}",
+    "Zöld eltola (-255～255)"
+  ],
+  [
+    "{{青(0%-100%)}}",
+    "kék (0%-100%)"
+  ],
+  [
+    "{{青オフセット(-255〜255)}}",
+    "kék eltola (-255～255)"
+  ],
+  [
+    "{{ブレンドモード}}",
+    "keverési mód"
+  ],
+  [
+    "{{フィルターを選択}}",
+    "szűrőkiválasztás"
+  ],
+  [
+    "{{フィルターを追加}}",
+    "szűrőhozzáadva"
+  ],
+  [
+    "{{サウンドを追加}}",
+    "hanghozzáadva"
+  ],
+  [
+    "{{フィルターを表示・非表示する}}",
+    "szűrő display/rejtett"
+  ],
+  [
+    "{{フィルターを削除}}",
+    "szűrőtörölve"
+  ],
+  [
+    "{{水平方向にぼかす}}",
+    "vízszintes-bablur"
+  ],
+  [
+    "{{垂直方向にぼかす}}",
+    "fuggőleges-bablur"
+  ],
+  [
+    "{{フィルター強度}}",
+    "szűrő erőssége"
+  ],
+  [
+    "{{フィルター角度}}",
+    "szűrő szög"
+  ],
+  [
+    "{{シャドウのアルファ}}",
+    "árnyék alfa"
+  ],
+  [
+    "{{シャドウのカラー}}",
+    "árnyék szín"
+  ],
+  [
+    "{{フィルター距離}}",
+    "szűrő távolság"
+  ],
+  [
+    "{{ハイライトのカラー}}",
+    "kiemelés szín"
+  ],
+  [
+    "{{ハイライトのアルファ}}",
+    "kiemelés alfa"
+  ],
+  [
+    "{{グラデーションカラー}}",
+    "gradiens szín"
+  ],
+  [
+    "{{グラデーションのアルファ}}",
+    "gradiens alfa"
+  ],
+  [
+    "{{タブの移動・名前を変更}}",
+    "lap mozgatás・névváltoztatás"
+  ],
+  [
+    "{{プロジェクトを閉じる}}",
+    "Projekt bezárása"
+  ],
+  [
+    "{{上下に移動}}",
+    "fel/le-ba mozgás"
+  ],
+  [
+    "{{レイヤー変更(ダブルクリック)}}",
+    "dupla kattintással"
+  ],
+  [
+    "{{レイヤーをハイライト}}",
+    "rétegkiemelés"
+  ],
+  [
+    "{{レイヤーを非表示}}",
+    "rétegrejtett"
+  ],
+  [
+    "{{レイヤーをロック}}",
+    "rétegzár"
+  ],
+  [
+    "{{カーブポインター(ダブルクリックでON/OFF)}}",
+    "gorbe mutató (dupla kattintással kapcsolható be/ki)"
+  ],
+  [
+    "{{インスタンス名}}",
+    "példány neve"
+  ],
+  [
+    "{{ライブラリ内の検索}}",
+    "Keresés a könyvtárban"
+  ],
+  [
+    "{{フレームラベル}}",
+    "keretcímke"
+  ],
+  [
+    "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+    "Ha a projekt nincs elmentve, a körprojekt adatai nem állíthatók vissza.Laptörölve akarsz?"
+  ]
+]

@@ -11,7 +11,8 @@ export default defineConfig({
             // @next2d/* はfile:参照でリポジトリ外を指すため、読み込みを許可する
             "allow": [
                 path.resolve(process.cwd()),
-                path.resolve(process.cwd(), "../player")
+                path.resolve(process.cwd(), "../player"),
+                path.resolve(process.cwd(), "../runtime")
             ]
         }
     },
@@ -39,13 +40,16 @@ export default defineConfig({
                     return `assets/${extType}/[name][extname]`;
                 },
                 "chunkFileNames": "assets/js/[name].js",
-                "entryFileNames": "assets/js/animation-tool.js"
+                "entryFileNames": "assets/js/zukbox.js"
             }
         }
     },
     "resolve": {
         "alias": {
-            "@": path.resolve(process.cwd(), "./src/js")
+            "@": path.resolve(process.cwd(), "./src/js"),
+            "@zukbox/runtime": path.resolve(process.cwd(), "../runtime/js/zwf-loader.mjs"),
+            "@zukbox/runtime/player": path.resolve(process.cwd(), "../runtime/js/zwf-player.mjs"),
+            "@next2d-core-internal": path.resolve(process.cwd(), "../player/packages/core/src")
         }
     },
     "test": {

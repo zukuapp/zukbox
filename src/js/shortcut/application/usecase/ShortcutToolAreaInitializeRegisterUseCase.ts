@@ -1,4 +1,5 @@
 import { execute as userDatabaseSaveShowModalUseCase } from "@/user/application/Database/usecase/UserDatabaseSaveShowModalUseCase";
+import { execute as publishToolExportZwfUseCase } from "@/tool/application/PublishTool/usecase/PublishToolExportZwfUseCase";
 import { execute as userSettingMenuShowService } from "@/menu/application/UserSettingMenu/service/UserSettingMenuShowService";
 import { execute as arrowToolActiveService } from "@/tool/application/ArrowTool/service/ArrowToolActiveService";
 import { execute as zoomPlusToolActiveService } from "@/tool/application/ZoomPlusTool/service/ZoomPlusToolActiveService";
@@ -28,6 +29,12 @@ export const execute = (): void =>
     $setShortcut(
         $generateShortcutKey("s", { "ctrl": true }),
         userDatabaseSaveShowModalUseCase
+    );
+
+    // .zwf 書き出し
+    $setShortcut(
+        $generateShortcutKey("Enter", { "ctrl": true, "shift": true }),
+        publishToolExportZwfUseCase
     );
 
     // Undo

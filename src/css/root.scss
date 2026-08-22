@@ -1,5 +1,22 @@
 :root
 {
+    /* ZUKBOX dark theme */
+    --zbx-bg-base: #12121a;
+    --zbx-bg-surface: #1a1a24;
+    --zbx-bg-panel: #222230;
+    --zbx-bg-elevated: #2a2a38;
+    --zbx-bg-hover: #343448;
+    --zbx-bg-active: #3d3d52;
+    --zbx-border: #1c1c28;
+    --zbx-border-subtle: #2e2e3c;
+    --zbx-text: #e8e8f0;
+    --zbx-text-muted: #a9a9b8;
+    --zbx-accent: #6387ff;
+    --zbx-accent-dim: #4f6fdb;
+    --zbx-toolbar-divider: #161620;
+    --zbx-progress-overlay: rgba(18, 18, 26, 0.92);
+    --zbx-progress-card: #2a2a38;
+
     --tool-cursor: auto;
     --tool-width: 45px;
     --tool-fixed-width: 45px;
@@ -49,10 +66,10 @@ body
     height              : 100%;
     overflow            : hidden;
     transform           : translate3d(0, 0, 0);
-    background-color    : #1a1a1a;
+    background-color    : var(--zbx-bg-base);
     margin              : 0;
     padding             : 0;
-    color               : whitesmoke;
+    color               : var(--zbx-text);
     font-size           : 12px;
     user-select         : none;
     -webkit-user-select : none; /* Safari */

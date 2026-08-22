@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ko">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no">
 
-    <title>Animation Tool | Next2D</title>
-    <meta name="description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
+    <title>ZUKBOX | zuku</title>
+    <meta name="description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터. Flash/AviUtl 스타일의 직관적 타임라인·툴바 UI로 제작합니다.">
 
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="16x16 24x24 32x32 48x48 64x64" />
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Animation Tool | Next2D">
-    <meta itemprop="description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
-    <meta itemprop="image" content="https://tool.next2d.app/assets/img/ogp.png?v1">
+    <meta itemprop="name" content="ZUKBOX | zuku">
+    <meta itemprop="description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.">
+    <meta itemprop="image" content="https://jump.zuzunza.com/assets/img/ogp.png">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Animation Tool | Next2D">
-    <meta property="og:site_name" content="Animation Tool | Next2D">
-    <meta property="og:url" content="https://tool.next2d.app">
-    <meta property="og:description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
-    <meta property="og:image" content="https://tool.next2d.app/assets/img/ogp.png?v1">
+    <meta property="og:title" content="ZUKBOX | zuku">
+    <meta property="og:site_name" content="ZUKBOX">
+    <meta property="og:url" content="https://jump.zuzunza.com">
+    <meta property="og:description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.">
+    <meta property="og:image" content="https://jump.zuzunza.com/assets/img/ogp.png">
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:title" content="Animation Tool | Next2D">
-    <meta name="twitter:url" content="https://tool.next2d.app">
+    <meta name="twitter:title" content="ZUKBOX | zuku">
+    <meta name="twitter:url" content="https://jump.zuzunza.com">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
-    <meta name="twitter:image" content="https://tool.next2d.app/assets/img/ogp.png?v1">
+    <meta name="twitter:description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.">
+    <meta name="twitter:image" content="https://jump.zuzunza.com/assets/img/ogp.png">
 
     <!-- Google tag (gtag.js) -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5JQVDC2TF"></script>
@@ -38,11 +38,11 @@
         gtag('js', new Date());
         gtag('config', 'G-W5JQVDC2TF');
     </script> -->
-
+
     <script src="https://ajaxorg.github.io/ace-builds/src-min/ace.js" defer></script>
     <script src="https://ajaxorg.github.io/ace-builds/src-min/ext-language_tools.js" defer></script>
-    <script src="https://ajaxorg.github.io/ace-builds/src-min/ext-searchbox.js" defer></script>
-    <script type="module" crossorigin src="/assets/js/animation-tool.js"></script>
+    <script src="https://ajaxorg.github.io/ace-builds/src-min/ext-searchbox.js" defer></script>
+    <script type="module" crossorigin src="/assets/js/zukbox.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/css/style.css">
   </head>
   <body onContextmenu="return false;">
@@ -1107,44 +1107,47 @@
 
       <!-- menus -->
 
-      <!-- change-movie-clip -->
-      <div id="change-movie-clip" class="none">
-        <div class="change-movie-clip-title">
+      <!-- convert-movie-clip -->
+      <div id="convert-movie-clip" class="none">
+        <div class="convert-movie-clip-title">
             <span class="language" data-text="{{MovieClipに変換}}">MovieClipに変換</span>
         </div>
-        <div class="change-movie-clip-container">
-            <div class="change-movie-clip-name">
+        <div class="convert-movie-clip-container">
+            <div class="convert-movie-clip-name">
                 <span class="language" data-text="{{名前}}">名前</span>
             </div>
-            <div class="change-movie-clip-body">
-                <input type="text" id="change-movie-clip-input" value="" autocomplete="off" tabindex="-1">
+            <div class="convert-movie-clip-body">
+                <input type="text" id="convert-movie-clip-input" value="" autocomplete="off" tabindex="-1">
             </div>
         </div>
-        <div class="change-movie-clip-container">
-            <div class="change-movie-clip-name">
+        <div class="convert-movie-clip-container">
+            <div class="convert-movie-clip-name">
                 <span class="language" data-text="{{基準点}}">基準点</span>
             </div>
-            <div class="change-movie-clip-body">
-                <div class="change-movie-clip-reference-point">
-                    <div class="change-movie-clip-box-child" data-position="top-left" data-detail="{{左上}}"></div>
-                    <div class="change-movie-clip-box-child" data-position="top-center" data-detail="{{中央上}}"></div>
-                    <div class="change-movie-clip-box-child" data-position="top-right" data-detail="{{右上}}"></div>
+            <div class="convert-movie-clip-body">
+                <div class="convert-movie-clip-reference-point">
+                    <div class="convert-movie-clip-box-child" data-position="top-left" data-detail="{{左上}}"></div>
+                    <div class="convert-movie-clip-box-child" data-position="top-center" data-detail="{{中央上}}"></div>
+                    <div class="convert-movie-clip-box-child" data-position="top-right" data-detail="{{右上}}"></div>
                 </div>
-                <div class="change-movie-clip-reference-point">
-                    <div class="change-movie-clip-box-child" data-position="middle-left" data-detail="{{中央左}}"></div>
-                    <div class="change-movie-clip-box-child" data-position="middle-center" data-detail="{{中央}}"></div>
-                    <div class="change-movie-clip-box-child" data-position="middle-right" data-detail="{{中央右}}"></div>
+                <div class="convert-movie-clip-reference-point">
+                    <div class="convert-movie-clip-box-child" data-position="middle-left" data-detail="{{中央左}}"></div>
+                    <div class="convert-movie-clip-box-child" data-position="middle-center" data-detail="{{中央}}"></div>
+                    <div class="convert-movie-clip-box-child" data-position="middle-right" data-detail="{{中央右}}"></div>
                 </div>
-                <div class="change-movie-clip-reference-point">
-                    <div class="change-movie-clip-box-child" data-position="bottom-left" data-detail="{{左下}}"></div>
-                    <div class="change-movie-clip-box-child" data-position="bottom-center" data-detail="{{中央下}}"></div>
-                    <div class="change-movie-clip-box-child" data-position="bottom-right" data-detail="{{右下}}"></div>
+                <div class="convert-movie-clip-reference-point">
+                    <div class="convert-movie-clip-box-child" data-position="bottom-left" data-detail="{{左下}}"></div>
+                    <div class="convert-movie-clip-box-child" data-position="bottom-center" data-detail="{{中央下}}"></div>
+                    <div class="convert-movie-clip-box-child" data-position="bottom-right" data-detail="{{右下}}"></div>
                 </div>
             </div>
         </div>
-        <div class="change-movie-clip-container change-movie-clip-box">
-            <div class="button" id="change-movie-clip-button">
+        <div class="convert-movie-clip-container convert-movie-clip-box">
+            <div class="button" id="convert-movie-clip-button">
                 <span class="language" data-text="{{変換}}">変換</span>
+            </div>            
+            <div class="button" id="convert-cancel-button">
+                <span class="language" data-text="{{キャンセル}}">キャンセル</span>
             </div>
         </div>
       </div>
@@ -1216,10 +1219,12 @@
     <!--        <div id="screen-sorption" class="screen-menu-bottom"><i></i><span class="language" data-text="{{吸着}}" data-shortcut-key="uShift" data-shortcut-text="Shift + U">吸着</span></div>-->
             <p></p>
             <span class="screen-menu-title language" data-text="{{タイムライン}}">タイムライン</span>
-            <div id="screen-distribute-to-layers" class="screen-menu-bottom"><span class="language" data-text="{{レイヤーに配分}}" data-shortcut-key="dCtrl" data-shortcut-text="Ctrl + D">レイヤーに配分</span></div>
+            <div id="screen-distribute-to-layers" class="screen-menu-bottom"><span class="language" data-text="{{レイヤーに配分}}" data-shortcut-key="dShiftCtrl" data-shortcut-text="Ctrl + Shift + D">レイヤーに配分</span></div>
             <div id="screen-distribute-to-keyframes" class="screen-menu-bottom"><span class="language" data-text="{{キーフレームに配分}}" data-shortcut-key="kShiftCtrl" data-shortcut-text="Ctrl + Shift + K">キーフレームに配分</span></div>
-            <div id="screen-align-coordinates-prev-keyframe" class="screen-menu-bottom"><span class="language" data-text="{{前のキーフレームと座標を合わせる}}" data-shortcut-key="cShiftCtrl" data-shortcut-text="Ctrl + Shift + C">前のキーフレームと座標を合わせる</span></div>
-            <div id="screen-align-matrix-prev-keyframe" class="screen-menu-bottom"><span class="language" data-text="{{前のキーフレームと変形を合わせる}}" data-shortcut-key="tShiftCtrl" data-shortcut-text="Ctrl + Shift + T">前のキーフレームと変形を合わせる</span></div>
+            <div id="screen-align-coordinates-prev-keyframe" class="screen-menu-bottom"><span class="language" data-text="{{前のキーフレームと座標を合わせる}}" data-shortcut-key="oShiftCtrl" data-shortcut-text="Ctrl + Shift + O">前のキーフレームと座標を合わせる</span></div>
+            <div id="screen-align-coordinates-next-keyframe" class="screen-menu-bottom"><span class="language" data-text="{{次のキーフレームと座標を合わせる}}" data-shortcut-key="pShiftCtrl" data-shortcut-text="Ctrl + Shift + P">次のキーフレームと座標を合わせる</span></div>
+            <div id="screen-align-matrix-prev-keyframe" class="screen-menu-bottom"><span class="language" data-text="{{前のキーフレームと変形を合わせる}}" data-shortcut-key="uShiftCtrl" data-shortcut-text="Ctrl + Shift + U">前のキーフレームと変形を合わせる</span></div>
+            <div id="screen-align-matrix-next-keyframe" class="screen-menu-bottom"><span class="language" data-text="{{次のキーフレームと変形を合わせる}}" data-shortcut-key="iShiftCtrl" data-shortcut-text="Ctrl + Shift + I">次のキーフレームと変形を合わせる</span></div>
             <p></p>
             <span class="screen-menu-title language" data-text="{{シェイプ}}">シェイプ</span>
             <div id="screen-integrating-paths" class="screen-menu-bottom"><i></i><span class="language" data-text="{{パスの結合}}" data-shortcut-key="iCtrl" data-shortcut-text="Ctrl + I">パスの結合</span></div>
@@ -1229,7 +1234,7 @@
             <div id="screen-delete-tween-curve-pointer" class="screen-menu-bottom"><span class="language" data-text="{{カーブポインターの削除}}" data-shortcut-key="pShiftCtrl" data-shortcut-text="Ctrl + Shift + P">カーブポインターの削除</span></div>
             <p></p>
             <span class="screen-menu-title language" data-text="{{変換}}">変換</span>
-            <div id="screen-change-movie-clip" class="screen-menu-bottom"><i></i><span class="language" data-text="{{MovieClipに変換}}" data-shortcut-key="mShift" data-shortcut-text="Shift + M">MovieClipに変換</span></div>
+            <div id="screen-convert-movie-clip" class="screen-menu-bottom"><i></i><span class="language" data-text="{{MovieClipに変換}}" data-shortcut-key="mShift" data-shortcut-text="Shift + M">MovieClipに変換</span></div>
             <p></p>
             <div id="screen-preview" class="screen-menu-bottom"><i></i><span class="language" data-text="{{プレビュー}}" data-shortcut-key="EnterCtrl" data-shortcut-text="Ctrl + Enter">Preview</span></div>
             <p></p>
@@ -1241,10 +1246,10 @@
       <!-- screen-order-menu -->
       <div id="screen-order-menu" class="none">
         <div class="screen-menu-list">
-            <div id="screen-front" class="screen-menu-bottom"><i></i><span class="language" data-text="{{最前面}}" data-shortcut-key="ArrowUpShiftCtrl" data-shortcut-text="Ctrl + Shift + ▲">最前面</span></div>
-            <div id="screen-front-one" class="screen-menu-bottom"><i></i><span class="language" data-text="{{ひとつ前面へ}}" data-shortcut-key="ArrowUpCtrl" data-shortcut-text="Ctrl + ▲">ひとつ前面へ</span></div>
-            <div id="screen-back-one" class="screen-menu-bottom"><i></i><span class="language" data-text="{{ひとつ背面へ}}" data-shortcut-key="ArrowDownCtrl" data-shortcut-text="Ctrl + ▼">ひとつ背面へ</span></div>
-            <div id="screen-back" class="screen-menu-bottom"><i></i><span class="language" data-text="{{最背面}}" data-shortcut-key="ArrowDownShiftCtrl" data-shortcut-text="Ctrl + Shift + ▼">最背面</span></div>
+            <div id="screen-front" class="screen-menu-bottom"><i></i><span class="language" data-text="{{最前面}}" data-shortcut-key="ArrowUpShiftAlt" data-shortcut-text="Alt + Shift + ▲">最前面</span></div>
+            <div id="screen-front-one" class="screen-menu-bottom"><i></i><span class="language" data-text="{{ひとつ前面へ}}" data-shortcut-key="ArrowUpAlt" data-shortcut-text="Alt + ▲">ひとつ前面へ</span></div>
+            <div id="screen-back-one" class="screen-menu-bottom"><i></i><span class="language" data-text="{{ひとつ背面へ}}" data-shortcut-key="ArrowDownAlt" data-shortcut-text="Alt + ▼">ひとつ背面へ</span></div>
+            <div id="screen-back" class="screen-menu-bottom"><i></i><span class="language" data-text="{{最背面}}" data-shortcut-key="ArrowDownShiftAlt" data-shortcut-text="Alt + Shift + ▼">最背面</span></div>
         </div>
       </div>
 
@@ -1563,6 +1568,7 @@
     
                 <div><span class="language" data-text="{{フォーマット}}">フォーマット</span></div>
                 <select id="publish-type-setting" tabindex="-1">
+                    <option value="zwf">ZWF (zuku 배포)</option>
                     <option value="zlib">JSON(compression)</option>
                     <option value="json">JSON(uncompressed)</option>
                     <option value="webm">Video(webm)</option>
@@ -1584,9 +1590,9 @@
             </div>
             <div class="user-setting-container-column">
                 <select id="language-setting" tabindex="-1">
+                    <option value="Korean">한국어</option>
                     <option value="English">English</option>
                     <option value="Japanese">日本語</option>
-                    <option value="Korean">한국어</option>
                     <option value="Chinese">中文</option>
                     <option value="French">Français</option>
                     <option value="Russia">Русский</option>
@@ -1652,13 +1658,13 @@
                 <a href="https://discord.gg/6c9rv5Uns5" target="_blank" rel="noopener noreferrer">
                     <div id="tools-discord" class="item" data-detail="{{Discordへ移動}}"></div>
                 </a>
-                <a href="https://github.com/Next2D/tool.next2d.app/issues" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/zukuapp/zukbox/issues" target="_blank" rel="noopener noreferrer">
                     <div id="tools-bug" class="item" data-detail="{{バグ報告}}"></div>
                 </a>
-                <a href="https://next2d.app/en/usage" target="_blank" rel="noopener noreferrer">
+                <a href="https://jump.zuzunza.com" target="_blank" rel="noopener noreferrer">
                     <div id="tools-usage" class="item" data-detail="{{使い方、リファレンス}}"></div>
                 </a>
-                <a href="https://github.com/sponsors/Next2D" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/zukuapp/zukbox" target="_blank" rel="noopener noreferrer">
                     <div id="tools-github" class="item" data-detail="{{Next2Dを支援する}}"></div>
                 </a>
             </div>
@@ -1791,28 +1797,28 @@
                     <div class="description">
                         <span class="language" data-text="{{最前面}}">最前面</span>
                     </div>
-                    <div id="shortcut-ArrowUpShiftCtrl" class="command" data-default-key="ArrowUpShiftCtrl" data-default-text="Ctrl + Shift + ArrowUp">Ctrl + Shift + ArrowUp</div>
+                    <div id="shortcut-ArrowUpShiftAlt" class="command" data-default-key="ArrowUpShiftAlt" data-default-text="Alt + Shift + ArrowUp">Alt + Shift + ArrowUp</div>
                 </div>
                 <div class="shortcut-item">
                     <i class="screen-front-one"></i>
                     <div class="description">
                         <span class="language" data-text="{{ひとつ前面へ}}">ひとつ前面へ</span>
                     </div>
-                    <div id="shortcut-ArrowUpCtrl" class="command" data-default-key="ArrowUpCtrl" data-default-text="Ctrl + ArrowUp">Ctrl + ArrowUp</div>
+                    <div id="shortcut-ArrowUpAlt" class="command" data-default-key="ArrowUpAlt" data-default-text="Alt + ArrowUp">Alt + ArrowUp</div>
                 </div>
                 <div class="shortcut-item">
                     <i class="screen-back-one"></i>
                     <div class="description">
                         <span class="language" data-text="{{ひとつ背面へ}}">ひとつ背面へ</span>
                     </div>
-                    <div id="shortcut-ArrowDownCtrl" class="command" data-default-key="ArrowDownCtrl" data-default-text="Ctrl + ArrowDown">Ctrl + ArrowDown</div>
+                    <div id="shortcut-ArrowDownAlt" class="command" data-default-key="ArrowDownAlt" data-default-text="Alt + ArrowDown">Alt + ArrowDown</div>
                 </div>
                 <div class="shortcut-item">
                     <i class="screen-back"></i>
                     <div class="description">
                         <span class="language" data-text="{{最背面}}">最背面</span>
                     </div>
-                    <div id="shortcut-ArrowDownShiftCtrl" class="command" data-default-key="ArrowDownShiftCtrl" data-default-text="Ctrl + Shift + ArrowDown">Ctrl + Shift + ArrowDown</div>
+                    <div id="shortcut-ArrowDownShiftAlt" class="command" data-default-key="ArrowDownShiftAlt" data-default-text="Alt + Shift + ArrowDown">Alt + Shift + ArrowDown</div>
                 </div>
                 <div class="shortcut-item">
                     <i class="screen-position-left"></i>
@@ -1903,7 +1909,7 @@
                     <div class="description">
                         <span class="language" data-text="{{レイヤーに配分}}">レイヤーに配分</span>
                     </div>
-                    <div id="shortcut-dCtrl" class="command" data-default-key="dCtrl" data-default-text="Ctrl + D">Ctrl + D</div>
+                    <div id="shortcut-dCtrl" class="command" data-default-key="dShiftCtrl" data-default-text="Ctrl + Shift + D">Ctrl + Shift + D</div>
                 </div>
                 <div class="shortcut-item">
                     <i class="screen-distribute-to-keyframes"></i>
@@ -1934,7 +1940,7 @@
                     <div id="shortcut-pShiftCtrl" class="command" data-default-key="pShiftCtrl" data-default-text="Ctrl + Shift + P">Ctrl + Shift + P</div>
                 </div>
                 <div class="shortcut-item">
-                    <i class="screen-change-movie-clip"></i>
+                    <i class="screen-convert-movie-clip"></i>
                     <div class="description">
                         <span class="language" data-text="{{MovieClipに変換}}">MovieClipに変換</span>
                     </div>
@@ -2130,14 +2136,28 @@
                     <div class="description">
                         <span class="language" data-text="{{前のキーフレームと座標を合わせる}}">前のキーフレームと座標を合わせる</span>
                     </div>
-                    <div id="shortcut-cShiftCtrl" class="command" data-default-key="cShiftCtrl" data-default-text="Ctrl + Shift + C">Ctrl + Shift + C</div>
+                    <div id="shortcut-oShiftCtrl" class="command" data-default-key="oShiftCtrl" data-default-text="Ctrl + Shift + O">Ctrl + Shift + O</div>
+                </div>
+                <div class="shortcut-item">
+                    <i class="screen-align-coordinates-next-keyframe"></i>
+                    <div class="description">
+                        <span class="language" data-text="{{次のキーフレームと座標を合わせる}}">次のキーフレームと座標を合わせる</span>
+                    </div>
+                    <div id="shortcut-pShiftCtrl" class="command" data-default-key="pShiftCtrl" data-default-text="Ctrl + Shift + P">Ctrl + Shift + P</div>
                 </div>
                 <div class="shortcut-item">
                     <i class="screen-align-matrix-prev-keyframe"></i>
                     <div class="description">
                         <span class="language" data-text="{{前のキーフレームと変形を合わせる}}">前のキーフレームと変形を合わせる</span>
                     </div>
-                    <div id="shortcut-tShiftCtrl" class="command" data-default-key="tShiftCtrl" data-default-text="Ctrl + Shift + T">Ctrl + Shift + T</div>
+                    <div id="shortcut-uShiftCtrl" class="command" data-default-key="uShiftCtrl" data-default-text="Ctrl + Shift + U">Ctrl + Shift + U</div>
+                </div>
+                <div class="shortcut-item">
+                    <i class="screen-align-matrix-next-keyframe"></i>
+                    <div class="description">
+                        <span class="language" data-text="{{次のキーフレームと変形を合わせる}}">次のキーフレームと変形を合わせる</span>
+                    </div>
+                    <div id="shortcut-iShiftCtrl" class="command" data-default-key="iShiftCtrl" data-default-text="Ctrl + Shift + I">Ctrl + Shift + I</div>
                 </div>
             </div>
 
@@ -2203,7 +2223,7 @@
                 動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。
             </span>
             <span class="language" data-text="{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}">
-                Animation Toolはオープンソースで提供されており、無料で利用できます。
+                ZUKBOX는 zuku 플랫폼의 Jump Studio 에디터입니다.
             </span>
             <span class="language" data-text="{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}">
                 新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。
@@ -2228,6 +2248,7 @@
       <!-- progress -->
       <div id="progress-container" class="">
         <div class="progress-modal">
+            <div id="progress-brand">ZUKBOX</div>
             <div id="progress-state">Initialize...</div>
             <progress id="progress-bar" min="0" max="100" value="0"></progress>
         </div>

@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ko">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no">
 
-    <title>Animation Tool | Next2D</title>
-    <meta name="description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
+    <title>ZUKBOX | zuku</title>
+    <meta name="description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터. Flash/AviUtl 스타일의 직관적 타임라인·툴바 UI로 제작합니다.">
 
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" sizes="16x16 24x24 32x32 48x48 64x64" />
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Animation Tool | Next2D">
-    <meta itemprop="description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
-    <meta itemprop="image" content="https://tool.next2d.app/assets/img/ogp.png?v1">
+    <meta itemprop="name" content="ZUKBOX | zuku">
+    <meta itemprop="description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.">
+    <meta itemprop="image" content="https://jump.zuzunza.com/assets/img/ogp.png">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Animation Tool | Next2D">
-    <meta property="og:site_name" content="Animation Tool | Next2D">
-    <meta property="og:url" content="https://tool.next2d.app">
-    <meta property="og:description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
-    <meta property="og:image" content="https://tool.next2d.app/assets/img/ogp.png?v1">
+    <meta property="og:title" content="ZUKBOX | zuku">
+    <meta property="og:site_name" content="ZUKBOX">
+    <meta property="og:url" content="https://jump.zuzunza.com">
+    <meta property="og:description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.">
+    <meta property="og:image" content="https://jump.zuzunza.com/assets/img/ogp.png">
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:title" content="Animation Tool | Next2D">
-    <meta name="twitter:url" content="https://tool.next2d.app">
+    <meta name="twitter:title" content="ZUKBOX | zuku">
+    <meta name="twitter:url" content="https://jump.zuzunza.com">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="It is an authoring tool that runs on a Web browser. With its intuitive interface and rich functionality, it is easy for anyone to use. It allows users to create high-quality, engaging content by combining a variety of media formats, including text, images, audio, and video.">
-    <meta name="twitter:image" content="https://tool.next2d.app/assets/img/ogp.png?v1">
+    <meta name="twitter:description" content="ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.">
+    <meta name="twitter:image" content="https://jump.zuzunza.com/assets/img/ogp.png">
 
     <!-- Google tag (gtag.js) -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5JQVDC2TF"></script>
@@ -1568,6 +1568,7 @@
     
                 <div><span class="language" data-text="{{フォーマット}}">フォーマット</span></div>
                 <select id="publish-type-setting" tabindex="-1">
+                    <option value="zwf">ZWF (zuku 배포)</option>
                     <option value="zlib">JSON(compression)</option>
                     <option value="json">JSON(uncompressed)</option>
                     <option value="webm">Video(webm)</option>
@@ -1589,9 +1590,9 @@
             </div>
             <div class="user-setting-container-column">
                 <select id="language-setting" tabindex="-1">
+                    <option value="Korean">한국어</option>
                     <option value="English">English</option>
                     <option value="Japanese">日本語</option>
-                    <option value="Korean">한국어</option>
                     <option value="Chinese">中文</option>
                     <option value="French">Français</option>
                     <option value="Russia">Русский</option>
@@ -1657,13 +1658,13 @@
                 <a href="https://discord.gg/6c9rv5Uns5" target="_blank" rel="noopener noreferrer">
                     <div id="tools-discord" class="item" data-detail="{{Discordへ移動}}"></div>
                 </a>
-                <a href="https://github.com/Next2D/tool.next2d.app/issues" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/zukuapp/zukbox/issues" target="_blank" rel="noopener noreferrer">
                     <div id="tools-bug" class="item" data-detail="{{バグ報告}}"></div>
                 </a>
-                <a href="https://next2d.app/en/usage" target="_blank" rel="noopener noreferrer">
+                <a href="https://jump.zuzunza.com" target="_blank" rel="noopener noreferrer">
                     <div id="tools-usage" class="item" data-detail="{{使い方、リファレンス}}"></div>
                 </a>
-                <a href="https://github.com/sponsors/Next2D" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/zukuapp/zukbox" target="_blank" rel="noopener noreferrer">
                     <div id="tools-github" class="item" data-detail="{{Next2Dを支援する}}"></div>
                 </a>
             </div>
@@ -2222,7 +2223,7 @@
                 動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。
             </span>
             <span class="language" data-text="{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}">
-                Animation Toolはオープンソースで提供されており、無料で利用できます。
+                ZUKBOX는 zuku 플랫폼의 Jump Studio 에디터입니다.
             </span>
             <span class="language" data-text="{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}">
                 新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。
@@ -2247,6 +2248,7 @@
       <!-- progress -->
       <div id="progress-container" class="">
         <div class="progress-modal">
+            <div id="progress-brand">ZUKBOX</div>
             <div id="progress-state">Initialize...</div>
             <progress id="progress-bar" min="0" max="100" value="0"></progress>
         </div>

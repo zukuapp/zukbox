@@ -1,0 +1,1546 @@
+[
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+    "Move %s3 frame/depth %s4 of layer [%s2] of [%s1] to depth %s5"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+    "Delete %s3 frame and depth of layer [%s2] of [%s1] and [%s5] of %s4"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+    "Change the matrix of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5° to %s6°"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+    "Change the blending mode of %s3 frame/depth %s4 of layer [%s2] of [%s1] from [%s5] to [%s6]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+    "Changed the blue component offset of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+    "Changed the blue component of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5% to %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+    "Changed green component offset of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+    "Changed the green component of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5% to %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+    "Changed the red component offset of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+    "Changed the red component of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5% to %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+    "Change transparency offset of %s3 frame/depth of %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+    "Change the transparency of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5% to %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+    "Change the x coordinate of the center point of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+    "Change the y coordinate of the center point of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+    "Change the center point of %s3 frame and depth %s4 of layer [%s2] of [%s1] from [%s5] to [%s6]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+    "Changed the rotation of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5° to %s6°"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+    "Changed the y scale of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5% to %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+    "Changed x scale of %s3 frame and depth %s4 of layer [%s2] of [%s1] from %s5% to %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+    "Rename %s3 frame/depth %s4 of layer [%s2] of [%s1] to %s5"
+  ],
+  [
+    "{{新規Text[%s1]を追加}}",
+    "Add new Text[%s1]"
+  ],
+  [
+    "{{[%s1]のグラフィックを変更}}",
+    "Changed the graphics of [%s1]"
+  ],
+  [
+    "{{新規Shape[%s1]を追加}}",
+    "Add new Shape[%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+    "Change the y coordinate of %s3 frame/depth of %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+    "Change the x coordinate of %s3 frame/depth of %s4 of layer [%s2] of [%s1] from %s5 to %s6"
+  ],
+  [
+    "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+    "Change the stage background color from [%s1] to [%s2]"
+  ],
+  [
+    "{{ステージのFPSを%s1から%s2に変更}}",
+    "Change the stage FPS from %s1 to %s2"
+  ],
+  [
+    "{{ステージの高さを%s1から%s2に変更}}",
+    "Change stage height from %s1 to %s2"
+  ],
+  [
+    "{{ステージの幅を%s1から%s2に変更}}",
+    "Change stage width from %s1 to %s2"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベルを削除}}",
+    "Delete the label of %s2 frame of [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+    "Change the label [%s3] of the %s2 frame of [%s1] to [%s4]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+    "Register label [%s3] to %s2 frame of [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+    "Changed the loop number of the sound [%s3] of %s2 frame of [%s1] from %s4 to %s5"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+    "Changed the volume of the sound [%s3] of %s2 frame of [%s1] from %s4 to %s5"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+    "Delete the sound [%s3] of %s2 frame of [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+    "Add sound [%s3] to %s2 frame of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+    "Delete keyframe of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+    "Delete all key frames of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+    "Delete all key frames of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+    "Delete all empty keyframes of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+    "Delete %s4 frame from the key frame of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+    "Delete %s4 frame from empty keyframe of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+    "Split the key frame of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+    "Add %s4 frame to the keyframe of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+    "Add [%s4] to %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+    "Add %s4 frame to PLACEHOLDER 2nd frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+    "Split empty keyframe of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+    "Add %s4 frame to the empty keyframe of %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+    "Add an empty keyframe to the %s3 frame of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+    "Change layer [%s2] of [%s1] to [%s3]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+    "Change the highlight color of layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を移動}}",
+    "Move layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]を画像に上書き}}",
+    "Overwrite [%s1] to the image"
+  ],
+  [
+    "{{[%s1]を動画に上書き}}",
+    "Overwrite [%s1] to the video"
+  ],
+  [
+    "{{[%s1]を音声に上書き}}",
+    "Overwrite [%s1] to audio"
+  ],
+  [
+    "{{ライブラリから[%s1]を削除}}",
+    "Delete [%s1] from library"
+  ],
+  [
+    "{{MoiveClip一覧}}",
+    "MoiveClip list"
+  ],
+  [
+    "{{新規フォルダー[%s1]を追加}}",
+    "Add new folder [%s1]"
+  ],
+  [
+    "{{新規MovieClip[%s1]を追加}}",
+    "Add new MovieClip[%s1]"
+  ],
+  [
+    "{{音声[%s1]を取り込み}}",
+    "Import audio [%s1]"
+  ],
+  [
+    "{{動画[%s1]を取り込み}}",
+    "Import video [%s1]"
+  ],
+  [
+    "{{[%s1]のフォルダ移動}}",
+    "Move [%s1] folder"
+  ],
+  [
+    "{{画像[%s1]を取り込み}}",
+    "Import image [%s1]"
+  ],
+  [
+    "{{[%s1]のシンボル名を[%s2]に変更}}",
+    "Change the symbol name of [%s1] to [%s2]"
+  ],
+  [
+    "{{[%s1]の名前を[%s2]に変更}}",
+    "Rename [%s1] to [%s2]"
+  ],
+  [
+    "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+    "Change layer name [%s2] of [%s1] to [%s3]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを削除}}",
+    "Delete the script of %s2 frame of [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを変更}}",
+    "Change the script of %s2 frame of [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにスクリプトを追加}}",
+    "Add script to %s2 frame of [%s1]"
+  ],
+  [
+    "{{プロジェクト名[%s1]を[%s2]に変更}}",
+    "Change project name [%s1] to [%s2]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を削除}}",
+    "Delete layer [%s2] of [%s1]"
+  ],
+  [
+    "{{[%s1]にレイヤー[%s2]を追加}}",
+    "Add layer [%s2] to [%s1]"
+  ],
+  [
+    "{{同名のシンボルが存在します}}",
+    "A symbol with the same name exists"
+  ],
+  [
+    "{{広告枠の非表示}}",
+    "Hiding advertising space"
+  ],
+  [
+    "{{履歴}}",
+    "history"
+  ],
+  [
+    "{{エリア位置の移動}}",
+    "Move area position"
+  ],
+  [
+    "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+    "If you watch a video ad on the supporter app, you will have the benefit of having functional restrictions lifted for 7 days."
+  ],
+  [
+    "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+    "Animation Tool is open source and available for free."
+  ],
+  [
+    "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+    "We would appreciate your support in developing better features and new versions."
+  ],
+  [
+    "{{機能制限を解除}}",
+    "Remove functional restrictions"
+  ],
+  [
+    "{{サポーターアプリをインストール}}",
+    "Install supporter app"
+  ],
+  [
+    "{{画面共有}}",
+    "screen sharing"
+  ],
+  [
+    "{{画面共有の機能を起動}}",
+    "Activate screen sharing function"
+  ],
+  [
+    "{{前のキーフレームと座標を合わせる}}",
+    "Align coordinates with previous keyframe"
+  ],
+  [
+    "{{前のキーフレームと変形を合わせる}}",
+    "Align transformation with previous keyframe"
+  ],
+  [
+    "{{次のキーフレームと座標を合わせる}}",
+    "Align coordinates with next keyframe"
+  ],
+  [
+    "{{次のキーフレームと変形を合わせる}}",
+    "Align transformation with next keyframe"
+  ],
+  [
+    "{{次のキーフレームに移動}}",
+    "Go to next keyframe"
+  ],
+  [
+    "{{前のキーフレームに移動}}",
+    "Go to previous keyframe"
+  ],
+  [
+    "{{全てのスクリプトをコピー}}",
+    "copy all scripts"
+  ],
+  [
+    "{{スクリプトをコピー}}",
+    "copy script"
+  ],
+  [
+    "{{スクリプトをペースト}}",
+    "paste the script"
+  ],
+  [
+    "{{全てのラベルをコピー}}",
+    "Copy all labels"
+  ],
+  [
+    "{{ラベルをコピー}}",
+    "copy label"
+  ],
+  [
+    "{{ラベルをペースト}}",
+    "paste label"
+  ],
+  [
+    "{{全てのサウンドをコピー}}",
+    "copy all sounds"
+  ],
+  [
+    "{{サウンドをコピー}}",
+    "copy sound"
+  ],
+  [
+    "{{サウンドをペースト}}",
+    "paste sound"
+  ],
+  [
+    "{{書き出し先の選択}}",
+    "Select export destination"
+  ],
+  [
+    "{{画質}}",
+    "image quality"
+  ],
+  [
+    "{{座標}}",
+    "coordinate"
+  ],
+  [
+    "{{MovieClipを編集}}",
+    "Edit MovieClip"
+  ],
+  [
+    "{{親の階層へ移動}}",
+    "Move to parent hierarchy"
+  ],
+  [
+    "{{ロックされたレイヤーです}}",
+    "This is a locked layer"
+  ],
+  [
+    "{{トゥイーンには複数のオブジェクトを設置できません}}",
+    "Cannot place multiple objects on tween"
+  ],
+  [
+    "{{名前が重複しています}}",
+    "Duplicate name"
+  ],
+  [
+    "{{名前は必須です}}",
+    "name is required"
+  ],
+  [
+    "{{基準点}}",
+    "Reference point"
+  ],
+  [
+    "{{自由変形ツール}}",
+    "Free transform tool"
+  ],
+  [
+    "{{キーフレームに変換}}",
+    "Convert to keyframe"
+  ],
+  [
+    "{{空のキーフレームに変換}}",
+    "Convert to empty keyframe"
+  ],
+  [
+    "{{最初のフレームに移動}}",
+    "move to first frame"
+  ],
+  [
+    "{{最後のフレームに移動}}",
+    "go to last frame"
+  ],
+  [
+    "{{SWFを解析中}}",
+    "Analyzing SWF"
+  ],
+  [
+    "{{JSONを生成}}",
+    "Generate JSON"
+  ],
+  [
+    "{{ファイルを生成}}",
+    "generate file"
+  ],
+  [
+    "{{N2Dファイルの読み込み}}",
+    "Loading N2D files"
+  ],
+  [
+    "{{JSONの読み込み}}",
+    "Loading JSON"
+  ],
+  [
+    "{{データを解凍中}}",
+    "Unzipping data"
+  ],
+  [
+    "{{データを圧縮中}}",
+    "Compressing data"
+  ],
+  [
+    "{{エンコード}}",
+    "encode"
+  ],
+  [
+    "{{外部ファイルの読み込み}}",
+    "Loading external files"
+  ],
+  [
+    "{{バイナリデータを生成}}",
+    "generate binary data"
+  ],
+  [
+    "{{データベースを起動}}",
+    "start database"
+  ],
+  [
+    "{{データを保存中}}",
+    "Saving data"
+  ],
+  [
+    "{{完了}}",
+    "completion"
+  ],
+  [
+    "{{ステージ左揃え}}",
+    "Align stage left"
+  ],
+  [
+    "{{ステージ中央揃え(水平方向)}}",
+    "Stage center alignment (horizontal direction)"
+  ],
+  [
+    "{{ステージ右揃え}}",
+    "Align stage right"
+  ],
+  [
+    "{{ステージ上揃え}}",
+    "Align on stage"
+  ],
+  [
+    "{{ステージ中央揃え(垂直方向)}}",
+    "Align stage center (vertically)"
+  ],
+  [
+    "{{ステージ下揃え}}",
+    "Stage bottom alignment"
+  ],
+  [
+    "{{定規}}",
+    "ruler"
+  ],
+  [
+    "{{表示}}",
+    "display"
+  ],
+  [
+    "{{ショートカット}}",
+    "shortcut"
+  ],
+  [
+    "{{レイヤーを複製}}",
+    "Duplicate layer"
+  ],
+  [
+    "{{未使用のフォルダを削除}}",
+    "Delete unused folders"
+  ],
+  [
+    "{{同名のアイテムが存在します}}",
+    "An item with the same name exists"
+  ],
+  [
+    "{{追加ファイル}}",
+    "additional file"
+  ],
+  [
+    "{{既存のコンテンツ}}",
+    "existing content"
+  ],
+  [
+    "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+    "You can choose to overwrite, rename and add, or cancel."
+  ],
+  [
+    "{{全て上書き}}",
+    "Overwrite everything"
+  ],
+  [
+    "{{全てキャンセル}}",
+    "Cancel all"
+  ],
+  [
+    "{{追加・上書き}}",
+    "Add/overwrite"
+  ],
+  [
+    "{{キャンセル}}",
+    "cancel"
+  ],
+  [
+    "{{表示確認したいフレームを指定}}",
+    "Specify the frame you want to check display"
+  ],
+  [
+    "{{ファイル名を指定}}",
+    "Specify file name"
+  ],
+  [
+    "{{ファイル名}}",
+    "file name"
+  ],
+  [
+    "{{終了フレームを指定}}",
+    "Specify end frame"
+  ],
+  [
+    "{{開始フレームを指定}}",
+    "Specify starting frame"
+  ],
+  [
+    "{{フレーム設定}}",
+    "Frame settings"
+  ],
+  [
+    "{{書き出し設定}}",
+    "Export settings"
+  ],
+  [
+    "{{ファイル形式の選択}}",
+    "Select file format"
+  ],
+  [
+    "{{ファイル形式}}",
+    "file format"
+  ],
+  [
+    "{{サイズ設定}}",
+    "Size settings"
+  ],
+  [
+    "{{左上}}",
+    "upper left"
+  ],
+  [
+    "{{中央上}}",
+    "top center"
+  ],
+  [
+    "{{右上}}",
+    "upper right"
+  ],
+  [
+    "{{中央左}}",
+    "center left"
+  ],
+  [
+    "{{中央}}",
+    "center"
+  ],
+  [
+    "{{中央右}}",
+    "center right"
+  ],
+  [
+    "{{左下}}",
+    "lower left"
+  ],
+  [
+    "{{中央下}}",
+    "bottom center"
+  ],
+  [
+    "{{右下}}",
+    "lower right"
+  ],
+  [
+    "{{中心点のX座標}}",
+    "X coordinate of center point"
+  ],
+  [
+    "{{中心点のY座標}}",
+    "Y coordinate of center point"
+  ],
+  [
+    "{{MovieClipに変換}}",
+    "Convert to MovieClip"
+  ],
+  [
+    "{{変換}}",
+    "conversion"
+  ],
+  [
+    "{{ループ回数}}",
+    "Loop count"
+  ],
+  [
+    "{{カーブポインターの削除}}",
+    "Delete curve pointer"
+  ],
+  [
+    "{{ステージ基準}}",
+    "stage standards"
+  ],
+  [
+    "{{閉じる}}",
+    "close"
+  ],
+  [
+    "{{保存}}",
+    "keep"
+  ],
+  [
+    "{{リセット}}",
+    "reset"
+  ],
+  [
+    "{{スクリーン}}",
+    "screen"
+  ],
+  [
+    "{{ショートカット設定}}",
+    "Shortcut settings"
+  ],
+  [
+    "{{レイヤーカラー}}",
+    "layer color"
+  ],
+  [
+    "{{Next2Dを支援する}}",
+    "Support Next2D"
+  ],
+  [
+    "{{サポート}}",
+    "support"
+  ],
+  [
+    "{{未使用のアイテムを削除}}",
+    "Delete unused items"
+  ],
+  [
+    "{{レイヤーをペースト}}",
+    "paste layer"
+  ],
+  [
+    "{{レイヤーをコピー}}",
+    "copy layer"
+  ],
+  [
+    "{{フレームをペースト}}",
+    "paste frame"
+  ],
+  [
+    "{{フレームをコピー}}",
+    "copy frame"
+  ],
+  [
+    "{{キーフレームを削除}}",
+    "delete keyframe"
+  ],
+  [
+    "{{キーフレームに空のキーフレームを追加できません}}",
+    "Cannot add empty keyframe to keyframe"
+  ],
+  [
+    "{{ズームツール}}",
+    "zoom tool"
+  ],
+  [
+    "{{タイムライン幅の拡大・縮小}}",
+    "Expanding/reducing timeline width"
+  ],
+  [
+    "{{ガイドレイヤー}}",
+    "guide layer"
+  ],
+  [
+    "{{音量設定}}",
+    "Volume settings"
+  ],
+  [
+    "{{サウンドを削除}}",
+    "remove sound"
+  ],
+  [
+    "{{カスタムループ}}",
+    "custom loop"
+  ],
+  [
+    "{{読込のみ}}",
+    "read only"
+  ],
+  [
+    "{{書込を許可}}",
+    "Allow writing"
+  ],
+  [
+    "{{単一行}}",
+    "single line"
+  ],
+  [
+    "{{複数行}}",
+    "multiple lines"
+  ],
+  [
+    "{{自動で折り返し}}",
+    "Automatically wrap"
+  ],
+  [
+    "{{左寄せ}}",
+    "left alignment"
+  ],
+  [
+    "{{中央揃え}}",
+    "center alignment"
+  ],
+  [
+    "{{右寄せ}}",
+    "Right alignment"
+  ],
+  [
+    "{{放射状グラデーション}}",
+    "radial gradient"
+  ],
+  [
+    "{{線形グラデーション}}",
+    "linear gradient"
+  ],
+  [
+    "{{画像}}",
+    "image"
+  ],
+  [
+    "{{画像選択}}",
+    "Image selection"
+  ],
+  [
+    "{{種別}}",
+    "type"
+  ],
+  [
+    "{{Shapeの色設定}}",
+    "Shape color settings"
+  ],
+  [
+    "{{変形}}",
+    "deformation"
+  ],
+  [
+    "{{カラー効果}}",
+    "color effect"
+  ],
+  [
+    "{{フィルター}}",
+    "filter"
+  ],
+  [
+    "{{Shapeを複製}}",
+    "Duplicate Shape"
+  ],
+  [
+    "{{読み込み}}",
+    "loading"
+  ],
+  [
+    "{{新規フォルダー}}",
+    "new folder"
+  ],
+  [
+    "{{新規MovieClip}}",
+    "New MovieClip"
+  ],
+  [
+    "{{枠に合わせてテキストをリサイズ}}",
+    "Resize text to fit frame"
+  ],
+  [
+    "{{テキストに合わせて枠をリサイズ}}",
+    "Resize frame to fit text"
+  ],
+  [
+    "{{リサイズしない}}",
+    "don't resize"
+  ],
+  [
+    "{{フォント}}",
+    "font"
+  ],
+  [
+    "{{テキスト}}",
+    "text"
+  ],
+  [
+    "{{ループ}}",
+    "loop"
+  ],
+  [
+    "{{音量}}",
+    "volume"
+  ],
+  [
+    "{{ビデオ}}",
+    "video"
+  ],
+  [
+    "{{イージング}}",
+    "easing"
+  ],
+  [
+    "{{サウンド}}",
+    "sound"
+  ],
+  [
+    "{{シンボル}}",
+    "symbol"
+  ],
+  [
+    "{{名前}}",
+    "name"
+  ],
+  [
+    "{{オブジェクト}}",
+    "object"
+  ],
+  [
+    "{{ステージ設定}}",
+    "stage setting"
+  ],
+  [
+    "{{プレビュー}}",
+    "preview"
+  ],
+  [
+    "{{削除}}",
+    "delete"
+  ],
+  [
+    "{{ペースト}}",
+    "paste"
+  ],
+  [
+    "{{コピー}}",
+    "copy"
+  ],
+  [
+    "{{プラグインメニュー}}",
+    "Plugin menu"
+  ],
+  [
+    "{{トゥイーン}}",
+    "tween"
+  ],
+  [
+    "{{カーブポインターの追加}}",
+    "Add curve pointer"
+  ],
+  [
+    "{{パスの結合}}",
+    "Joining paths"
+  ],
+  [
+    "{{シェイプ}}",
+    "shape"
+  ],
+  [
+    "{{キーフレームに配分}}",
+    "Distribute to keyframes"
+  ],
+  [
+    "{{レイヤーに配分}}",
+    "Distribute to layers"
+  ],
+  [
+    "{{タイムライン}}",
+    "timeline"
+  ],
+  [
+    "{{整列}}",
+    "alignment"
+  ],
+  [
+    "{{最背面}}",
+    "backmost"
+  ],
+  [
+    "{{ひとつ背面へ}}",
+    "Go one step to the back"
+  ],
+  [
+    "{{ひとつ前面へ}}",
+    "One step forward"
+  ],
+  [
+    "{{最前面}}",
+    "Foreground"
+  ],
+  [
+    "{{重ね順}}",
+    "stacking order"
+  ],
+  [
+    "{{プラグイン}}",
+    "plugin"
+  ],
+  [
+    "{{ライブラリ}}",
+    "library"
+  ],
+  [
+    "{{プロパティ}}",
+    "properties"
+  ],
+  [
+    "{{マスクレイヤー}}",
+    "mask layer"
+  ],
+  [
+    "{{通常レイヤー}}",
+    "normal layer"
+  ],
+  [
+    "{{モーショントゥイーンの削除}}",
+    "Delete motion tween"
+  ],
+  [
+    "{{モーショントゥイーンの追加}}",
+    "Adding motion tweens"
+  ],
+  [
+    "{{モーダル表示}}",
+    "Modal display"
+  ],
+  [
+    "{{言語}}",
+    "language"
+  ],
+  [
+    "{{フォーマット}}",
+    "format"
+  ],
+  [
+    "{{含める}}",
+    "include"
+  ],
+  [
+    "{{含めない}}",
+    "not include"
+  ],
+  [
+    "{{使い方、リファレンス}}",
+    "How to use, reference"
+  ],
+  [
+    "{{非表示レイヤー}}",
+    "hidden layer"
+  ],
+  [
+    "{{設定}}",
+    "setting"
+  ],
+  [
+    "{{デフォルトのループを利用する}}",
+    "Use default loop"
+  ],
+  [
+    "{{フレームピッカー}}",
+    "frame picker"
+  ],
+  [
+    "{{左揃え}}",
+    "left alignment"
+  ],
+  [
+    "{{中央揃え(水平方向)}}",
+    "Center alignment (horizontal)"
+  ],
+  [
+    "{{右揃え}}",
+    "Right alignment"
+  ],
+  [
+    "{{上揃え}}",
+    "Top alignment"
+  ],
+  [
+    "{{中央揃え(垂直方向)}}",
+    "Center (vertically)"
+  ],
+  [
+    "{{下揃え}}",
+    "Bottom alignment"
+  ],
+  [
+    "{{開始フレーム}}",
+    "starting frame"
+  ],
+  [
+    "{{終了フレーム}}",
+    "end frame"
+  ],
+  [
+    "{{ループで再生}}",
+    "play in loop"
+  ],
+  [
+    "{{1回再生}}",
+    "Play once"
+  ],
+  [
+    "{{指定したフレームで固定}}",
+    "Fixed at specified frame"
+  ],
+  [
+    "{{1回逆再生}}",
+    "Reverse play once"
+  ],
+  [
+    "{{逆ループで再生}}",
+    "Play in reverse loop"
+  ],
+  [
+    "{{画面の拡大・縮小}}",
+    "Enlarging/reducing the screen"
+  ],
+  [
+    "{{カスタムイージングデータを保存}}",
+    "Save custom easing data"
+  ],
+  [
+    "{{カスタムイージングデータの読込}}",
+    "Loading custom easing data"
+  ],
+  [
+    "{{プレビューのON/OFF}}",
+    "Preview ON/OFF"
+  ],
+  [
+    "{{フォント枠サイズ}}",
+    "font frame size"
+  ],
+  [
+    "{{フォント枠カラー}}",
+    "font border color"
+  ],
+  [
+    "{{オニオンスキン}}",
+    "onion skin"
+  ],
+  [
+    "{{バケツツール}}",
+    "bucket tools"
+  ],
+  [
+    "{{ペンツール}}",
+    "pen tool"
+  ],
+  [
+    "{{ダブルクリックでカーブポイントが追加されます}}",
+    "Double-click to add curve points"
+  ],
+  [
+    "{{選択ツール}}",
+    "selection tool"
+  ],
+  [
+    "{{Shape変形ツール}}",
+    "Shape transformation tool"
+  ],
+  [
+    "{{テキストツール}}",
+    "text tools"
+  ],
+  [
+    "{{矩形ツール}}",
+    "rectangle tool"
+  ],
+  [
+    "{{楕円ツール}}",
+    "Ellipse tool"
+  ],
+  [
+    "{{角丸矩形ツール}}",
+    "Rounded rectangle tool"
+  ],
+  [
+    "{{塗りのカラー}}",
+    "color of paint"
+  ],
+  [
+    "{{線のカラー}}",
+    "line color"
+  ],
+  [
+    "{{線の太さ}}",
+    "line thickness"
+  ],
+  [
+    "{{プロジェクトデータの読込}}",
+    "Load project data"
+  ],
+  [
+    "{{プロジェクトデータを保存}}",
+    "Save project data"
+  ],
+  [
+    "{{書き出し}}",
+    "Start writing"
+  ],
+  [
+    "{{Discordへ移動}}",
+    "Go to Discord"
+  ],
+  [
+    "{{バグ報告}}",
+    "Bug report"
+  ],
+  [
+    "{{設定}}",
+    "setting"
+  ],
+  [
+    "{{タブを追加}}",
+    "add tab"
+  ],
+  [
+    "{{タブの一覧を表示・移動}}",
+    "Display/move tab list"
+  ],
+  [
+    "{{スクリプトを追加}}",
+    "add script"
+  ],
+  [
+    "{{キーフレームを追加}}",
+    "Add keyframe"
+  ],
+  [
+    "{{空のキーフレームを追加}}",
+    "Add empty keyframe"
+  ],
+  [
+    "{{フレームを追加}}",
+    "add frame"
+  ],
+  [
+    "{{フレームを削除}}",
+    "remove frame"
+  ],
+  [
+    "{{再生}}",
+    "reproduction"
+  ],
+  [
+    "{{停止}}",
+    "Stop"
+  ],
+  [
+    "{{ループ設定}}",
+    "Loop settings"
+  ],
+  [
+    "{{レイヤーを追加}}",
+    "add layer"
+  ],
+  [
+    "{{レイヤーを削除}}",
+    "remove layer"
+  ],
+  [
+    "{{全てのレイヤーをハイライト}}",
+    "Highlight all layers"
+  ],
+  [
+    "{{全てのレイヤーを非表示}}",
+    "Hide all layers"
+  ],
+  [
+    "{{全てのレイヤーをロック}}",
+    "lock all layers"
+  ],
+  [
+    "{{比率を固定}}",
+    "Fixed ratio"
+  ],
+  [
+    "{{ステージの幅}}",
+    "stage width"
+  ],
+  [
+    "{{背景色}}",
+    "background color"
+  ],
+  [
+    "{{ステージの高さ}}",
+    "stage height"
+  ],
+  [
+    "{{フレームレート}}",
+    "frame rate"
+  ],
+  [
+    "{{シンボル名}}",
+    "symbol name"
+  ],
+  [
+    "{{イージング設定}}",
+    "Easing settings"
+  ],
+  [
+    "{{ビデオの音量設定}}",
+    "Video volume settings"
+  ],
+  [
+    "{{自動再生}}",
+    "autoplay"
+  ],
+  [
+    "{{テキストエリアのボーダー設定}}",
+    "Text area border settings"
+  ],
+  [
+    "{{テキスト入力設定}}",
+    "Text input settings"
+  ],
+  [
+    "{{フォント選択}}",
+    "Font selection"
+  ],
+  [
+    "{{自動サイズ調整}}",
+    "auto size adjustment"
+  ],
+  [
+    "{{フォントスタイルタイプ}}",
+    "font style type"
+  ],
+  [
+    "{{行揃え}}",
+    "line alignment"
+  ],
+  [
+    "{{改行設定}}",
+    "Line break settings"
+  ],
+  [
+    "{{スクロール設定}}",
+    "scroll settings"
+  ],
+  [
+    "{{フォントサイズ}}",
+    "font size"
+  ],
+  [
+    "{{フォントカラー}}",
+    "font color"
+  ],
+  [
+    "{{行間}}",
+    "Between the lines"
+  ],
+  [
+    "{{文字幅}}",
+    "character width"
+  ],
+  [
+    "{{左マージン}}",
+    "left margin"
+  ],
+  [
+    "{{右マージン}}",
+    "right margin"
+  ],
+  [
+    "{{カラー種別の選択}}",
+    "Select color type"
+  ],
+  [
+    "{{背景画像の選択}}",
+    "Background image selection"
+  ],
+  [
+    "{{カラーポインターを追加}}",
+    "Add color pointer"
+  ],
+  [
+    "{{カラー値}}",
+    "color value"
+  ],
+  [
+    "{{アルファ(0%-100%)}}",
+    "Alpha (0%-100%)"
+  ],
+  [
+    "{{アルファ値}}",
+    "alpha value"
+  ],
+  [
+    "{{選択対象の幅}}",
+    "Width of selection"
+  ],
+  [
+    "{{選択対象のX座標}}",
+    "X coordinate of selection"
+  ],
+  [
+    "{{選択対象の高さ}}",
+    "Height of selection"
+  ],
+  [
+    "{{選択対象のY座標}}",
+    "Y coordinate of selection"
+  ],
+  [
+    "{{選択対象の幅の伸縮}}",
+    "Stretching the width of the selection"
+  ],
+  [
+    "{{選択対象を回転}}",
+    "Rotate selection"
+  ],
+  [
+    "{{選択対象の高さの伸縮}}",
+    "Stretch or shrink the height of the selection"
+  ],
+  [
+    "{{アルファオフセット(-255〜255)}}",
+    "Alpha offset (-255 to 255)"
+  ],
+  [
+    "{{赤(0%-100%)}}",
+    "Red (0%-100%)"
+  ],
+  [
+    "{{赤オフセット(-255〜255)}}",
+    "Red offset (-255 to 255)"
+  ],
+  [
+    "{{緑(0%-100%)}}",
+    "Green (0%-100%)"
+  ],
+  [
+    "{{緑オフセット(-255〜255)}}",
+    "Green offset (-255 to 255)"
+  ],
+  [
+    "{{青(0%-100%)}}",
+    "Blue (0%-100%)"
+  ],
+  [
+    "{{青オフセット(-255〜255)}}",
+    "Blue offset (-255 to 255)"
+  ],
+  [
+    "{{ブレンドモード}}",
+    "blend mode"
+  ],
+  [
+    "{{フィルターを選択}}",
+    "Select filter"
+  ],
+  [
+    "{{フィルターを追加}}",
+    "add filter"
+  ],
+  [
+    "{{サウンドを追加}}",
+    "add sound"
+  ],
+  [
+    "{{フィルターを表示・非表示する}}",
+    "Show/hide filters"
+  ],
+  [
+    "{{フィルターを削除}}",
+    "remove filter"
+  ],
+  [
+    "{{水平方向にぼかす}}",
+    "blur horizontally"
+  ],
+  [
+    "{{垂直方向にぼかす}}",
+    "blur vertically"
+  ],
+  [
+    "{{フィルター強度}}",
+    "filter strength"
+  ],
+  [
+    "{{フィルター角度}}",
+    "filter angle"
+  ],
+  [
+    "{{シャドウのアルファ}}",
+    "shadow alpha"
+  ],
+  [
+    "{{シャドウのカラー}}",
+    "shadow color"
+  ],
+  [
+    "{{フィルター距離}}",
+    "filter distance"
+  ],
+  [
+    "{{ハイライトのカラー}}",
+    "highlight color"
+  ],
+  [
+    "{{ハイライトのアルファ}}",
+    "Highlight alpha"
+  ],
+  [
+    "{{グラデーションカラー}}",
+    "gradation color"
+  ],
+  [
+    "{{グラデーションのアルファ}}",
+    "gradient alpha"
+  ],
+  [
+    "{{タブの移動・名前を変更}}",
+    "Move/rename tabs"
+  ],
+  [
+    "{{プロジェクトを閉じる}}",
+    "Close project"
+  ],
+  [
+    "{{上下に移動}}",
+    "move up and down"
+  ],
+  [
+    "{{レイヤー変更(ダブルクリック)}}",
+    "Change layer (double click)"
+  ],
+  [
+    "{{レイヤーをハイライト}}",
+    "highlight layer"
+  ],
+  [
+    "{{レイヤーを非表示}}",
+    "hide layer"
+  ],
+  [
+    "{{レイヤーをロック}}",
+    "lock layer"
+  ],
+  [
+    "{{カーブポインター(ダブルクリックでON/OFF)}}",
+    "Curve pointer (double click to turn on/off)"
+  ],
+  [
+    "{{インスタンス名}}",
+    "instance name"
+  ],
+  [
+    "{{ライブラリ内の検索}}",
+    "Search in library"
+  ],
+  [
+    "{{フレームラベル}}",
+    "frame label"
+  ],
+  [
+    "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+    "If the project is not saved, the project data on this tab cannot be recovered.Do you want to remove the tab?"
+  ]
+]

@@ -1,0 +1,1546 @@
+[
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+    "Verplaats %s3 frame/diepte %s4 van laag [%s2] van [%s1] naar diepte %s5"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+    "Verwijder het frame van %s3 en de diepte van laag [%s2] van [%s1] en [%s5] van %s4"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+    "Verander de matrix van %s3 frame en diepte %s4 van laag [%s2] van [%s1] van %s5° naar %s6°"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+    "Wijzig de overvloeimodus van %s3 frame/diepte %s4 van laag [%s2] van [%s1] van [%s5] in [%s6]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+    "De verschuiving van de blauwe component van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5 in %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+    "De blauwe component van het %s3-frame en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5% in %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+    "Offset van groene component van frame %s3 en diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5 naar %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+    "De groene component van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5% in %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+    "De rode component-offset van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5 in %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+    "De rode component van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5% in %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+    "Wijzig de transparantie-offset van het frame %s3/diepte van %s4 van laag [%s2] van [%s1] van %s5 in %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+    "Wijzig de transparantie van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] van %s5% in %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+    "Wijzig de x-coördinaat van het middelpunt van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] van %s5 in %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+    "Wijzig de y-coördinaat van het middelpunt van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] van %s5 in %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+    "Wijzig het middelpunt van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] van [%s5] in [%s6]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+    "De rotatie van het frame %s3 en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5° naar %s6°"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+    "De y-schaal van het %s3-frame en de diepte %s4 van laag [%s2] van [%s1] gewijzigd van %s5% in %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+    "Gewijzigde x-schaal van %s3-frame en diepte %s4 van laag [%s2] van [%s1] van %s5% in %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+    "Hernoem %s3 frame/diepte %s4 van laag [%s2] van [%s1] naar %s5"
+  ],
+  [
+    "{{新規Text[%s1]を追加}}",
+    "Nieuwe tekst toevoegen[%s1]"
+  ],
+  [
+    "{{[%s1]のグラフィックを変更}}",
+    "De afbeeldingen van [%s1] gewijzigd"
+  ],
+  [
+    "{{新規Shape[%s1]を追加}}",
+    "Nieuwe vorm toevoegen[%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+    "Verander de y-coördinaat van %s3 frame/diepte van %s4 van laag [%s2] van [%s1] van %s5 in %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+    "Verander de x-coördinaat van %s3 frame/diepte van %s4 van laag [%s2] van [%s1] van %s5 in %s6"
+  ],
+  [
+    "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+    "Wijzig de achtergrondkleur van het werkgebied van [%s1] in [%s2]"
+  ],
+  [
+    "{{ステージのFPSを%s1から%s2に変更}}",
+    "Wijzig de fase-FPS van %s1 in %s2"
+  ],
+  [
+    "{{ステージの高さを%s1から%s2に変更}}",
+    "Wijzig de podiumhoogte van %s1 in %s2"
+  ],
+  [
+    "{{ステージの幅を%s1から%s2に変更}}",
+    "Wijzig de podiumbreedte van %s1 in %s2"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベルを削除}}",
+    "Verwijder het label van %s2 frame van [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+    "Wijzig het label [%s3] van het %s2-frame van [%s1] in [%s4]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+    "Registreer label [%s3] in %s2-frame van [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+    "Het loopnummer van het geluid [%s3] van %s2-frame van [%s1] is gewijzigd van %s4 in %s5"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+    "Het volume van het geluid [%s3] van het %s2-frame van [%s1] gewijzigd van %s4 in %s5"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+    "Verwijder het geluid [%s3] van %s2 frame van [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+    "Voeg geluid [%s3] toe aan %s2-frame van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+    "Sleutelframe van %s3 frame van laag [%s2] van [%s1] verwijderen"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+    "Verwijder alle sleutelframes van %s3 frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+    "Verwijder alle sleutelframes van %s3 frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+    "Verwijder alle lege sleutelframes van %s3 frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+    "Verwijder het %s4-frame uit het hoofdframe van het %s3-frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+    "Verwijder het %s4-frame uit het lege hoofdframe van het %s3-frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+    "Splits het sleutelframe van %s3 frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+    "Voeg %s4-frame toe aan het hoofdframe van %s3-frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+    "Voeg [%s4] toe aan het %s3-frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+    "Voeg %s4 frame toe aan PLACEHOLDER 2e frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+    "Leeg sleutelframe van %s3 frame van laag [%s2] van [%s1] splitsen"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+    "Voeg %s4-frame toe aan het lege hoofdframe van %s3-frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+    "Voeg een leeg sleutelframe toe aan het %s3-frame van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+    "Wijzig laag [%s2] van [%s1] naar [%s3]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+    "Verander de markeringskleur van laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を移動}}",
+    "Verplaats laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]を画像に上書き}}",
+    "Overschrijf [%s1] naar de afbeelding"
+  ],
+  [
+    "{{[%s1]を動画に上書き}}",
+    "Overschrijf [%s1] naar de video"
+  ],
+  [
+    "{{[%s1]を音声に上書き}}",
+    "Overschrijf [%s1] naar audio"
+  ],
+  [
+    "{{ライブラリから[%s1]を削除}}",
+    "Verwijder [%s1] uit de bibliotheek"
+  ],
+  [
+    "{{MoiveClip一覧}}",
+    "MoveClip-lijst"
+  ],
+  [
+    "{{新規フォルダー[%s1]を追加}}",
+    "Nieuwe map toevoegen [%s1]"
+  ],
+  [
+    "{{新規MovieClip[%s1]を追加}}",
+    "Nieuwe MovieClip toevoegen[%s1]"
+  ],
+  [
+    "{{音声[%s1]を取り込み}}",
+    "Audio importeren [%s1]"
+  ],
+  [
+    "{{動画[%s1]を取り込み}}",
+    "Video importeren [%s1]"
+  ],
+  [
+    "{{[%s1]のフォルダ移動}}",
+    "Verplaats de map [%s1]."
+  ],
+  [
+    "{{画像[%s1]を取り込み}}",
+    "Afbeelding importeren [%s1]"
+  ],
+  [
+    "{{[%s1]のシンボル名を[%s2]に変更}}",
+    "Wijzig de symboolnaam van [%s1] in [%s2]"
+  ],
+  [
+    "{{[%s1]の名前を[%s2]に変更}}",
+    "Hernoem [%s1] naar [%s2]"
+  ],
+  [
+    "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+    "Wijzig de laagnaam [%s2] van [%s1] in [%s3]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを削除}}",
+    "Verwijder het script van %s2 frame van [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを変更}}",
+    "Wijzig het script van %s2 frame van [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにスクリプトを追加}}",
+    "Script toevoegen aan %s2-frame van [%s1]"
+  ],
+  [
+    "{{プロジェクト名[%s1]を[%s2]に変更}}",
+    "Wijzig de projectnaam [%s1] in [%s2]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を削除}}",
+    "Verwijder laag [%s2] van [%s1]"
+  ],
+  [
+    "{{[%s1]にレイヤー[%s2]を追加}}",
+    "Laag [%s2] toevoegen aan [%s1]"
+  ],
+  [
+    "{{同名のシンボルが存在します}}",
+    "Er bestaat een symbool met dezelfde naam"
+  ],
+  [
+    "{{広告枠の非表示}}",
+    "Advertentieruimte verbergen"
+  ],
+  [
+    "{{履歴}}",
+    "geschiedenis"
+  ],
+  [
+    "{{エリア位置の移動}}",
+    "Gebiedspositie verplaatsen"
+  ],
+  [
+    "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+    "Als u een videoadvertentie bekijkt in de supporter-app, heeft u het voordeel dat de functionele beperkingen zeven dagen lang worden opgeheven."
+  ],
+  [
+    "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+    "Animation Tool is open source en gratis beschikbaar."
+  ],
+  [
+    "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+    "Wij stellen uw steun bij het ontwikkelen van betere functies en nieuwe versies zeer op prijs."
+  ],
+  [
+    "{{機能制限を解除}}",
+    "Functionele beperkingen verwijderen"
+  ],
+  [
+    "{{サポーターアプリをインストール}}",
+    "Supporter-app installeren"
+  ],
+  [
+    "{{画面共有}}",
+    "scherm delen"
+  ],
+  [
+    "{{画面共有の機能を起動}}",
+    "Activeer de functie voor het delen van schermen"
+  ],
+  [
+    "{{前のキーフレームと座標を合わせる}}",
+    "Lijn de coördinaten uit met het vorige hoofdframe"
+  ],
+  [
+    "{{前のキーフレームと変形を合わせる}}",
+    "Transformatie uitlijnen met vorig keyframe"
+  ],
+  [
+    "{{次のキーフレームと座標を合わせる}}",
+    "Lijn de coördinaten uit met het volgende hoofdframe"
+  ],
+  [
+    "{{次のキーフレームと変形を合わせる}}",
+    "Lijn de transformatie uit met het volgende keyframe"
+  ],
+  [
+    "{{次のキーフレームに移動}}",
+    "Ga naar het volgende sleutelframe"
+  ],
+  [
+    "{{前のキーフレームに移動}}",
+    "Ga naar het vorige hoofdframe"
+  ],
+  [
+    "{{全てのスクリプトをコピー}}",
+    "kopieer alle scripts"
+  ],
+  [
+    "{{スクリプトをコピー}}",
+    "script kopiëren"
+  ],
+  [
+    "{{スクリプトをペースト}}",
+    "plak het script"
+  ],
+  [
+    "{{全てのラベルをコピー}}",
+    "Kopieer alle labels"
+  ],
+  [
+    "{{ラベルをコピー}}",
+    "kopieer etiket"
+  ],
+  [
+    "{{ラベルをペースト}}",
+    "etiket plakken"
+  ],
+  [
+    "{{全てのサウンドをコピー}}",
+    "kopieer alle geluiden"
+  ],
+  [
+    "{{サウンドをコピー}}",
+    "geluid kopiëren"
+  ],
+  [
+    "{{サウンドをペースト}}",
+    "geluid plakken"
+  ],
+  [
+    "{{書き出し先の選択}}",
+    "Selecteer exportbestemming"
+  ],
+  [
+    "{{画質}}",
+    "beeldkwaliteit"
+  ],
+  [
+    "{{座標}}",
+    "coördineren"
+  ],
+  [
+    "{{MovieClipを編集}}",
+    "Bewerk FilmClip"
+  ],
+  [
+    "{{親の階層へ移動}}",
+    "Verplaatsen naar bovenliggende hiërarchie"
+  ],
+  [
+    "{{ロックされたレイヤーです}}",
+    "Dit is een vergrendelde laag"
+  ],
+  [
+    "{{トゥイーンには複数のオブジェクトを設置できません}}",
+    "Kan niet meerdere objecten op tween plaatsen"
+  ],
+  [
+    "{{名前が重複しています}}",
+    "Dubbele naam"
+  ],
+  [
+    "{{名前は必須です}}",
+    "naam is vereist"
+  ],
+  [
+    "{{基準点}}",
+    "Referentiepunt"
+  ],
+  [
+    "{{自由変形ツール}}",
+    "Gratis transformatietool"
+  ],
+  [
+    "{{キーフレームに変換}}",
+    "Converteren naar hoofdframe"
+  ],
+  [
+    "{{空のキーフレームに変換}}",
+    "Converteren naar leeg hoofdframe"
+  ],
+  [
+    "{{最初のフレームに移動}}",
+    "ga naar het eerste frame"
+  ],
+  [
+    "{{最後のフレームに移動}}",
+    "ga naar het laatste frame"
+  ],
+  [
+    "{{SWFを解析中}}",
+    "SWF analyseren"
+  ],
+  [
+    "{{JSONを生成}}",
+    "JSON genereren"
+  ],
+  [
+    "{{ファイルを生成}}",
+    "bestand genereren"
+  ],
+  [
+    "{{N2Dファイルの読み込み}}",
+    "N2D-bestanden laden"
+  ],
+  [
+    "{{JSONの読み込み}}",
+    "JSON laden"
+  ],
+  [
+    "{{データを解凍中}}",
+    "Gegevens uitpakken"
+  ],
+  [
+    "{{データを圧縮中}}",
+    "Gegevens comprimeren"
+  ],
+  [
+    "{{エンコード}}",
+    "coderen"
+  ],
+  [
+    "{{外部ファイルの読み込み}}",
+    "Externe bestanden laden"
+  ],
+  [
+    "{{バイナリデータを生成}}",
+    "binaire gegevens genereren"
+  ],
+  [
+    "{{データベースを起動}}",
+    "database starten"
+  ],
+  [
+    "{{データを保存中}}",
+    "Gegevens opslaan"
+  ],
+  [
+    "{{完了}}",
+    "voltooiing"
+  ],
+  [
+    "{{ステージ左揃え}}",
+    "Lijn het podium links uit"
+  ],
+  [
+    "{{ステージ中央揃え(水平方向)}}",
+    "Uitlijning podiummidden (horizontale richting)"
+  ],
+  [
+    "{{ステージ右揃え}}",
+    "Lijn het podium rechts uit"
+  ],
+  [
+    "{{ステージ上揃え}}",
+    "Lijn uit op het podium"
+  ],
+  [
+    "{{ステージ中央揃え(垂直方向)}}",
+    "Lijn het midden van het podium uit (verticaal)"
+  ],
+  [
+    "{{ステージ下揃え}}",
+    "Uitlijning van de onderste fase"
+  ],
+  [
+    "{{定規}}",
+    "liniaal"
+  ],
+  [
+    "{{表示}}",
+    "weergave"
+  ],
+  [
+    "{{ショートカット}}",
+    "snelkoppeling"
+  ],
+  [
+    "{{レイヤーを複製}}",
+    "Dubbele laag"
+  ],
+  [
+    "{{未使用のフォルダを削除}}",
+    "Verwijder ongebruikte mappen"
+  ],
+  [
+    "{{同名のアイテムが存在します}}",
+    "Er bestaat een item met dezelfde naam"
+  ],
+  [
+    "{{追加ファイル}}",
+    "extra bestand"
+  ],
+  [
+    "{{既存のコンテンツ}}",
+    "bestaande inhoud"
+  ],
+  [
+    "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+    "U kunt ervoor kiezen om te overschrijven, hernoemen en toevoegen, of annuleren."
+  ],
+  [
+    "{{全て上書き}}",
+    "Overschrijf alles"
+  ],
+  [
+    "{{全てキャンセル}}",
+    "Alles annuleren"
+  ],
+  [
+    "{{追加・上書き}}",
+    "Toevoegen/overschrijven"
+  ],
+  [
+    "{{キャンセル}}",
+    "annuleren"
+  ],
+  [
+    "{{表示確認したいフレームを指定}}",
+    "Geef het frame op waarvan u de weergave wilt controleren"
+  ],
+  [
+    "{{ファイル名を指定}}",
+    "Geef de bestandsnaam op"
+  ],
+  [
+    "{{ファイル名}}",
+    "bestandsnaam"
+  ],
+  [
+    "{{終了フレームを指定}}",
+    "Eindframe opgeven"
+  ],
+  [
+    "{{開始フレームを指定}}",
+    "Geef het startframe op"
+  ],
+  [
+    "{{フレーム設定}}",
+    "Frame-instellingen"
+  ],
+  [
+    "{{書き出し設定}}",
+    "Instellingen exporteren"
+  ],
+  [
+    "{{ファイル形式の選択}}",
+    "Selecteer bestandsformaat"
+  ],
+  [
+    "{{ファイル形式}}",
+    "bestandsformaat"
+  ],
+  [
+    "{{サイズ設定}}",
+    "Grootte-instellingen"
+  ],
+  [
+    "{{左上}}",
+    "linksboven"
+  ],
+  [
+    "{{中央上}}",
+    "bovenste midden"
+  ],
+  [
+    "{{右上}}",
+    "rechtsboven"
+  ],
+  [
+    "{{中央左}}",
+    "midden links"
+  ],
+  [
+    "{{中央}}",
+    "centrum"
+  ],
+  [
+    "{{中央右}}",
+    "midden rechts"
+  ],
+  [
+    "{{左下}}",
+    "linksonder"
+  ],
+  [
+    "{{中央下}}",
+    "midden onderaan"
+  ],
+  [
+    "{{右下}}",
+    "rechtsonder"
+  ],
+  [
+    "{{中心点のX座標}}",
+    "X-coördinaat van middelpunt"
+  ],
+  [
+    "{{中心点のY座標}}",
+    "Y-coördinaat van middelpunt"
+  ],
+  [
+    "{{MovieClipに変換}}",
+    "Converteren naar MovieClip"
+  ],
+  [
+    "{{変換}}",
+    "conversie"
+  ],
+  [
+    "{{ループ回数}}",
+    "Aantal lussen"
+  ],
+  [
+    "{{カーブポインターの削除}}",
+    "Curvewijzer verwijderen"
+  ],
+  [
+    "{{ステージ基準}}",
+    "podium normen"
+  ],
+  [
+    "{{閉じる}}",
+    "dichtbij"
+  ],
+  [
+    "{{保存}}",
+    "houden"
+  ],
+  [
+    "{{リセット}}",
+    "opnieuw instellen"
+  ],
+  [
+    "{{スクリーン}}",
+    "scherm"
+  ],
+  [
+    "{{ショートカット設定}}",
+    "Snelkoppelingsinstellingen"
+  ],
+  [
+    "{{レイヤーカラー}}",
+    "kleur van de laag"
+  ],
+  [
+    "{{Next2Dを支援する}}",
+    "Ondersteuning Next2D"
+  ],
+  [
+    "{{サポート}}",
+    "steun"
+  ],
+  [
+    "{{未使用のアイテムを削除}}",
+    "Verwijder ongebruikte items"
+  ],
+  [
+    "{{レイヤーをペースト}}",
+    "plak laag"
+  ],
+  [
+    "{{レイヤーをコピー}}",
+    "kopieer laag"
+  ],
+  [
+    "{{フレームをペースト}}",
+    "kader plakken"
+  ],
+  [
+    "{{フレームをコピー}}",
+    "kopieer kader"
+  ],
+  [
+    "{{キーフレームを削除}}",
+    "sleutelframe verwijderen"
+  ],
+  [
+    "{{キーフレームに空のキーフレームを追加できません}}",
+    "Kan geen leeg sleutelframe aan sleutelframe toevoegen"
+  ],
+  [
+    "{{ズームツール}}",
+    "zoom hulpmiddel"
+  ],
+  [
+    "{{タイムライン幅の拡大・縮小}}",
+    "De breedte van de tijdlijn uitbreiden/verkleinen"
+  ],
+  [
+    "{{ガイドレイヤー}}",
+    "geleidingslaag"
+  ],
+  [
+    "{{音量設定}}",
+    "Volume-instellingen"
+  ],
+  [
+    "{{サウンドを削除}}",
+    "geluid verwijderen"
+  ],
+  [
+    "{{カスタムループ}}",
+    "aangepaste lus"
+  ],
+  [
+    "{{読込のみ}}",
+    "alleen lezen"
+  ],
+  [
+    "{{書込を許可}}",
+    "Laat schrijven toe"
+  ],
+  [
+    "{{単一行}}",
+    "enkele lijn"
+  ],
+  [
+    "{{複数行}}",
+    "meerdere lijnen"
+  ],
+  [
+    "{{自動で折り返し}}",
+    "Automatisch inpakken"
+  ],
+  [
+    "{{左寄せ}}",
+    "linker uitlijning"
+  ],
+  [
+    "{{中央揃え}}",
+    "centrale uitlijning"
+  ],
+  [
+    "{{右寄せ}}",
+    "Rechtse uitlijning"
+  ],
+  [
+    "{{放射状グラデーション}}",
+    "radiale gradiënt"
+  ],
+  [
+    "{{線形グラデーション}}",
+    "lineaire gradiënt"
+  ],
+  [
+    "{{画像}}",
+    "afbeelding"
+  ],
+  [
+    "{{画像選択}}",
+    "Afbeelding selectie"
+  ],
+  [
+    "{{種別}}",
+    "type"
+  ],
+  [
+    "{{Shapeの色設定}}",
+    "Vorm kleurinstellingen"
+  ],
+  [
+    "{{変形}}",
+    "vervorming"
+  ],
+  [
+    "{{カラー効果}}",
+    "kleureffect"
+  ],
+  [
+    "{{フィルター}}",
+    "filter"
+  ],
+  [
+    "{{Shapeを複製}}",
+    "Dubbele vorm"
+  ],
+  [
+    "{{読み込み}}",
+    "laden"
+  ],
+  [
+    "{{新規フォルダー}}",
+    "nieuwe map"
+  ],
+  [
+    "{{新規MovieClip}}",
+    "Nieuwe filmclip"
+  ],
+  [
+    "{{枠に合わせてテキストをリサイズ}}",
+    "Pas het formaat van de tekst aan zodat deze in het frame past"
+  ],
+  [
+    "{{テキストに合わせて枠をリサイズ}}",
+    "Pas het formaat van het kader aan zodat het in de tekst past"
+  ],
+  [
+    "{{リサイズしない}}",
+    "formaat niet wijzigen"
+  ],
+  [
+    "{{フォント}}",
+    "lettertype"
+  ],
+  [
+    "{{テキスト}}",
+    "tekst"
+  ],
+  [
+    "{{ループ}}",
+    "lus"
+  ],
+  [
+    "{{音量}}",
+    "volume"
+  ],
+  [
+    "{{ビデオ}}",
+    "video"
+  ],
+  [
+    "{{イージング}}",
+    "versoepeling"
+  ],
+  [
+    "{{サウンド}}",
+    "geluid"
+  ],
+  [
+    "{{シンボル}}",
+    "symbool"
+  ],
+  [
+    "{{名前}}",
+    "naam"
+  ],
+  [
+    "{{オブジェクト}}",
+    "voorwerp"
+  ],
+  [
+    "{{ステージ設定}}",
+    "toneelopstelling"
+  ],
+  [
+    "{{プレビュー}}",
+    "voorbeeld"
+  ],
+  [
+    "{{削除}}",
+    "verwijderen"
+  ],
+  [
+    "{{ペースト}}",
+    "plakken"
+  ],
+  [
+    "{{コピー}}",
+    "kopiëren"
+  ],
+  [
+    "{{プラグインメニュー}}",
+    "Plugin-menu"
+  ],
+  [
+    "{{トゥイーン}}",
+    "tussen"
+  ],
+  [
+    "{{カーブポインターの追加}}",
+    "Curvewijzer toevoegen"
+  ],
+  [
+    "{{パスの結合}}",
+    "Paden verbinden"
+  ],
+  [
+    "{{シェイプ}}",
+    "vorm"
+  ],
+  [
+    "{{キーフレームに配分}}",
+    "Distribueren naar sleutelframes"
+  ],
+  [
+    "{{レイヤーに配分}}",
+    "Verdeel over lagen"
+  ],
+  [
+    "{{タイムライン}}",
+    "tijdlijn"
+  ],
+  [
+    "{{整列}}",
+    "uitlijning"
+  ],
+  [
+    "{{最背面}}",
+    "achterste"
+  ],
+  [
+    "{{ひとつ背面へ}}",
+    "Ga een stap naar achteren"
+  ],
+  [
+    "{{ひとつ前面へ}}",
+    "Eén stap vooruit"
+  ],
+  [
+    "{{最前面}}",
+    "voorste"
+  ],
+  [
+    "{{重ね順}}",
+    "stapelvolgorde"
+  ],
+  [
+    "{{プラグイン}}",
+    "plug-in"
+  ],
+  [
+    "{{ライブラリ}}",
+    "bibliotheek"
+  ],
+  [
+    "{{プロパティ}}",
+    "eigenschappen"
+  ],
+  [
+    "{{マスクレイヤー}}",
+    "masker laag"
+  ],
+  [
+    "{{通常レイヤー}}",
+    "normale laag"
+  ],
+  [
+    "{{モーショントゥイーンの削除}}",
+    "Bewegings-tween verwijderen"
+  ],
+  [
+    "{{モーショントゥイーンの追加}}",
+    "Bewegings-tweens toevoegen"
+  ],
+  [
+    "{{モーダル表示}}",
+    "Modale weergave"
+  ],
+  [
+    "{{言語}}",
+    "taal"
+  ],
+  [
+    "{{フォーマット}}",
+    "formaat"
+  ],
+  [
+    "{{含める}}",
+    "erbij betrekken"
+  ],
+  [
+    "{{含めない}}",
+    "niet omvatten"
+  ],
+  [
+    "{{使い方、リファレンス}}",
+    "Hoe te gebruiken, referentie"
+  ],
+  [
+    "{{非表示レイヤー}}",
+    "verborgen laag"
+  ],
+  [
+    "{{設定}}",
+    "instelling"
+  ],
+  [
+    "{{デフォルトのループを利用する}}",
+    "Gebruik standaardlus"
+  ],
+  [
+    "{{フレームピッカー}}",
+    "framekiezer"
+  ],
+  [
+    "{{左揃え}}",
+    "linker uitlijning"
+  ],
+  [
+    "{{中央揃え(水平方向)}}",
+    "Uitlijning midden (horizontaal)"
+  ],
+  [
+    "{{右揃え}}",
+    "Rechtse uitlijning"
+  ],
+  [
+    "{{上揃え}}",
+    "Uitlijning bovenaan"
+  ],
+  [
+    "{{中央揃え(垂直方向)}}",
+    "Midden (verticaal)"
+  ],
+  [
+    "{{下揃え}}",
+    "Onderste uitlijning"
+  ],
+  [
+    "{{開始フレーム}}",
+    "startframe"
+  ],
+  [
+    "{{終了フレーム}}",
+    "eindframe"
+  ],
+  [
+    "{{ループで再生}}",
+    "speel in lus"
+  ],
+  [
+    "{{1回再生}}",
+    "Speel een keer"
+  ],
+  [
+    "{{指定したフレームで固定}}",
+    "Vast op gespecificeerd frame"
+  ],
+  [
+    "{{1回逆再生}}",
+    "Eén keer achteruit afspelen"
+  ],
+  [
+    "{{逆ループで再生}}",
+    "Speel in omgekeerde lus"
+  ],
+  [
+    "{{画面の拡大・縮小}}",
+    "Het scherm vergroten/verkleinen"
+  ],
+  [
+    "{{カスタムイージングデータを保存}}",
+    "Sla aangepaste versoepelingsgegevens op"
+  ],
+  [
+    "{{カスタムイージングデータの読込}}",
+    "Aangepaste versoepelingsgegevens laden"
+  ],
+  [
+    "{{プレビューのON/OFF}}",
+    "Voorbeeld AAN/UIT"
+  ],
+  [
+    "{{フォント枠サイズ}}",
+    "framegrootte van lettertype"
+  ],
+  [
+    "{{フォント枠カラー}}",
+    "randkleur van het lettertype"
+  ],
+  [
+    "{{オニオンスキン}}",
+    "uienhuid"
+  ],
+  [
+    "{{バケツツール}}",
+    "emmer gereedschap"
+  ],
+  [
+    "{{ペンツール}}",
+    "pen gereedschap"
+  ],
+  [
+    "{{ダブルクリックでカーブポイントが追加されます}}",
+    "Dubbelklik om curvepunten toe te voegen"
+  ],
+  [
+    "{{選択ツール}}",
+    "selectie hulpmiddel"
+  ],
+  [
+    "{{Shape変形ツール}}",
+    "Gereedschap voor vormtransformatie"
+  ],
+  [
+    "{{テキストツール}}",
+    "tekst hulpmiddelen"
+  ],
+  [
+    "{{矩形ツール}}",
+    "rechthoekig gereedschap"
+  ],
+  [
+    "{{楕円ツール}}",
+    "Ellips gereedschap"
+  ],
+  [
+    "{{角丸矩形ツール}}",
+    "Gereedschap voor afgeronde rechthoeken"
+  ],
+  [
+    "{{塗りのカラー}}",
+    "kleur van verf"
+  ],
+  [
+    "{{線のカラー}}",
+    "lijn kleur"
+  ],
+  [
+    "{{線の太さ}}",
+    "lijndikte"
+  ],
+  [
+    "{{プロジェクトデータの読込}}",
+    "Projectgegevens laden"
+  ],
+  [
+    "{{プロジェクトデータを保存}}",
+    "Projectgegevens opslaan"
+  ],
+  [
+    "{{書き出し}}",
+    "Begin met schrijven"
+  ],
+  [
+    "{{Discordへ移動}}",
+    "Ga naar Onenigheid"
+  ],
+  [
+    "{{バグ報告}}",
+    "Bugrapport"
+  ],
+  [
+    "{{設定}}",
+    "instelling"
+  ],
+  [
+    "{{タブを追加}}",
+    "tabblad toevoegen"
+  ],
+  [
+    "{{タブの一覧を表示・移動}}",
+    "Tabbladlijst weergeven/verplaatsen"
+  ],
+  [
+    "{{スクリプトを追加}}",
+    "script toevoegen"
+  ],
+  [
+    "{{キーフレームを追加}}",
+    "Sleutelframe toevoegen"
+  ],
+  [
+    "{{空のキーフレームを追加}}",
+    "Voeg een leeg sleutelframe toe"
+  ],
+  [
+    "{{フレームを追加}}",
+    "kader toevoegen"
+  ],
+  [
+    "{{フレームを削除}}",
+    "kader verwijderen"
+  ],
+  [
+    "{{再生}}",
+    "reproductie"
+  ],
+  [
+    "{{停止}}",
+    "Stop"
+  ],
+  [
+    "{{ループ設定}}",
+    "Loop-instellingen"
+  ],
+  [
+    "{{レイヤーを追加}}",
+    "laag toevoegen"
+  ],
+  [
+    "{{レイヤーを削除}}",
+    "laag verwijderen"
+  ],
+  [
+    "{{全てのレイヤーをハイライト}}",
+    "Markeer alle lagen"
+  ],
+  [
+    "{{全てのレイヤーを非表示}}",
+    "Verberg alle lagen"
+  ],
+  [
+    "{{全てのレイヤーをロック}}",
+    "sluit alle lagen"
+  ],
+  [
+    "{{比率を固定}}",
+    "Vaste verhouding"
+  ],
+  [
+    "{{ステージの幅}}",
+    "podium breedte"
+  ],
+  [
+    "{{背景色}}",
+    "achtergrondkleur"
+  ],
+  [
+    "{{ステージの高さ}}",
+    "podium hoogte"
+  ],
+  [
+    "{{フレームレート}}",
+    "framesnelheid"
+  ],
+  [
+    "{{シンボル名}}",
+    "symbool naam"
+  ],
+  [
+    "{{イージング設定}}",
+    "Versoepeling instellingen"
+  ],
+  [
+    "{{ビデオの音量設定}}",
+    "Instellingen voor videovolume"
+  ],
+  [
+    "{{自動再生}}",
+    "automatisch afspelen"
+  ],
+  [
+    "{{テキストエリアのボーダー設定}}",
+    "Instellingen voor de rand van het tekstgebied"
+  ],
+  [
+    "{{テキスト入力設定}}",
+    "Instellingen voor tekstinvoer"
+  ],
+  [
+    "{{フォント選択}}",
+    "Lettertype selectie"
+  ],
+  [
+    "{{自動サイズ調整}}",
+    "automatische aanpassing van de grootte"
+  ],
+  [
+    "{{フォントスタイルタイプ}}",
+    "lettertypestijl"
+  ],
+  [
+    "{{行揃え}}",
+    "lijnuitlijning"
+  ],
+  [
+    "{{改行設定}}",
+    "Instellingen voor regeleinden"
+  ],
+  [
+    "{{スクロール設定}}",
+    "scroll-instellingen"
+  ],
+  [
+    "{{フォントサイズ}}",
+    "lettergrootte"
+  ],
+  [
+    "{{フォントカラー}}",
+    "lettertype kleur"
+  ],
+  [
+    "{{行間}}",
+    "Tussen de regels"
+  ],
+  [
+    "{{文字幅}}",
+    "teken breedte"
+  ],
+  [
+    "{{左マージン}}",
+    "linkermarge"
+  ],
+  [
+    "{{右マージン}}",
+    "rechter marge"
+  ],
+  [
+    "{{カラー種別の選択}}",
+    "Selecteer kleurtype"
+  ],
+  [
+    "{{背景画像の選択}}",
+    "Selectie van achtergrondafbeeldingen"
+  ],
+  [
+    "{{カラーポインターを追加}}",
+    "Kleuraanwijzer toevoegen"
+  ],
+  [
+    "{{カラー値}}",
+    "kleur waarde"
+  ],
+  [
+    "{{アルファ(0%-100%)}}",
+    "Alfa (0%-100%)"
+  ],
+  [
+    "{{アルファ値}}",
+    "alfa-waarde"
+  ],
+  [
+    "{{選択対象の幅}}",
+    "Breedte van selectie"
+  ],
+  [
+    "{{選択対象のX座標}}",
+    "X-coördinaat van selectie"
+  ],
+  [
+    "{{選択対象の高さ}}",
+    "Hoogte van selectie"
+  ],
+  [
+    "{{選択対象のY座標}}",
+    "Y-coördinaat van selectie"
+  ],
+  [
+    "{{選択対象の幅の伸縮}}",
+    "De breedte van de selectie uitrekken"
+  ],
+  [
+    "{{選択対象を回転}}",
+    "Selectie roteren"
+  ],
+  [
+    "{{選択対象の高さの伸縮}}",
+    "Rek of verklein de hoogte van de selectie"
+  ],
+  [
+    "{{アルファオフセット(-255〜255)}}",
+    "Alfa-offset (-255 tot 255)"
+  ],
+  [
+    "{{赤(0%-100%)}}",
+    "Rood (0%-100%)"
+  ],
+  [
+    "{{赤オフセット(-255〜255)}}",
+    "Roodverschuiving (-255 tot 255)"
+  ],
+  [
+    "{{緑(0%-100%)}}",
+    "Groen (0%-100%)"
+  ],
+  [
+    "{{緑オフセット(-255〜255)}}",
+    "Groene compensatie (-255 tot 255)"
+  ],
+  [
+    "{{青(0%-100%)}}",
+    "Blauw (0%-100%)"
+  ],
+  [
+    "{{青オフセット(-255〜255)}}",
+    "Blauwe verschuiving (-255 tot 255)"
+  ],
+  [
+    "{{ブレンドモード}}",
+    "mengmodus"
+  ],
+  [
+    "{{フィルターを選択}}",
+    "Selecteer filteren"
+  ],
+  [
+    "{{フィルターを追加}}",
+    "filter toevoegen"
+  ],
+  [
+    "{{サウンドを追加}}",
+    "geluid toevoegen"
+  ],
+  [
+    "{{フィルターを表示・非表示する}}",
+    "Filters tonen/verbergen"
+  ],
+  [
+    "{{フィルターを削除}}",
+    "filter verwijderen"
+  ],
+  [
+    "{{水平方向にぼかす}}",
+    "horizontaal vervagen"
+  ],
+  [
+    "{{垂直方向にぼかす}}",
+    "verticaal vervagen"
+  ],
+  [
+    "{{フィルター強度}}",
+    "filtersterkte"
+  ],
+  [
+    "{{フィルター角度}}",
+    "hoek filteren"
+  ],
+  [
+    "{{シャドウのアルファ}}",
+    "schaduw alfa"
+  ],
+  [
+    "{{シャドウのカラー}}",
+    "schaduw kleur"
+  ],
+  [
+    "{{フィルター距離}}",
+    "filterafstand"
+  ],
+  [
+    "{{ハイライトのカラー}}",
+    "markeer kleur"
+  ],
+  [
+    "{{ハイライトのアルファ}}",
+    "Markeer alfa"
+  ],
+  [
+    "{{グラデーションカラー}}",
+    "gradatie kleur"
+  ],
+  [
+    "{{グラデーションのアルファ}}",
+    "gradiënt alfa"
+  ],
+  [
+    "{{タブの移動・名前を変更}}",
+    "Tabbladen verplaatsen/hernoemen"
+  ],
+  [
+    "{{プロジェクトを閉じる}}",
+    "Project afsluiten"
+  ],
+  [
+    "{{上下に移動}}",
+    "op en neer bewegen"
+  ],
+  [
+    "{{レイヤー変更(ダブルクリック)}}",
+    "Laag wijzigen (dubbelklikken)"
+  ],
+  [
+    "{{レイヤーをハイライト}}",
+    "markeer laag"
+  ],
+  [
+    "{{レイヤーを非表示}}",
+    "laag verbergen"
+  ],
+  [
+    "{{レイヤーをロック}}",
+    "slot laag"
+  ],
+  [
+    "{{カーブポインター(ダブルクリックでON/OFF)}}",
+    "Curveaanwijzer (dubbelklik om aan/uit te zetten)"
+  ],
+  [
+    "{{インスタンス名}}",
+    "exemplaarnaam"
+  ],
+  [
+    "{{ライブラリ内の検索}}",
+    "Zoek in bibliotheek"
+  ],
+  [
+    "{{フレームラベル}}",
+    "frame-label"
+  ],
+  [
+    "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+    "Als het project niet is opgeslagen, kunnen de projectgegevens op dit tabblad niet worden hersteld.Wilt u het tabblad verwijderen?"
+  ]
+]

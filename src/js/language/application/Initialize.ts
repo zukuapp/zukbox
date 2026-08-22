@@ -94,7 +94,7 @@ export const execute = async (): Promise<void> =>
                 break;
 
             default:
-                language = "English";
+                language = "Korean";
                 break;
 
         }

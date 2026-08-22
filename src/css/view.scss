@@ -5,8 +5,8 @@
     margin-right   : auto;
     display        : flex;
     flex-direction : column;
-    border-left    : var(--view-border-width) solid #1c1c1c;
-    border-right   : var(--view-border-width) solid #1c1c1c;
+    border-left    : var(--view-border-width) solid var(--zbx-border);
+    border-right   : var(--view-border-width) solid var(--zbx-border);
     overflow       : hidden;
 
     .screen-x-bar-area
@@ -14,7 +14,7 @@
         height           : 10px;
         display          : flex;
         align-items      : center;
-        background-color : #282828;
+        background-color : var(--zbx-bg-surface);
     }
 
     .screen-y-bar-area
@@ -23,7 +23,7 @@
         height           : calc(100vh - (var(--timeline-height) + 31px));
         display          : flex;
         align-items      : center;
-        background-color : #282828;
+        background-color : var(--zbx-bg-surface);
     } 
 }
 

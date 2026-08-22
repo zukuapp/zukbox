@@ -4,6 +4,7 @@ import { execute as zoomToolInitializeUseCase } from "./ZoomTool/usecase/ZoomToo
 import { execute as fillColorInitializeUseCase } from "./FillColor/usecase/FillColorInitializeUseCase";
 import { execute as strokeColorInitializeUseCase } from "./StrokeColor/usecase/StrokeColorInitializeUseCase";
 import { execute as strokeSizeInitializeUseCase } from "./StrokeSize/usecase/StrokeSizeInitializeUseCase";
+import { execute as publishToolExportInitializeUseCase } from "./PublishTool/usecase/PublishToolExportInitializeUseCase";
 
 /**
  * @description ツールエリアの初期起動関数
@@ -29,4 +30,7 @@ export const execute = async (): Promise<void> =>
 
     // 線の幅のinputのイベントを登録
     strokeSizeInitializeUseCase();
+
+    // .zwf 書き出し
+    publishToolExportInitializeUseCase();
 };

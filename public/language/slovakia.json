@@ -1,0 +1,1546 @@
+[
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+    "Presun %s3 rámca a hĺbky %s4 vrstvy [%s2] z [%s1] do hĺbky %s5"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+    "Odstráňte [%s5] z vrstvy [%s2] z [%s1] v snímke %s3 a hĺbke %s4."
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+    "Zmeňte maticu pre vrstvu [%s2] z [%s1] v snímke %s3 a hĺbke %s4 z %s5° na %s6°."
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+    "Zmeňte režim prekrývania pre vrstvu [%s2] z [%s1] v snímke %s3 a hĺbke %s4 z [%s5] na [%s6]."
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 modrá zložkaposun%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 modrá zložka%s5%z%s6%na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 zelená zložkaposun%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 zelená zložka%s5%z%s6%na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 červená zložkaposun%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 červená zložka%s5%z%s6%na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 priehľadnosťposun%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 priehľadnosť%s5%z%s6%na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 stredový bod x-súradnica%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 stredový bod y-súradnica%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 stredový bod[%s5]z[%s6]na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 rotácia%s5°z%s6°na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 y-mierka%s5%z%s6%na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 x-mierka%s5%z%s6%na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 názov%s5na"
+  ],
+  [
+    "{{新規Text[%s1]を追加}}",
+    "Nový text[%s1]pridané"
+  ],
+  [
+    "{{[%s1]のグラフィックを変更}}",
+    "[%s1] grafikazmeniť"
+  ],
+  [
+    "{{新規Shape[%s1]を追加}}",
+    "Nový tvar[%s1]pridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 y-súradnica%s5z%s6na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+    "[%s1] vrstva[%s2] %s3snímka・hĺbka%s4 x-súradnica%s5z%s6na"
+  ],
+  [
+    "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+    "Scéna farba pozadia[%s1]z[%s2]na"
+  ],
+  [
+    "{{ステージのFPSを%s1から%s2に変更}}",
+    "Scéna FPS%s1z%s2na"
+  ],
+  [
+    "{{ステージの高さを%s1から%s2に変更}}",
+    "Scéna výška%s1z%s2na"
+  ],
+  [
+    "{{ステージの幅を%s1から%s2に変更}}",
+    "Scéna šírka%s1z%s2na"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベルを削除}}",
+    "[%s1] %s2snímka štítokvymazané"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+    "[%s1] %s2snímka štítok[%s3][%s4]na"
+  ],
+  [
+    "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+    "[%s1] %s2snímkadoštítok[%s3]registrovať"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+    "[%s1] %s2snímka zvuk[%s3] počet cyklov%s4z%s5na"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+    "[%s1] %s2snímka zvuk[%s3] hlasitosť%s4z%s5na"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+    "[%s1] %s2snímka zvuk[%s3]vymazané"
+  ],
+  [
+    "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+    "[%s1] %s2snímkadozvuk[%s3]pridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+    "[%s1] vrstva[%s2] %s3snímka kľúčsnímkavymazané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+    "[%s1] vrstva[%s2] %s3snímka kľúčsnímkavšetko zmazané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+    "[%s1] vrstva[%s2] %s3snímka kľúčsnímkavšetko zmazané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+    "[%s1] vrstva[%s2] %s3snímka prázdny kľúčsnímkavšetko vymazané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+    "[%s1] vrstva[%s2] %s3snímka kľúčsnímkaz%s4snímkavymazať"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+    "[%s1] vrstva[%s2] %s3snímka prázdny kľúčsnímkaz%s4snímkavymazať"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+    "[%s1] vrstva[%s2] %s3snímka kľúčsnímkarozdeliť"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+    "[%s1] vrstva[%s2] %s3snímka kľúčsnímkado%s4snímkapridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+    "[%s1] vrstva[%s2] %s3snímkado[%s4]pridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+    "[%s1] vrstva[%s2] %s3snímkado%s4snímkapridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+    "[%s1] vrstva[%s2] %s3snímka prázdny kľúčsnímkarozdeliť"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+    "[%s1] vrstva[%s2] %s3snímka prázdny kľúčsnímkado%s4snímkapridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+    "[%s1] vrstva[%s2] %s3snímkadoprázdny kľúčsnímkapridané"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+    "[%s1] vrstva[%s2][%s3]na"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+    "[%s1] vrstva[%s2] zvýrazniťfarba zmena"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を移動}}",
+    "[%s1] vrstva[%s2]presunúť"
+  ],
+  [
+    "{{[%s1]を画像に上書き}}",
+    "[%s1]obrázokdoprepísať"
+  ],
+  [
+    "{{[%s1]を動画に上書き}}",
+    "[%s1]videodoprepísať"
+  ],
+  [
+    "{{[%s1]を音声に上書き}}",
+    "[%s1]zvukdoprepísať"
+  ],
+  [
+    "{{ライブラリから[%s1]を削除}}",
+    "knižnicaz[%s1]vymazané"
+  ],
+  [
+    "{{MoiveClip一覧}}",
+    "Zoznam MoveClip"
+  ],
+  [
+    "{{新規フォルダー[%s1]を追加}}",
+    "nový priečinok[%s1]pridané"
+  ],
+  [
+    "{{新規MovieClip[%s1]を追加}}",
+    "novýMovieClip[%s1]pridané"
+  ],
+  [
+    "{{音声[%s1]を取り込み}}",
+    "zvuk[%s1]importovať"
+  ],
+  [
+    "{{動画[%s1]を取り込み}}",
+    "video[%s1]importovať"
+  ],
+  [
+    "{{[%s1]のフォルダ移動}}",
+    "[%s1] Presunúť priečinok"
+  ],
+  [
+    "{{画像[%s1]を取り込み}}",
+    "obrázok[%s1]importovať"
+  ],
+  [
+    "{{[%s1]のシンボル名を[%s2]に変更}}",
+    "[%s1] názov symbolu[%s2]na"
+  ],
+  [
+    "{{[%s1]の名前を[%s2]に変更}}",
+    "[%s1] názov[%s2]na"
+  ],
+  [
+    "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+    "[%s1] názov vrstvy[%s2][%s3]na"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを削除}}",
+    "[%s1] %s2snímka skriptvymazané"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを変更}}",
+    "[%s1] %s2snímka skriptchange"
+  ],
+  [
+    "{{[%s1]の%s2フレームにスクリプトを追加}}",
+    "[%s1] %s2snímkadoskriptpridané"
+  ],
+  [
+    "{{プロジェクト名[%s1]を[%s2]に変更}}",
+    "Názov projektu[%s1][%s2]nie"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を削除}}",
+    "[%s1] vrstva[%s2]vymazané"
+  ],
+  [
+    "{{[%s1]にレイヤー[%s2]を追加}}",
+    "[%s1]dovrstva[%s2]pridané"
+  ],
+  [
+    "{{同名のシンボルが存在します}}",
+    "je prítomný symbol rovnakého názvu"
+  ],
+  [
+    "{{広告枠の非表示}}",
+    "Reklamný priestor skrytý"
+  ],
+  [
+    "{{履歴}}",
+    "histórie"
+  ],
+  [
+    "{{エリア位置の移動}}",
+    "Umiestnenie oblasti presunúť"
+  ],
+  [
+    "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+    "Ak si pozriete videoreklamu v aplikácii podpory, budete mať výhodu zrušenia funkčných obmedzení na 7 dní."
+  ],
+  [
+    "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+    "Animation Tool je open source a je k dispozícii zadarmo."
+  ],
+  [
+    "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+    "Ocenili by sme, keby ste nám pomohli vyvinúť lepšie funkcie a nové verzie."
+  ],
+  [
+    "{{機能制限を解除}}",
+    "Uvoľnenie obmedzenia funkcie"
+  ],
+  [
+    "{{サポーターアプリをインストール}}",
+    "Inštalácia aplikácie podpory"
+  ],
+  [
+    "{{画面共有}}",
+    "zdieľanie obrazovky"
+  ],
+  [
+    "{{画面共有の機能を起動}}",
+    "aktivácia funkcie zdieľania obrazovky"
+  ],
+  [
+    "{{前のキーフレームと座標を合わせる}}",
+    "Spojte predchádzajúci kľúčsnímka a súradnica"
+  ],
+  [
+    "{{前のキーフレームと変形を合わせる}}",
+    "Skombinujte transformáciu s predchádzajúcim kľúčsnímkom"
+  ],
+  [
+    "{{次のキーフレームと座標を合わせる}}",
+    "이름을 사람의 이름과 일치시키세요."
+  ],
+  [
+    "{{次のキーフレームと変形を合わせる}}",
+    "이전의 변신과 매칭"
+  ],
+  [
+    "{{次のキーフレームに移動}}",
+    "Ďalší kľúčsnímkado ťahu"
+  ],
+  [
+    "{{前のキーフレームに移動}}",
+    "predchádzajúci kľúčsnímkado ťahu"
+  ],
+  [
+    "{{全てのスクリプトをコピー}}",
+    "všetko skriptcopy"
+  ],
+  [
+    "{{スクリプトをコピー}}",
+    "skriptcopy"
+  ],
+  [
+    "{{スクリプトをペースト}}",
+    "skript paste"
+  ],
+  [
+    "{{全てのラベルをコピー}}",
+    "všetko štítokkopírovať"
+  ],
+  [
+    "{{ラベルをコピー}}",
+    "štítokkopírovať"
+  ],
+  [
+    "{{ラベルをペースト}}",
+    "štítokprilepiť"
+  ],
+  [
+    "{{全てのサウンドをコピー}}",
+    "všetko zvukkopírovať"
+  ],
+  [
+    "{{サウンドをコピー}}",
+    "zvukkopírovať"
+  ],
+  [
+    "{{サウンドをペースト}}",
+    "zvukprilepiť"
+  ],
+  [
+    "{{書き出し先の選択}}",
+    "Cieľ vybrať"
+  ],
+  [
+    "{{画質}}",
+    "kvalitu obrazu"
+  ],
+  [
+    "{{座標}}",
+    "súradnica"
+  ],
+  [
+    "{{MovieClipを編集}}",
+    "MovieClipupraviť"
+  ],
+  [
+    "{{親の階層へ移動}}",
+    "Presuňte sa do nadradenej hierarchie"
+  ],
+  [
+    "{{ロックされたレイヤーです}}",
+    "Je zamknutá vrstva"
+  ],
+  [
+    "{{トゥイーンには複数のオブジェクトを設置できません}}",
+    "Tween do nemôže nastaviť viacero objektov"
+  ],
+  [
+    "{{名前が重複しています}}",
+    "názov je duplicitný"
+  ],
+  [
+    "{{名前は必須です}}",
+    "názov je povinný"
+  ],
+  [
+    "{{基準点}}",
+    "Referenčný bod"
+  ],
+  [
+    "{{自由変形ツール}}",
+    "Bezplatný transformačný nástroj"
+  ],
+  [
+    "{{キーフレームに変換}}",
+    "kľúčsnímkadokonvertovať"
+  ],
+  [
+    "{{空のキーフレームに変換}}",
+    "prázdny kľúčsnímkadokonvertovať"
+  ],
+  [
+    "{{最初のフレームに移動}}",
+    "prvý snímkado ťah"
+  ],
+  [
+    "{{最後のフレームに移動}}",
+    "Posledný ťah snímkado"
+  ],
+  [
+    "{{SWFを解析中}}",
+    "Prebieha analýza SWF"
+  ],
+  [
+    "{{JSONを生成}}",
+    "generácie JSON"
+  ],
+  [
+    "{{ファイルを生成}}",
+    "Generovanie súboru"
+  ],
+  [
+    "{{N2Dファイルの読み込み}}",
+    "N2D súbor načítať"
+  ],
+  [
+    "{{JSONの読み込み}}",
+    "JSON načítať"
+  ],
+  [
+    "{{データを解凍中}}",
+    "Dekompresia údajov"
+  ],
+  [
+    "{{データを圧縮中}}",
+    "Prebieha kompresia údajov"
+  ],
+  [
+    "{{エンコード}}",
+    "zakódovať"
+  ],
+  [
+    "{{外部ファイルの読み込み}}",
+    "Externý súbor načítať"
+  ],
+  [
+    "{{バイナリデータを生成}}",
+    "Generovanie binárnych údajov"
+  ],
+  [
+    "{{データベースを起動}}",
+    "Spustenie databázy"
+  ],
+  [
+    "{{データを保存中}}",
+    "Ukladanie dát"
+  ],
+  [
+    "{{完了}}",
+    "dokončenie"
+  ],
+  [
+    "{{ステージ左揃え}}",
+    "Zarovnanie scény doľava"
+  ],
+  [
+    "{{ステージ中央揃え(水平方向)}}",
+    "Scénazarovnať na stred(horizontálne)"
+  ],
+  [
+    "{{ステージ右揃え}}",
+    "Zarovnanie scény vpravo"
+  ],
+  [
+    "{{ステージ上揃え}}",
+    "Horné zarovnanie scény"
+  ],
+  [
+    "{{ステージ中央揃え(垂直方向)}}",
+    "Scénazarovnať na stred(vertikálne)"
+  ],
+  [
+    "{{ステージ下揃え}}",
+    "Spodné zarovnanie scény"
+  ],
+  [
+    "{{定規}}",
+    "pravítko"
+  ],
+  [
+    "{{表示}}",
+    "displej"
+  ],
+  [
+    "{{ショートカット}}",
+    "skratka"
+  ],
+  [
+    "{{レイヤーを複製}}",
+    "vrstvaduplikovať"
+  ],
+  [
+    "{{未使用のフォルダを削除}}",
+    "Nepoužitý priečinok vymazané"
+  ],
+  [
+    "{{同名のアイテムが存在します}}",
+    "rovnaký názov položka existuje"
+  ],
+  [
+    "{{追加ファイル}}",
+    "dodatočný súbor"
+  ],
+  [
+    "{{既存のコンテンツ}}",
+    "Existujúci obsah"
+  ],
+  [
+    "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+    "Môžete ho pripraviť, premenovať súbor a pridať ho alebo zrušiť."
+  ],
+  [
+    "{{全て上書き}}",
+    "všetkoprepísať"
+  ],
+  [
+    "{{全てキャンセル}}",
+    "všetko zrušiť"
+  ],
+  [
+    "{{追加・上書き}}",
+    "pridať・prepísať"
+  ],
+  [
+    "{{キャンセル}}",
+    "zrušiť"
+  ],
+  [
+    "{{表示確認したいフレームを指定}}",
+    "Snímkajte na kontrolu displeja"
+  ],
+  [
+    "{{ファイル名を指定}}",
+    "Názov súboru odoslať"
+  ],
+  [
+    "{{ファイル名}}",
+    "názov súboru"
+  ],
+  [
+    "{{終了フレームを指定}}",
+    "koniec snímkovať"
+  ],
+  [
+    "{{開始フレームを指定}}",
+    "začať snímkovať"
+  ],
+  [
+    "{{フレーム設定}}",
+    "snímkanastavenia"
+  ],
+  [
+    "{{書き出し設定}}",
+    "Exportovať nastavenia"
+  ],
+  [
+    "{{ファイル形式の選択}}",
+    "Vyberte formát súboru"
+  ],
+  [
+    "{{ファイル形式}}",
+    "formát súboru"
+  ],
+  [
+    "{{サイズ設定}}",
+    "Nastavenia veľkosti"
+  ],
+  [
+    "{{左上}}",
+    "vľavo hore"
+  ],
+  [
+    "{{中央上}}",
+    "horný stred"
+  ],
+  [
+    "{{右上}}",
+    "vpravo hore"
+  ],
+  [
+    "{{中央左}}",
+    "stred vľavo"
+  ],
+  [
+    "{{中央}}",
+    "stred"
+  ],
+  [
+    "{{中央右}}",
+    "stred vpravo"
+  ],
+  [
+    "{{左下}}",
+    "vľavo dole"
+  ],
+  [
+    "{{中央下}}",
+    "stred dole"
+  ],
+  [
+    "{{右下}}",
+    "vpravo dole"
+  ],
+  [
+    "{{中心点のX座標}}",
+    "stredový bod Xsúradnica"
+  ],
+  [
+    "{{中心点のY座標}}",
+    "stredový bod Ysúradnica"
+  ],
+  [
+    "{{MovieClipに変換}}",
+    "MovieClipdokonvertovať"
+  ],
+  [
+    "{{変換}}",
+    "konvertovať"
+  ],
+  [
+    "{{ループ回数}}",
+    "počet cyklov"
+  ],
+  [
+    "{{カーブポインターの削除}}",
+    "ukazovateľ krivky vymazať"
+  ],
+  [
+    "{{ステージ基準}}",
+    "Štandardy scény"
+  ],
+  [
+    "{{閉じる}}",
+    "zavrieť"
+  ],
+  [
+    "{{保存}}",
+    "uložiť"
+  ],
+  [
+    "{{リセット}}",
+    "resetovať"
+  ],
+  [
+    "{{スクリーン}}",
+    "obrazovke"
+  ],
+  [
+    "{{ショートカット設定}}",
+    "Nastavenia skratiek"
+  ],
+  [
+    "{{レイヤーカラー}}",
+    "vrstvafarba"
+  ],
+  [
+    "{{Next2Dを支援する}}",
+    "Next2DSupport"
+  ],
+  [
+    "{{サポート}}",
+    "podporu"
+  ],
+  [
+    "{{未使用のアイテムを削除}}",
+    "Nepoužitá vec vymazaná"
+  ],
+  [
+    "{{レイヤーをペースト}}",
+    "vrstvaprilepiť"
+  ],
+  [
+    "{{レイヤーをコピー}}",
+    "vrstvakopírovať"
+  ],
+  [
+    "{{フレームをペースト}}",
+    "snímkaprilepiť"
+  ],
+  [
+    "{{フレームをコピー}}",
+    "snímkakopírovať"
+  ],
+  [
+    "{{キーフレームを削除}}",
+    "kľúčsnímkavymazané"
+  ],
+  [
+    "{{キーフレームに空のキーフレームを追加できません}}",
+    "kľúčsnímka do prázdneho kľúčsnímkapridané"
+  ],
+  [
+    "{{ズームツール}}",
+    "nástroj zoom"
+  ],
+  [
+    "{{タイムライン幅の拡大・縮小}}",
+    "Časová os šírka Zväčšiť/Zmenšiť"
+  ],
+  [
+    "{{ガイドレイヤー}}",
+    "vodiaca vrstva"
+  ],
+  [
+    "{{音量設定}}",
+    "hlasitosťnastavenia"
+  ],
+  [
+    "{{サウンドを削除}}",
+    "zvukvymazané"
+  ],
+  [
+    "{{カスタムループ}}",
+    "vlastná slučka"
+  ],
+  [
+    "{{読込のみ}}",
+    "načítať mi"
+  ],
+  [
+    "{{書込を許可}}",
+    "povolenie na zápis"
+  ],
+  [
+    "{{単一行}}",
+    "jeden riadok"
+  ],
+  [
+    "{{複数行}}",
+    "viac riadkov"
+  ],
+  [
+    "{{自動で折り返し}}",
+    "Automaticky zabaliť"
+  ],
+  [
+    "{{左寄せ}}",
+    "zarovnanie doľava"
+  ],
+  [
+    "{{中央揃え}}",
+    "zarovnať na stred"
+  ],
+  [
+    "{{右寄せ}}",
+    "Pravé zarovnanie"
+  ],
+  [
+    "{{放射状グラデーション}}",
+    "radiálny gradient"
+  ],
+  [
+    "{{線形グラデーション}}",
+    "lineárny gradient"
+  ],
+  [
+    "{{画像}}",
+    "obrázok"
+  ],
+  [
+    "{{画像選択}}",
+    "obrázokvybrať"
+  ],
+  [
+    "{{種別}}",
+    "typu"
+  ],
+  [
+    "{{Shapeの色設定}}",
+    "Nastavenia farieb tvaru"
+  ],
+  [
+    "{{変形}}",
+    "deformácia"
+  ],
+  [
+    "{{カラー効果}}",
+    "farebný efekt"
+  ],
+  [
+    "{{フィルター}}",
+    "filter"
+  ],
+  [
+    "{{Shapeを複製}}",
+    "Shapeduplikovať"
+  ],
+  [
+    "{{読み込み}}",
+    "načítať"
+  ],
+  [
+    "{{新規フォルダー}}",
+    "nový priečinok"
+  ],
+  [
+    "{{新規MovieClip}}",
+    "novýMovieClip"
+  ],
+  [
+    "{{枠に合わせてテキストをリサイズ}}",
+    "Zmeňte veľkosť textu tak, aby sa zmestil do rámčeka"
+  ],
+  [
+    "{{テキストに合わせて枠をリサイズ}}",
+    "Zmeňte veľkosť rámu tak, aby sa zmestil do textu"
+  ],
+  [
+    "{{リサイズしない}}",
+    "nemeniť veľkosť"
+  ],
+  [
+    "{{フォント}}",
+    "písmo"
+  ],
+  [
+    "{{テキスト}}",
+    "text"
+  ],
+  [
+    "{{ループ}}",
+    "slučka"
+  ],
+  [
+    "{{音量}}",
+    "hlasitosť"
+  ],
+  [
+    "{{ビデオ}}",
+    "video"
+  ],
+  [
+    "{{イージング}}",
+    "zmiernenie"
+  ],
+  [
+    "{{サウンド}}",
+    "zvuk"
+  ],
+  [
+    "{{シンボル}}",
+    "symbol"
+  ],
+  [
+    "{{名前}}",
+    "názov"
+  ],
+  [
+    "{{オブジェクト}}",
+    "objekt"
+  ],
+  [
+    "{{ステージ設定}}",
+    "Scénanastavenia"
+  ],
+  [
+    "{{プレビュー}}",
+    "náhľad"
+  ],
+  [
+    "{{削除}}",
+    "vymazať"
+  ],
+  [
+    "{{ペースト}}",
+    "prilepiť"
+  ],
+  [
+    "{{コピー}}",
+    "kopírovať"
+  ],
+  [
+    "{{プラグインメニュー}}",
+    "Ponuka pluginov"
+  ],
+  [
+    "{{トゥイーン}}",
+    "doplnenie"
+  ],
+  [
+    "{{カーブポインターの追加}}",
+    "ukazovateľ krivky pridať"
+  ],
+  [
+    "{{パスの結合}}",
+    "cesta"
+  ],
+  [
+    "{{シェイプ}}",
+    "tvar"
+  ],
+  [
+    "{{キーフレームに配分}}",
+    "kľúčsnímkadorozdeliť"
+  ],
+  [
+    "{{レイヤーに配分}}",
+    "vrstvadorozdeliť"
+  ],
+  [
+    "{{タイムライン}}",
+    "časovej osi"
+  ],
+  [
+    "{{整列}}",
+    "zarovnanie"
+  ],
+  [
+    "{{最背面}}",
+    "najviac vzadu"
+  ],
+  [
+    "{{ひとつ背面へ}}",
+    "Choďte o krok dozadu"
+  ],
+  [
+    "{{ひとつ前面へ}}",
+    "Jedna predchádzajúca strana"
+  ],
+  [
+    "{{最前面}}",
+    "Najviac predchadzajúci strana"
+  ],
+  [
+    "{{重ね順}}",
+    "poradie stohovania"
+  ],
+  [
+    "{{プラグイン}}",
+    "plugin"
+  ],
+  [
+    "{{ライブラリ}}",
+    "knižnica"
+  ],
+  [
+    "{{プロパティ}}",
+    "vlastnosti"
+  ],
+  [
+    "{{マスクレイヤー}}",
+    "maska ​​vrstva"
+  ],
+  [
+    "{{通常レイヤー}}",
+    "Normálna vrstva"
+  ],
+  [
+    "{{モーショントゥイーンの削除}}",
+    "doplnenie pohybu"
+  ],
+  [
+    "{{モーショントゥイーンの追加}}",
+    "motion tween pridať"
+  ],
+  [
+    "{{モーダル表示}}",
+    "Modálny displej"
+  ],
+  [
+    "{{言語}}",
+    "jazyk"
+  ],
+  [
+    "{{フォーマット}}",
+    "formát"
+  ],
+  [
+    "{{含める}}",
+    "zahŕňajú"
+  ],
+  [
+    "{{含めない}}",
+    "nezahŕňať"
+  ],
+  [
+    "{{使い方、リファレンス}}",
+    "Ako používať, referencie"
+  ],
+  [
+    "{{非表示レイヤー}}",
+    "skrytývrstva"
+  ],
+  [
+    "{{設定}}",
+    "nastavenia"
+  ],
+  [
+    "{{デフォルトのループを利用する}}",
+    "Použiť predvolenú slučku"
+  ],
+  [
+    "{{フレームピッカー}}",
+    "snímka vyberač"
+  ],
+  [
+    "{{左揃え}}",
+    "zarovnanie doľava"
+  ],
+  [
+    "{{中央揃え(水平方向)}}",
+    "zarovnať na stred(horizontálne)"
+  ],
+  [
+    "{{右揃え}}",
+    "Pravé zarovnanie"
+  ],
+  [
+    "{{上揃え}}",
+    "Horné zarovnanie"
+  ],
+  [
+    "{{中央揃え(垂直方向)}}",
+    "zarovnať na stred(vertikálne)"
+  ],
+  [
+    "{{下揃え}}",
+    "Spodné zarovnanie"
+  ],
+  [
+    "{{開始フレーム}}",
+    "Spustiť snímku"
+  ],
+  [
+    "{{終了フレーム}}",
+    "koniec snímky"
+  ],
+  [
+    "{{ループで再生}}",
+    "hrať v slučke"
+  ],
+  [
+    "{{1回再生}}",
+    "Hrať raz"
+  ],
+  [
+    "{{指定したフレームで固定}}",
+    "Opravené s odoslať snímka"
+  ],
+  [
+    "{{1回逆再生}}",
+    "Obrátené prehrávanie raz"
+  ],
+  [
+    "{{逆ループで再生}}",
+    "Hrajte v spätnej slučke"
+  ],
+  [
+    "{{画面の拡大・縮小}}",
+    "Zväčšenie/zmenšenie obrazovky"
+  ],
+  [
+    "{{カスタムイージングデータを保存}}",
+    "Vlastné uľahčenie ukladania údajov"
+  ],
+  [
+    "{{カスタムイージングデータの読込}}",
+    "Vlastné údaje o zmiernení"
+  ],
+  [
+    "{{プレビューのON/OFF}}",
+    "Náhľad ZAP/VYP"
+  ],
+  [
+    "{{フォント枠サイズ}}",
+    "veľkosť rámu písma"
+  ],
+  [
+    "{{フォント枠カラー}}",
+    "farba rámu písma"
+  ],
+  [
+    "{{オニオンスキン}}",
+    "cibuľová šupka"
+  ],
+  [
+    "{{バケツツール}}",
+    "vedierkové náradie"
+  ],
+  [
+    "{{ペンツール}}",
+    "nástroj pero"
+  ],
+  [
+    "{{ダブルクリックでカーブポイントが追加されます}}",
+    "Dvojitým kliknutím pridáte body krivky"
+  ],
+  [
+    "{{選択ツール}}",
+    "vybrať nástroje"
+  ],
+  [
+    "{{Shape変形ツール}}",
+    "Nástroj na transformáciu tvaru"
+  ],
+  [
+    "{{テキストツール}}",
+    "textové nástroje"
+  ],
+  [
+    "{{矩形ツール}}",
+    "nástroj obdĺžnik"
+  ],
+  [
+    "{{楕円ツール}}",
+    "Nástroj elipsa"
+  ],
+  [
+    "{{角丸矩形ツール}}",
+    "Nástroj zaoblený obdĺžnik"
+  ],
+  [
+    "{{塗りのカラー}}",
+    "maľovaná farba"
+  ],
+  [
+    "{{線のカラー}}",
+    "čiara farba"
+  ],
+  [
+    "{{線の太さ}}",
+    "hrúbka čiary"
+  ],
+  [
+    "{{プロジェクトデータの読込}}",
+    "Projektové dáta načítať"
+  ],
+  [
+    "{{プロジェクトデータを保存}}",
+    "Uložte dáta projektu"
+  ],
+  [
+    "{{書き出し}}",
+    "exportovať"
+  ],
+  [
+    "{{Discordへ移動}}",
+    "Prejdite na Discord"
+  ],
+  [
+    "{{バグ報告}}",
+    "Hlásenie chyby"
+  ],
+  [
+    "{{設定}}",
+    "nastavenia"
+  ],
+  [
+    "{{タブを追加}}",
+    "kartapridané"
+  ],
+  [
+    "{{タブの一覧を表示・移動}}",
+    "zobrazenie zoznamu kariet/presunúť"
+  ],
+  [
+    "{{スクリプトを追加}}",
+    "skriptpridané"
+  ],
+  [
+    "{{キーフレームを追加}}",
+    "kľúčsnímkapridané"
+  ],
+  [
+    "{{空のキーフレームを追加}}",
+    "prázdny kľúčsnímkapridané"
+  ],
+  [
+    "{{フレームを追加}}",
+    "snímkapridané"
+  ],
+  [
+    "{{フレームを削除}}",
+    "snímkavymazané"
+  ],
+  [
+    "{{再生}}",
+    "reprodukcie"
+  ],
+  [
+    "{{停止}}",
+    "Stop"
+  ],
+  [
+    "{{ループ設定}}",
+    "Nastavenia slučky"
+  ],
+  [
+    "{{レイヤーを追加}}",
+    "vrstvapridané"
+  ],
+  [
+    "{{レイヤーを削除}}",
+    "vrstvavymazané"
+  ],
+  [
+    "{{全てのレイヤーをハイライト}}",
+    "všetko vrstvazvýrazniť"
+  ],
+  [
+    "{{全てのレイヤーを非表示}}",
+    "všetko vrstvaskrytý"
+  ],
+  [
+    "{{全てのレイヤーをロック}}",
+    "všetko vrstva zámok"
+  ],
+  [
+    "{{比率を固定}}",
+    "pevný pomer"
+  ],
+  [
+    "{{ステージの幅}}",
+    "Scéna šírka"
+  ],
+  [
+    "{{背景色}}",
+    "farba pozadia"
+  ],
+  [
+    "{{ステージの高さ}}",
+    "Scéna výška"
+  ],
+  [
+    "{{フレームレート}}",
+    "snímka sadzba"
+  ],
+  [
+    "{{シンボル名}}",
+    "názov symbolu"
+  ],
+  [
+    "{{イージング設定}}",
+    "Nastavenia uvoľnenia"
+  ],
+  [
+    "{{ビデオの音量設定}}",
+    "Video hlasitosťnastavenia"
+  ],
+  [
+    "{{自動再生}}",
+    "automatické prehrávanie"
+  ],
+  [
+    "{{テキストエリアのボーダー設定}}",
+    "Nastavenia ohraničenia textovej oblasti"
+  ],
+  [
+    "{{テキスト入力設定}}",
+    "Nastavenia zadávania textu"
+  ],
+  [
+    "{{フォント選択}}",
+    "vybrať písmo"
+  ],
+  [
+    "{{自動サイズ調整}}",
+    "automatické nastavenie veľkosti"
+  ],
+  [
+    "{{フォントスタイルタイプ}}",
+    "typ štýlu písma"
+  ],
+  [
+    "{{行揃え}}",
+    "zarovnanie čiar"
+  ],
+  [
+    "{{改行設定}}",
+    "Nastavenia zalomenia riadkov"
+  ],
+  [
+    "{{スクロール設定}}",
+    "nastavenia posúvania"
+  ],
+  [
+    "{{フォントサイズ}}",
+    "veľkosť písma"
+  ],
+  [
+    "{{フォントカラー}}",
+    "farba písma"
+  ],
+  [
+    "{{行間}}",
+    "Medzi riadkami"
+  ],
+  [
+    "{{文字幅}}",
+    "list šírka"
+  ],
+  [
+    "{{左マージン}}",
+    "ľavý okraj"
+  ],
+  [
+    "{{右マージン}}",
+    "pravý okraj"
+  ],
+  [
+    "{{カラー種別の選択}}",
+    "vybrať typ farby"
+  ],
+  [
+    "{{背景画像の選択}}",
+    "Pozadie obrazok vyberte"
+  ],
+  [
+    "{{カラーポインターを追加}}",
+    "farba pointer pridané"
+  ],
+  [
+    "{{カラー値}}",
+    "farba hodnota"
+  ],
+  [
+    "{{アルファ(0%-100%)}}",
+    "alfa(0%-100%)"
+  ],
+  [
+    "{{アルファ値}}",
+    "hodnota alfa"
+  ],
+  [
+    "{{選択対象の幅}}",
+    "vybraný prvok šírka"
+  ],
+  [
+    "{{選択対象のX座標}}",
+    "vybraný prvok Xsúradnica"
+  ],
+  [
+    "{{選択対象の高さ}}",
+    "vybraný prvok výška"
+  ],
+  [
+    "{{選択対象のY座標}}",
+    "vybraný prvok Ysúradnica"
+  ],
+  [
+    "{{選択対象の幅の伸縮}}",
+    "vybraný prvok šírka expanzie a kontrakcie"
+  ],
+  [
+    "{{選択対象を回転}}",
+    "vybraný prvokrotácia"
+  ],
+  [
+    "{{選択対象の高さの伸縮}}",
+    "vybraný prvok výška expanzia a kontrakcia"
+  ],
+  [
+    "{{アルファオフセット(-255〜255)}}",
+    "alfaposun(-255〜255)"
+  ],
+  [
+    "{{赤(0%-100%)}}",
+    "Červená (0 % – 100 %)"
+  ],
+  [
+    "{{赤オフセット(-255〜255)}}",
+    "Červený posun(-255~255)"
+  ],
+  [
+    "{{緑(0%-100%)}}",
+    "Zelená (0 % – 100 %)"
+  ],
+  [
+    "{{緑オフセット(-255〜255)}}",
+    "Zelený posun(-255~255)"
+  ],
+  [
+    "{{青(0%-100%)}}",
+    "Modrá (0 % – 100 %)"
+  ],
+  [
+    "{{青オフセット(-255〜255)}}",
+    "Modrý posun(-255～255)"
+  ],
+  [
+    "{{ブレンドモード}}",
+    "režim prelínania"
+  ],
+  [
+    "{{フィルターを選択}}",
+    "filtervybrať"
+  ],
+  [
+    "{{フィルターを追加}}",
+    "filterpridané"
+  ],
+  [
+    "{{サウンドを追加}}",
+    "zvukpridané"
+  ],
+  [
+    "{{フィルターを表示・非表示する}}",
+    "Zobrazenie filtra/skrytý"
+  ],
+  [
+    "{{フィルターを削除}}",
+    "filtervymazané"
+  ],
+  [
+    "{{水平方向にぼかす}}",
+    "vodorovné rozmazanie"
+  ],
+  [
+    "{{垂直方向にぼかす}}",
+    "vertikálnedo rozmazania"
+  ],
+  [
+    "{{フィルター強度}}",
+    "pevnosť filtra"
+  ],
+  [
+    "{{フィルター角度}}",
+    "uhol filtra"
+  ],
+  [
+    "{{シャドウのアルファ}}",
+    "tieň alfa"
+  ],
+  [
+    "{{シャドウのカラー}}",
+    "tieňová farba"
+  ],
+  [
+    "{{フィルター距離}}",
+    "vzdialenosť filtra"
+  ],
+  [
+    "{{ハイライトのカラー}}",
+    "zvýrazniť farba"
+  ],
+  [
+    "{{ハイライトのアルファ}}",
+    "zvýrazniť alfa"
+  ],
+  [
+    "{{グラデーションカラー}}",
+    "gradient farba"
+  ],
+  [
+    "{{グラデーションのアルファ}}",
+    "gradient alfa"
+  ],
+  [
+    "{{タブの移動・名前を変更}}",
+    "karta presunúť・názovzmeniť"
+  ],
+  [
+    "{{プロジェクトを閉じる}}",
+    "Zavrieť projekt"
+  ],
+  [
+    "{{上下に移動}}",
+    "Pohybujte sa hore a dole"
+  ],
+  [
+    "{{レイヤー変更(ダブルクリック)}}",
+    "vrstvazmeniť(dvojité kliknutie)"
+  ],
+  [
+    "{{レイヤーをハイライト}}",
+    "vrstvazvýrazniť"
+  ],
+  [
+    "{{レイヤーを非表示}}",
+    "vrstvaskrytý"
+  ],
+  [
+    "{{レイヤーをロック}}",
+    "vrstva zámok"
+  ],
+  [
+    "{{カーブポインター(ダブルクリックでON/OFF)}}",
+    "ukazovatele krivky (dvojitým kliknutím zapnete/vypnete)"
+  ],
+  [
+    "{{インスタンス名}}",
+    "názov inštancie"
+  ],
+  [
+    "{{ライブラリ内の検索}}",
+    "Hľadať v rámci knižnice"
+  ],
+  [
+    "{{フレームラベル}}",
+    "snímkaštítok"
+  ],
+  [
+    "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+    "Ak projekt nie je uložený, dáta projektu tejto karty nie je možné obnoviť.Chcete sa kartavymazane?"
+  ]
+]

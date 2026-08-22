@@ -5,7 +5,8 @@
  * @type {string}
  * @constant
  */
-export const $LANGUAGE_URL: string = "https://language.next2d.app";
+/** ZUKBOX 자체 호스팅 — `public/language/*.json` (vite dev/build 공통) */
+export const $LANGUAGE_URL: string = "/language";
 
 /**
  * @description 変換対象のクラス名

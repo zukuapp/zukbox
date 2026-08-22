@@ -19,7 +19,7 @@ export const execute = (): IUserSettingIObject =>
 
     return {
         "layer": false,
-        "type": "zlib",
+        "type": "zwf",
         "modal": true
     };
 };

@@ -1,0 +1,1546 @@
+[
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
+    "Déplacer le cadre/profondeur %s3 %s4 du calque [%s2] de [%s1] vers la profondeur %s5"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
+    "Supprimez le cadre %s3 et la profondeur du calque [%s2] de [%s1] et [%s5] de %s4"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
+    "Changez la matrice du cadre %s3 et la profondeur %s4 du calque [%s2] de [%s1] de %s5° à %s6°"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
+    "Modifiez le mode de fusion du cadre/profondeur %s3 %s4 du calque [%s2] de [%s1] de [%s5] à [%s6]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分オフセットを%s5から%s6に変更}}",
+    "Modification du décalage du composant bleu du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の青色成分を%s5%から%s6%に変更}}",
+    "Modification du composant bleu du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5% à %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分オフセットを%s5から%s6に変更}}",
+    "Modification du décalage du composant vert du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の緑色成分を%s5%から%s6%に変更}}",
+    "Modification du composant vert du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5% à %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
+    "Modification du décalage du composant rouge du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
+    "Modification du composant rouge du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5% à %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
+    "Modifier le décalage de transparence du cadre %s3/profondeur de %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
+    "Modifiez la transparence du cadre %s3 et la profondeur %s4 du calque [%s2] de [%s1] de %s5% à %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
+    "Modifiez la coordonnée x du point central du cadre %s3 et la profondeur %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のy座標を%s5から%s6に変更}}",
+    "Modifiez la coordonnée y du point central du cadre %s3 et la profondeur %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点を[%s5]から[%s6]に変更}}",
+    "Changez le point central du cadre %s3 et la profondeur %s4 du calque [%s2] de [%s1] de [%s5] à [%s6]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
+    "Modification de la rotation du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5° à %s6°"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
+    "Modification de l'échelle y du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5% à %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
+    "Modification de l'échelle x du cadre %s3 et de la profondeur %s4 du calque [%s2] de [%s1] de %s5% à %s6%"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
+    "Renommez le cadre/profondeur %s3 %s4 du calque [%s2] de [%s1] en %s5."
+  ],
+  [
+    "{{新規Text[%s1]を追加}}",
+    "Ajouter un nouveau texte[%s1]"
+  ],
+  [
+    "{{[%s1]のグラフィックを変更}}",
+    "Modification des graphiques de [%s1]"
+  ],
+  [
+    "{{新規Shape[%s1]を追加}}",
+    "Ajouter une nouvelle forme[%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
+    "Changez la coordonnée y du cadre %s3/profondeur de %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
+    "Changez la coordonnée x du cadre %s3/profondeur de %s4 du calque [%s2] de [%s1] de %s5 à %s6"
+  ],
+  [
+    "{{ステージの背景色を[%s1]から[%s2]に変更}}",
+    "Changez la couleur d'arrière-plan de la scène de [%s1] à [%s2]"
+  ],
+  [
+    "{{ステージのFPSを%s1から%s2に変更}}",
+    "Changez le FPS de la scène de %s1 à %s2"
+  ],
+  [
+    "{{ステージの高さを%s1から%s2に変更}}",
+    "Changer la hauteur de la scène de %s1 à %s2"
+  ],
+  [
+    "{{ステージの幅を%s1から%s2に変更}}",
+    "Modifier la largeur de la scène de %s1 à %s2"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベルを削除}}",
+    "Supprimez l'étiquette du cadre %s2 de [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのラベル[%s3]を[%s4]に変更}}",
+    "Remplacez l'étiquette [%s3] du cadre %s2 de [%s1] par [%s4]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにラベル[%s3]を登録}}",
+    "Enregistrez l'étiquette [%s3] dans le cadre %s2 de [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]のループ回数を%s4から%s5に変更}}",
+    "Modification du numéro de boucle du son [%s3] de l'image %s2 de [%s1] de %s4 à %s5"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]の音量を%s4から%s5に変更}}",
+    "Modification du volume du son [%s3] de la trame %s2 de [%s1] de %s4 à %s5"
+  ],
+  [
+    "{{[%s1]の%s2フレームのサウンド[%s3]を削除}}",
+    "Supprimez le son [%s3] de l'image %s2 de [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにサウンド[%s3]を追加}}",
+    "Ajouter le son [%s3] à l'image %s2 de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを削除}}",
+    "Supprimer l'image clé de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを削除}}",
+    "Supprimez toutes les images clés de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを全て削除}}",
+    "Supprimez toutes les images clés de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを全て削除}}",
+    "Supprimez toutes les images clés vides de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームから%s4フレーム削除}}",
+    "Supprimez l'image %s4 de l'image clé de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームから%s4フレーム削除}}",
+    "Supprimer l'image %s4 de l'image clé vide de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームを分割}}",
+    "Diviser l'image clé de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームのキーフレームに%s4フレームを追加}}",
+    "Ajoutez l'image %s4 à l'image clé de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに[%s4]を追加}}",
+    "Ajoutez [%s4] au cadre %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
+    "Ajouter le cadre %s4 au PLACEHOLDER 2ème cadre du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
+    "Diviser l'image clé vide de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームに%s4フレームを追加}}",
+    "Ajoutez l'image %s4 à l'image clé vide de l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]の%s3フレームに空のキーフレームを追加}}",
+    "Ajoutez une image clé vide à l'image %s3 du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を[%s3]に変更}}",
+    "Changer le calque [%s2] de [%s1] en [%s3]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]のハイライトカラーを変更}}",
+    "Changer la couleur de surbrillance du calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を移動}}",
+    "Déplacer le calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]を画像に上書き}}",
+    "Écraser [%s1] sur l'image"
+  ],
+  [
+    "{{[%s1]を動画に上書き}}",
+    "Remplacer [%s1] par la vidéo"
+  ],
+  [
+    "{{[%s1]を音声に上書き}}",
+    "Remplacer [%s1] par l'audio"
+  ],
+  [
+    "{{ライブラリから[%s1]を削除}}",
+    "Supprimer [%s1] de la bibliothèque"
+  ],
+  [
+    "{{MoiveClip一覧}}",
+    "Liste MoiveClip"
+  ],
+  [
+    "{{新規フォルダー[%s1]を追加}}",
+    "Ajouter un nouveau dossier [%s1]"
+  ],
+  [
+    "{{新規MovieClip[%s1]を追加}}",
+    "Ajouter un nouveau MovieClip[%s1]"
+  ],
+  [
+    "{{音声[%s1]を取り込み}}",
+    "Importer de l'audio [%s1]"
+  ],
+  [
+    "{{動画[%s1]を取り込み}}",
+    "Importer la vidéo [%s1]"
+  ],
+  [
+    "{{[%s1]のフォルダ移動}}",
+    "Déplacer le dossier [%s1]"
+  ],
+  [
+    "{{画像[%s1]を取り込み}}",
+    "Importer une image [%s1]"
+  ],
+  [
+    "{{[%s1]のシンボル名を[%s2]に変更}}",
+    "Remplacez le nom du symbole de [%s1] par [%s2]"
+  ],
+  [
+    "{{[%s1]の名前を[%s2]に変更}}",
+    "Renommer [%s1] en [%s2]"
+  ],
+  [
+    "{{[%s1]のレイヤー名[%s2]を[%s3]に変更}}",
+    "Remplacez le nom du calque [%s2] de [%s1] par [%s3]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを削除}}",
+    "Supprimez le script du cadre %s2 de [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームのスクリプトを変更}}",
+    "Changer le script du cadre %s2 de [%s1]"
+  ],
+  [
+    "{{[%s1]の%s2フレームにスクリプトを追加}}",
+    "Ajouter un script au cadre %s2 de [%s1]"
+  ],
+  [
+    "{{プロジェクト名[%s1]を[%s2]に変更}}",
+    "Remplacez le nom du projet [%s1] par [%s2]"
+  ],
+  [
+    "{{[%s1]のレイヤー[%s2]を削除}}",
+    "Supprimer le calque [%s2] de [%s1]"
+  ],
+  [
+    "{{[%s1]にレイヤー[%s2]を追加}}",
+    "Ajouter le calque [%s2] à [%s1]"
+  ],
+  [
+    "{{同名のシンボルが存在します}}",
+    "Un symbole du même nom existe"
+  ],
+  [
+    "{{広告枠の非表示}}",
+    "Cacher un espace publicitaire"
+  ],
+  [
+    "{{履歴}}",
+    "histoire"
+  ],
+  [
+    "{{エリア位置の移動}}",
+    "Déplacer la position de la zone"
+  ],
+  [
+    "{{動画広告を視聴することで、7日間の機能制限が解除される特典が得られます。}}",
+    "Si vous regardez une publicité vidéo sur l’application supporter, vous bénéficierez d’une levée des restrictions fonctionnelles pendant 7 jours."
+  ],
+  [
+    "{{Animation Toolはオープンソースで提供されており、無料で利用できます。}}",
+    "Animation Tool est un logiciel open source disponible gratuitement."
+  ],
+  [
+    "{{新しいバージョンの開発のため、動画広告を視聴していただき、ご支援いただけると幸いです。}}",
+    "Nous apprécierions votre soutien pour développer de meilleures fonctionnalités et de nouvelles versions."
+  ],
+  [
+    "{{機能制限を解除}}",
+    "Supprimer les restrictions fonctionnelles"
+  ],
+  [
+    "{{サポーターアプリをインストール}}",
+    "Installer l'application des supporters"
+  ],
+  [
+    "{{画面共有}}",
+    "partage d'écran"
+  ],
+  [
+    "{{画面共有の機能を起動}}",
+    "Activer la fonction de partage d'écran"
+  ],
+  [
+    "{{前のキーフレームと座標を合わせる}}",
+    "Aligner les coordonnées avec l'image clé précédente"
+  ],
+  [
+    "{{前のキーフレームと変形を合わせる}}",
+    "Aligner la transformation avec l'image clé précédente"
+  ],
+  [
+    "{{次のキーフレームと座標を合わせる}}",
+    "Aligner les coordonnées avec l'image clé suivante"
+  ],
+  [
+    "{{次のキーフレームと変形を合わせる}}",
+    "Aligner la transformation avec la prochaine image clé"
+  ],
+  [
+    "{{次のキーフレームに移動}}",
+    "Aller à l'image clé suivante"
+  ],
+  [
+    "{{前のキーフレームに移動}}",
+    "Aller à l'image clé précédente"
+  ],
+  [
+    "{{全てのスクリプトをコピー}}",
+    "copier tous les scripts"
+  ],
+  [
+    "{{スクリプトをコピー}}",
+    "copier le script"
+  ],
+  [
+    "{{スクリプトをペースト}}",
+    "colle le script"
+  ],
+  [
+    "{{全てのラベルをコピー}}",
+    "Copiez toutes les étiquettes"
+  ],
+  [
+    "{{ラベルをコピー}}",
+    "copier l'étiquette"
+  ],
+  [
+    "{{ラベルをペースト}}",
+    "coller l'étiquette"
+  ],
+  [
+    "{{全てのサウンドをコピー}}",
+    "copier tous les sons"
+  ],
+  [
+    "{{サウンドをコピー}}",
+    "copier le son"
+  ],
+  [
+    "{{サウンドをペースト}}",
+    "coller le son"
+  ],
+  [
+    "{{書き出し先の選択}}",
+    "Sélectionnez la destination de l'exportation"
+  ],
+  [
+    "{{画質}}",
+    "qualité d'image"
+  ],
+  [
+    "{{座標}}",
+    "coordonner"
+  ],
+  [
+    "{{MovieClipを編集}}",
+    "Modifier le MovieClip"
+  ],
+  [
+    "{{親の階層へ移動}}",
+    "Passer à la hiérarchie parent"
+  ],
+  [
+    "{{ロックされたレイヤーです}}",
+    "Ceci est un calque verrouillé"
+  ],
+  [
+    "{{トゥイーンには複数のオブジェクトを設置できません}}",
+    "Impossible de placer plusieurs objets sur l'interpolation"
+  ],
+  [
+    "{{名前が重複しています}}",
+    "Nom en double"
+  ],
+  [
+    "{{名前は必須です}}",
+    "le nom est requis"
+  ],
+  [
+    "{{基準点}}",
+    "Point de référence"
+  ],
+  [
+    "{{自由変形ツール}}",
+    "Outil de transformation gratuit"
+  ],
+  [
+    "{{キーフレームに変換}}",
+    "Convertir en image clé"
+  ],
+  [
+    "{{空のキーフレームに変換}}",
+    "Convertir en image clé vide"
+  ],
+  [
+    "{{最初のフレームに移動}}",
+    "passer à la première image"
+  ],
+  [
+    "{{最後のフレームに移動}}",
+    "aller à la dernière image"
+  ],
+  [
+    "{{SWFを解析中}}",
+    "Analyser les fichiers SWF"
+  ],
+  [
+    "{{JSONを生成}}",
+    "Générer du JSON"
+  ],
+  [
+    "{{ファイルを生成}}",
+    "générer un fichier"
+  ],
+  [
+    "{{N2Dファイルの読み込み}}",
+    "Chargement des fichiers N2D"
+  ],
+  [
+    "{{JSONの読み込み}}",
+    "Chargement de JSON"
+  ],
+  [
+    "{{データを解凍中}}",
+    "Décompression des données"
+  ],
+  [
+    "{{データを圧縮中}}",
+    "Compression des données"
+  ],
+  [
+    "{{エンコード}}",
+    "encoder"
+  ],
+  [
+    "{{外部ファイルの読み込み}}",
+    "Chargement de fichiers externes"
+  ],
+  [
+    "{{バイナリデータを生成}}",
+    "générer des données binaires"
+  ],
+  [
+    "{{データベースを起動}}",
+    "démarrer la base de données"
+  ],
+  [
+    "{{データを保存中}}",
+    "Sauvegarde des données"
+  ],
+  [
+    "{{完了}}",
+    "achèvement"
+  ],
+  [
+    "{{ステージ左揃え}}",
+    "Aligner la scène à gauche"
+  ],
+  [
+    "{{ステージ中央揃え(水平方向)}}",
+    "Alignement au centre de la scène (direction horizontale)"
+  ],
+  [
+    "{{ステージ右揃え}}",
+    "Aligner la scène à droite"
+  ],
+  [
+    "{{ステージ上揃え}}",
+    "Alignez-vous sur scène"
+  ],
+  [
+    "{{ステージ中央揃え(垂直方向)}}",
+    "Aligner le centre de la scène (verticalement)"
+  ],
+  [
+    "{{ステージ下揃え}}",
+    "Alignement du bas de la scène"
+  ],
+  [
+    "{{定規}}",
+    "règle"
+  ],
+  [
+    "{{表示}}",
+    "afficher"
+  ],
+  [
+    "{{ショートカット}}",
+    "raccourci"
+  ],
+  [
+    "{{レイヤーを複製}}",
+    "Dupliquer le calque"
+  ],
+  [
+    "{{未使用のフォルダを削除}}",
+    "Supprimer les dossiers inutilisés"
+  ],
+  [
+    "{{同名のアイテムが存在します}}",
+    "Un élément du même nom existe"
+  ],
+  [
+    "{{追加ファイル}}",
+    "fichier supplémentaire"
+  ],
+  [
+    "{{既存のコンテンツ}}",
+    "contenu existant"
+  ],
+  [
+    "{{上書きするか、ファイル名を変更して追加するか、キャンセルを選択する事ができます}}",
+    "Vous pouvez choisir d'écraser, de renommer et d'ajouter, ou d'annuler."
+  ],
+  [
+    "{{全て上書き}}",
+    "Tout écraser"
+  ],
+  [
+    "{{全てキャンセル}}",
+    "Tout annuler"
+  ],
+  [
+    "{{追加・上書き}}",
+    "Ajouter/écraser"
+  ],
+  [
+    "{{キャンセル}}",
+    "Annuler"
+  ],
+  [
+    "{{表示確認したいフレームを指定}}",
+    "Spécifiez le cadre dont vous souhaitez vérifier l'affichage"
+  ],
+  [
+    "{{ファイル名を指定}}",
+    "Spécifiez le nom du fichier"
+  ],
+  [
+    "{{ファイル名}}",
+    "nom de fichier"
+  ],
+  [
+    "{{終了フレームを指定}}",
+    "Spécifier le cadre de fin"
+  ],
+  [
+    "{{開始フレームを指定}}",
+    "Spécifier l'image de départ"
+  ],
+  [
+    "{{フレーム設定}}",
+    "Paramètres du cadre"
+  ],
+  [
+    "{{書き出し設定}}",
+    "Paramètres d'exportation"
+  ],
+  [
+    "{{ファイル形式の選択}}",
+    "Sélectionnez le format de fichier"
+  ],
+  [
+    "{{ファイル形式}}",
+    "format de fichier"
+  ],
+  [
+    "{{サイズ設定}}",
+    "Paramètres de taille"
+  ],
+  [
+    "{{左上}}",
+    "en haut à gauche"
+  ],
+  [
+    "{{中央上}}",
+    "en haut au centre"
+  ],
+  [
+    "{{右上}}",
+    "en haut à droite"
+  ],
+  [
+    "{{中央左}}",
+    "centre gauche"
+  ],
+  [
+    "{{中央}}",
+    "centre"
+  ],
+  [
+    "{{中央右}}",
+    "centre droit"
+  ],
+  [
+    "{{左下}}",
+    "en bas à gauche"
+  ],
+  [
+    "{{中央下}}",
+    "en bas au centre"
+  ],
+  [
+    "{{右下}}",
+    "en bas à droite"
+  ],
+  [
+    "{{中心点のX座標}}",
+    "Coordonnée X du point central"
+  ],
+  [
+    "{{中心点のY座標}}",
+    "Coordonnée Y du point central"
+  ],
+  [
+    "{{MovieClipに変換}}",
+    "Convertir en MovieClip"
+  ],
+  [
+    "{{変換}}",
+    "conversion"
+  ],
+  [
+    "{{ループ回数}}",
+    "Nombre de boucles"
+  ],
+  [
+    "{{カーブポインターの削除}}",
+    "Supprimer le pointeur de courbe"
+  ],
+  [
+    "{{ステージ基準}}",
+    "normes de scène"
+  ],
+  [
+    "{{閉じる}}",
+    "fermer"
+  ],
+  [
+    "{{保存}}",
+    "garder"
+  ],
+  [
+    "{{リセット}}",
+    "réinitialiser"
+  ],
+  [
+    "{{スクリーン}}",
+    "écran"
+  ],
+  [
+    "{{ショートカット設定}}",
+    "Paramètres de raccourci"
+  ],
+  [
+    "{{レイヤーカラー}}",
+    "couleur du calque"
+  ],
+  [
+    "{{Next2Dを支援する}}",
+    "Soutenir Next2D"
+  ],
+  [
+    "{{サポート}}",
+    "soutien"
+  ],
+  [
+    "{{未使用のアイテムを削除}}",
+    "Supprimer les éléments inutilisés"
+  ],
+  [
+    "{{レイヤーをペースト}}",
+    "coller la couche"
+  ],
+  [
+    "{{レイヤーをコピー}}",
+    "copier le calque"
+  ],
+  [
+    "{{フレームをペースト}}",
+    "coller le cadre"
+  ],
+  [
+    "{{フレームをコピー}}",
+    "cadre de copie"
+  ],
+  [
+    "{{キーフレームを削除}}",
+    "supprimer l'image clé"
+  ],
+  [
+    "{{キーフレームに空のキーフレームを追加できません}}",
+    "Impossible d'ajouter une image clé vide à une image clé"
+  ],
+  [
+    "{{ズームツール}}",
+    "outil de zoom"
+  ],
+  [
+    "{{タイムライン幅の拡大・縮小}}",
+    "Agrandir/réduire la largeur de la timeline"
+  ],
+  [
+    "{{ガイドレイヤー}}",
+    "couche de guidage"
+  ],
+  [
+    "{{音量設定}}",
+    "Paramètres de volume"
+  ],
+  [
+    "{{サウンドを削除}}",
+    "supprimer le son"
+  ],
+  [
+    "{{カスタムループ}}",
+    "boucle personnalisée"
+  ],
+  [
+    "{{読込のみ}}",
+    "lecture seule"
+  ],
+  [
+    "{{書込を許可}}",
+    "Autoriser l'écriture"
+  ],
+  [
+    "{{単一行}}",
+    "une seule ligne"
+  ],
+  [
+    "{{複数行}}",
+    "plusieurs lignes"
+  ],
+  [
+    "{{自動で折り返し}}",
+    "Envelopper automatiquement"
+  ],
+  [
+    "{{左寄せ}}",
+    "alignement à gauche"
+  ],
+  [
+    "{{中央揃え}}",
+    "alignement central"
+  ],
+  [
+    "{{右寄せ}}",
+    "Alignement à droite"
+  ],
+  [
+    "{{放射状グラデーション}}",
+    "gradient radial"
+  ],
+  [
+    "{{線形グラデーション}}",
+    "dégradé linéaire"
+  ],
+  [
+    "{{画像}}",
+    "image"
+  ],
+  [
+    "{{画像選択}}",
+    "Sélection d'images"
+  ],
+  [
+    "{{種別}}",
+    "taper"
+  ],
+  [
+    "{{Shapeの色設定}}",
+    "Paramètres de couleur de forme"
+  ],
+  [
+    "{{変形}}",
+    "déformation"
+  ],
+  [
+    "{{カラー効果}}",
+    "effet de couleur"
+  ],
+  [
+    "{{フィルター}}",
+    "filtre"
+  ],
+  [
+    "{{Shapeを複製}}",
+    "Forme en double"
+  ],
+  [
+    "{{読み込み}}",
+    "chargement"
+  ],
+  [
+    "{{新規フォルダー}}",
+    "nouveau dossier"
+  ],
+  [
+    "{{新規MovieClip}}",
+    "Nouveau clip vidéo"
+  ],
+  [
+    "{{枠に合わせてテキストをリサイズ}}",
+    "Redimensionner le texte pour l'adapter au cadre"
+  ],
+  [
+    "{{テキストに合わせて枠をリサイズ}}",
+    "Redimensionner le cadre pour l'adapter au texte"
+  ],
+  [
+    "{{リサイズしない}}",
+    "ne redimensionne pas"
+  ],
+  [
+    "{{フォント}}",
+    "fonte"
+  ],
+  [
+    "{{テキスト}}",
+    "texte"
+  ],
+  [
+    "{{ループ}}",
+    "boucle"
+  ],
+  [
+    "{{音量}}",
+    "volume"
+  ],
+  [
+    "{{ビデオ}}",
+    "vidéo"
+  ],
+  [
+    "{{イージング}}",
+    "assouplissement"
+  ],
+  [
+    "{{サウンド}}",
+    "son"
+  ],
+  [
+    "{{シンボル}}",
+    "symbole"
+  ],
+  [
+    "{{名前}}",
+    "nom"
+  ],
+  [
+    "{{オブジェクト}}",
+    "objet"
+  ],
+  [
+    "{{ステージ設定}}",
+    "mise en scène"
+  ],
+  [
+    "{{プレビュー}}",
+    "aperçu"
+  ],
+  [
+    "{{削除}}",
+    "supprimer"
+  ],
+  [
+    "{{ペースト}}",
+    "coller"
+  ],
+  [
+    "{{コピー}}",
+    "copie"
+  ],
+  [
+    "{{プラグインメニュー}}",
+    "Menu des plugins"
+  ],
+  [
+    "{{トゥイーン}}",
+    "entre"
+  ],
+  [
+    "{{カーブポインターの追加}}",
+    "Ajouter un pointeur de courbe"
+  ],
+  [
+    "{{パスの結合}}",
+    "Rejoindre les chemins"
+  ],
+  [
+    "{{シェイプ}}",
+    "forme"
+  ],
+  [
+    "{{キーフレームに配分}}",
+    "Distribuer aux images clés"
+  ],
+  [
+    "{{レイヤーに配分}}",
+    "Distribuer aux calques"
+  ],
+  [
+    "{{タイムライン}}",
+    "chronologie"
+  ],
+  [
+    "{{整列}}",
+    "alignement"
+  ],
+  [
+    "{{最背面}}",
+    "le plus en arrière"
+  ],
+  [
+    "{{ひとつ背面へ}}",
+    "Faites un pas en arrière"
+  ],
+  [
+    "{{ひとつ前面へ}}",
+    "Un pas en avant"
+  ],
+  [
+    "{{最前面}}",
+    "Premier plan"
+  ],
+  [
+    "{{重ね順}}",
+    "ordre d'empilement"
+  ],
+  [
+    "{{プラグイン}}",
+    "plugin"
+  ],
+  [
+    "{{ライブラリ}}",
+    "bibliothèque"
+  ],
+  [
+    "{{プロパティ}}",
+    "propriétés"
+  ],
+  [
+    "{{マスクレイヤー}}",
+    "calque de masque"
+  ],
+  [
+    "{{通常レイヤー}}",
+    "couche normale"
+  ],
+  [
+    "{{モーショントゥイーンの削除}}",
+    "Supprimer l'interpolation de mouvement"
+  ],
+  [
+    "{{モーショントゥイーンの追加}}",
+    "Ajout d'interpolations de mouvement"
+  ],
+  [
+    "{{モーダル表示}}",
+    "Affichage modal"
+  ],
+  [
+    "{{言語}}",
+    "langue"
+  ],
+  [
+    "{{フォーマット}}",
+    "format"
+  ],
+  [
+    "{{含める}}",
+    "inclure"
+  ],
+  [
+    "{{含めない}}",
+    "ne pas inclure"
+  ],
+  [
+    "{{使い方、リファレンス}}",
+    "Comment utiliser, référence"
+  ],
+  [
+    "{{非表示レイヤー}}",
+    "couche cachée"
+  ],
+  [
+    "{{設定}}",
+    "paramètre"
+  ],
+  [
+    "{{デフォルトのループを利用する}}",
+    "Utiliser la boucle par défaut"
+  ],
+  [
+    "{{フレームピッカー}}",
+    "sélecteur de cadre"
+  ],
+  [
+    "{{左揃え}}",
+    "alignement à gauche"
+  ],
+  [
+    "{{中央揃え(水平方向)}}",
+    "Alignement central (horizontal)"
+  ],
+  [
+    "{{右揃え}}",
+    "Alignement à droite"
+  ],
+  [
+    "{{上揃え}}",
+    "Alignement supérieur"
+  ],
+  [
+    "{{中央揃え(垂直方向)}}",
+    "Centrer (verticalement)"
+  ],
+  [
+    "{{下揃え}}",
+    "Alignement inférieur"
+  ],
+  [
+    "{{開始フレーム}}",
+    "cadre de départ"
+  ],
+  [
+    "{{終了フレーム}}",
+    "cadre de fin"
+  ],
+  [
+    "{{ループで再生}}",
+    "jouer en boucle"
+  ],
+  [
+    "{{1回再生}}",
+    "Jouer une fois"
+  ],
+  [
+    "{{指定したフレームで固定}}",
+    "Fixé au cadre spécifié"
+  ],
+  [
+    "{{1回逆再生}}",
+    "Lecture inversée une fois"
+  ],
+  [
+    "{{逆ループで再生}}",
+    "Jouer en boucle inversée"
+  ],
+  [
+    "{{画面の拡大・縮小}}",
+    "Agrandir/réduire l'écran"
+  ],
+  [
+    "{{カスタムイージングデータを保存}}",
+    "Enregistrer les données d'assouplissement personnalisées"
+  ],
+  [
+    "{{カスタムイージングデータの読込}}",
+    "Chargement de données d'assouplissement personnalisées"
+  ],
+  [
+    "{{プレビューのON/OFF}}",
+    "Aperçu activé/désactivé"
+  ],
+  [
+    "{{フォント枠サイズ}}",
+    "taille du cadre de police"
+  ],
+  [
+    "{{フォント枠カラー}}",
+    "couleur de la bordure de la police"
+  ],
+  [
+    "{{オニオンスキン}}",
+    "pelure d'oignon"
+  ],
+  [
+    "{{バケツツール}}",
+    "outils de seau"
+  ],
+  [
+    "{{ペンツール}}",
+    "outil stylo"
+  ],
+  [
+    "{{ダブルクリックでカーブポイントが追加されます}}",
+    "Double-cliquez pour ajouter des points de courbe"
+  ],
+  [
+    "{{選択ツール}}",
+    "outil de sélection"
+  ],
+  [
+    "{{Shape変形ツール}}",
+    "Outil de transformation de forme"
+  ],
+  [
+    "{{テキストツール}}",
+    "outils de texte"
+  ],
+  [
+    "{{矩形ツール}}",
+    "outil rectangle"
+  ],
+  [
+    "{{楕円ツール}}",
+    "Outil Ellipse"
+  ],
+  [
+    "{{角丸矩形ツール}}",
+    "Outil Rectangle arrondi"
+  ],
+  [
+    "{{塗りのカラー}}",
+    "couleur de peinture"
+  ],
+  [
+    "{{線のカラー}}",
+    "couleur de ligne"
+  ],
+  [
+    "{{線の太さ}}",
+    "épaisseur de ligne"
+  ],
+  [
+    "{{プロジェクトデータの読込}}",
+    "Charger les données du projet"
+  ],
+  [
+    "{{プロジェクトデータを保存}}",
+    "Enregistrer les données du projet"
+  ],
+  [
+    "{{書き出し}}",
+    "Commencez à écrire"
+  ],
+  [
+    "{{Discordへ移動}}",
+    "Allez sur Discorde"
+  ],
+  [
+    "{{バグ報告}}",
+    "Rapport de bug"
+  ],
+  [
+    "{{設定}}",
+    "paramètre"
+  ],
+  [
+    "{{タブを追加}}",
+    "ajouter un onglet"
+  ],
+  [
+    "{{タブの一覧を表示・移動}}",
+    "Afficher/déplacer la liste des onglets"
+  ],
+  [
+    "{{スクリプトを追加}}",
+    "ajouter un script"
+  ],
+  [
+    "{{キーフレームを追加}}",
+    "Ajouter une image clé"
+  ],
+  [
+    "{{空のキーフレームを追加}}",
+    "Ajouter une image clé vide"
+  ],
+  [
+    "{{フレームを追加}}",
+    "ajouter un cadre"
+  ],
+  [
+    "{{フレームを削除}}",
+    "supprimer le cadre"
+  ],
+  [
+    "{{再生}}",
+    "reproduction"
+  ],
+  [
+    "{{停止}}",
+    "Arrêt"
+  ],
+  [
+    "{{ループ設定}}",
+    "Paramètres de boucle"
+  ],
+  [
+    "{{レイヤーを追加}}",
+    "ajouter un calque"
+  ],
+  [
+    "{{レイヤーを削除}}",
+    "supprimer un calque"
+  ],
+  [
+    "{{全てのレイヤーをハイライト}}",
+    "Mettre en surbrillance tous les calques"
+  ],
+  [
+    "{{全てのレイヤーを非表示}}",
+    "Masquer tous les calques"
+  ],
+  [
+    "{{全てのレイヤーをロック}}",
+    "verrouiller tous les calques"
+  ],
+  [
+    "{{比率を固定}}",
+    "Rapport fixe"
+  ],
+  [
+    "{{ステージの幅}}",
+    "largeur de scène"
+  ],
+  [
+    "{{背景色}}",
+    "couleur de fond"
+  ],
+  [
+    "{{ステージの高さ}}",
+    "hauteur de scène"
+  ],
+  [
+    "{{フレームレート}}",
+    "fréquence d'images"
+  ],
+  [
+    "{{シンボル名}}",
+    "nom du symbole"
+  ],
+  [
+    "{{イージング設定}}",
+    "Assouplir les paramètres"
+  ],
+  [
+    "{{ビデオの音量設定}}",
+    "Paramètres du volume vidéo"
+  ],
+  [
+    "{{自動再生}}",
+    "lecture automatique"
+  ],
+  [
+    "{{テキストエリアのボーダー設定}}",
+    "Paramètres de bordure de la zone de texte"
+  ],
+  [
+    "{{テキスト入力設定}}",
+    "Paramètres de saisie de texte"
+  ],
+  [
+    "{{フォント選択}}",
+    "Sélection de police"
+  ],
+  [
+    "{{自動サイズ調整}}",
+    "ajustement automatique de la taille"
+  ],
+  [
+    "{{フォントスタイルタイプ}}",
+    "type de style de police"
+  ],
+  [
+    "{{行揃え}}",
+    "alignement des lignes"
+  ],
+  [
+    "{{改行設定}}",
+    "Paramètres de saut de ligne"
+  ],
+  [
+    "{{スクロール設定}}",
+    "paramètres de défilement"
+  ],
+  [
+    "{{フォントサイズ}}",
+    "taille de la police"
+  ],
+  [
+    "{{フォントカラー}}",
+    "couleur de la police"
+  ],
+  [
+    "{{行間}}",
+    "Entre les lignes"
+  ],
+  [
+    "{{文字幅}}",
+    "largeur des caractères"
+  ],
+  [
+    "{{左マージン}}",
+    "marge gauche"
+  ],
+  [
+    "{{右マージン}}",
+    "marge droite"
+  ],
+  [
+    "{{カラー種別の選択}}",
+    "Sélectionnez le type de couleur"
+  ],
+  [
+    "{{背景画像の選択}}",
+    "Sélection d'image d'arrière-plan"
+  ],
+  [
+    "{{カラーポインターを追加}}",
+    "Ajouter un pointeur de couleur"
+  ],
+  [
+    "{{カラー値}}",
+    "valeur de couleur"
+  ],
+  [
+    "{{アルファ(0%-100%)}}",
+    "Alpha (0%-100%)"
+  ],
+  [
+    "{{アルファ値}}",
+    "valeur alpha"
+  ],
+  [
+    "{{選択対象の幅}}",
+    "Largeur de sélection"
+  ],
+  [
+    "{{選択対象のX座標}}",
+    "Coordonnée X de la sélection"
+  ],
+  [
+    "{{選択対象の高さ}}",
+    "Hauteur de sélection"
+  ],
+  [
+    "{{選択対象のY座標}}",
+    "Coordonnée Y de sélection"
+  ],
+  [
+    "{{選択対象の幅の伸縮}}",
+    "Étirement de la largeur de la sélection"
+  ],
+  [
+    "{{選択対象を回転}}",
+    "Rotation de la sélection"
+  ],
+  [
+    "{{選択対象の高さの伸縮}}",
+    "Étirer ou réduire la hauteur de la sélection"
+  ],
+  [
+    "{{アルファオフセット(-255〜255)}}",
+    "Décalage alpha (-255 à 255)"
+  ],
+  [
+    "{{赤(0%-100%)}}",
+    "Rouge (0%-100%)"
+  ],
+  [
+    "{{赤オフセット(-255〜255)}}",
+    "Décalage rouge (-255 à 255)"
+  ],
+  [
+    "{{緑(0%-100%)}}",
+    "Vert (0%-100%)"
+  ],
+  [
+    "{{緑オフセット(-255〜255)}}",
+    "Décalage vert (-255 à 255)"
+  ],
+  [
+    "{{青(0%-100%)}}",
+    "Bleu (0%-100%)"
+  ],
+  [
+    "{{青オフセット(-255〜255)}}",
+    "Décalage bleu (-255 à 255)"
+  ],
+  [
+    "{{ブレンドモード}}",
+    "mode de fusion"
+  ],
+  [
+    "{{フィルターを選択}}",
+    "Sélectionnez le filtre"
+  ],
+  [
+    "{{フィルターを追加}}",
+    "ajouter un filtre"
+  ],
+  [
+    "{{サウンドを追加}}",
+    "ajouter du son"
+  ],
+  [
+    "{{フィルターを表示・非表示する}}",
+    "Afficher/masquer les filtres"
+  ],
+  [
+    "{{フィルターを削除}}",
+    "supprimer le filtre"
+  ],
+  [
+    "{{水平方向にぼかす}}",
+    "flou horizontalement"
+  ],
+  [
+    "{{垂直方向にぼかす}}",
+    "flou verticalement"
+  ],
+  [
+    "{{フィルター強度}}",
+    "force du filtre"
+  ],
+  [
+    "{{フィルター角度}}",
+    "angle du filtre"
+  ],
+  [
+    "{{シャドウのアルファ}}",
+    "ombre alpha"
+  ],
+  [
+    "{{シャドウのカラー}}",
+    "couleur de l'ombre"
+  ],
+  [
+    "{{フィルター距離}}",
+    "distance du filtre"
+  ],
+  [
+    "{{ハイライトのカラー}}",
+    "couleur de surbrillance"
+  ],
+  [
+    "{{ハイライトのアルファ}}",
+    "Mettre en surbrillance l'alpha"
+  ],
+  [
+    "{{グラデーションカラー}}",
+    "couleur de dégradé"
+  ],
+  [
+    "{{グラデーションのアルファ}}",
+    "dégradé alpha"
+  ],
+  [
+    "{{タブの移動・名前を変更}}",
+    "Déplacer/renommer les onglets"
+  ],
+  [
+    "{{プロジェクトを閉じる}}",
+    "Fermer le projet"
+  ],
+  [
+    "{{上下に移動}}",
+    "monter et descendre"
+  ],
+  [
+    "{{レイヤー変更(ダブルクリック)}}",
+    "Changer de calque (double-clic)"
+  ],
+  [
+    "{{レイヤーをハイライト}}",
+    "calque de surbrillance"
+  ],
+  [
+    "{{レイヤーを非表示}}",
+    "masquer le calque"
+  ],
+  [
+    "{{レイヤーをロック}}",
+    "couche de verrouillage"
+  ],
+  [
+    "{{カーブポインター(ダブルクリックでON/OFF)}}",
+    "Pointeur de courbe (double-cliquez pour allumer/éteindre)"
+  ],
+  [
+    "{{インスタンス名}}",
+    "nom de l'instance"
+  ],
+  [
+    "{{ライブラリ内の検索}}",
+    "Rechercher dans la bibliothèque"
+  ],
+  [
+    "{{フレームラベル}}",
+    "étiquette de cadre"
+  ],
+  [
+    "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
+    "Si le projet n'est pas enregistré, les données du projet sur cet onglet ne peuvent pas être récupérées.Voulez-vous supprimer l'onglet ?"
+  ]
+]

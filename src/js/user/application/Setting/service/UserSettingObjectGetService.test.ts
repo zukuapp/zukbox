@@ -9,6 +9,6 @@ describe("UserSettingObjectGetServiceTest", () =>
         const object: IUserSettingIObject = execute();
         expect(object.layer).toBe(false);
         expect(object.modal).toBe(true);
-        expect(object.type).toBe("zlib");
+        expect(object.type).toBe("zwf");
     });
 });
