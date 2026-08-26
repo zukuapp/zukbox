@@ -1,58 +1,39 @@
-Authoring tools that work on the web
-=============
+# ZUKBOX
 
-https://user-images.githubusercontent.com/4123454/160549811-98562bb7-cdff-460c-96b0-c01bcd5e5eab.mp4
-  
-[![UnitTest](https://github.com/Next2D/tool.next2d.app/actions/workflows/integration.yml/badge.svg?branch=main)](https://github.com/Next2D/tool.next2d.app/actions/workflows/integration.yml)
-[![CodeQL](https://github.com/Next2D/tool.next2d.app/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/Next2D/tool.next2d.app/actions/workflows/github-code-scanning/codeql)
-[![Lint](https://github.com/Next2D/tool.next2d.app/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/Next2D/tool.next2d.app/actions/workflows/lint.yml)
-[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/6c9rv5Uns5)
-[![Twitter](https://img.shields.io/twitter/follow/Next2D?style=social)](https://twitter.com/Next2D)
+브라우저에서 동작하는 **인터랙티브 콘텐츠 저작 도구**입니다.  
+텍스트·이미지·오디오·비디오를 결합해 Jump/ZUKBOX 작품을 만듭니다.
 
-## Next2D Animation Tool
+> GitHub: [zukuapp/zukbox](https://github.com/zukuapp/zukbox) · 조직: [zukuapp](https://github.com/zukuapp)  
+> 업스트림: [Next2D/tool.next2d.app](https://github.com/Next2D/tool.next2d.app) (TypeScript 계열)
 
-<div align="center">
-  <img src="https://next2d.app/assets/img/tool/logo.svg" width="250" alt="Next2D Animation Tool">
-</div>
-  
-[日本語]  
-Next2D Animation Toolは、Webブラウザ上で動作するオーサリングツールで、アクセスすれば誰でもすぐに利用できるWebサービスです。  
-[Animation Tool](https://tool.next2d.app)  
-直感的なインターフェースと豊富な機能を備えており、どなたでも簡単に扱う事ができます。  
-テキスト、画像、音声、ビデオなど、さまざまなメディア形式を組み合わせて、高品質で魅力的なコンテンツを作成する事が可能です。  
-  
-[English]  
-Next2D Animation Tool is an authoring tool that runs on a Web browser and is a Web service that anyone can access and use immediately.  
-[Animation Tool](https://tool.next2d.app)  
-With its intuitive interface and abundant functions, anyone can handle it easily.  
-It is possible to create high-quality, attractive content by combining various media formats such as text, images, audio, and video.  
-  
-[简体中文]  
-Next2D Animation Tool是一个在网络浏览器中运行的创作工具，是一个任何人都可以立即访问和使用的网络服务。  
-[Animation Tool](https://tool.next2d.app)  
-它有一个直观的界面和丰富的功能，使任何人都能轻松驾驭。  
-它允许用户通过结合各种媒体格式，如文本、图像、音频和视频，创建高质量、有吸引力的内容。  
-  
-## Support
+## 관련 저장소
 
-[日本語]  
-最新ニュースや技術情報は、Twitterの[@Next2D](https://twitter.com/Next2D)や公式の[Website](https://next2d.app/ja/)で発信していきますので、チェックしてみてください。  
-Next2Dがお役に立つようでしたら、プロジェクトをご支援いただければ幸いです。  
-  
-[English]  
-Please check [@Next2D](https://twitter.com/Next2D) on Twitter and the [official website](https://next2d.app/en/) for the latest news and technical information.    
-If Next2D is useful to you, we hope you will support our project.  
-  
-[简体中文]  
-请在Twitter上查看[@Next2D](https://twitter.com/Next2D)和[官方网站](https://next2d.app/cn/)，了解最新的新闻和技术信息。  
-如果Next2D对你有用，我们希望你能支持我们的项目。  
-  
-<div align="center">
-  <a href="https://github.com/sponsors/Next2D" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" width=180 alt="GitHub Sponsor" />
-  </a>
-</div>
+| 저장소 | 역할 |
+|--------|------|
+| [zukbox-player](https://github.com/zukuapp/zukbox-player) | Next2D 플레이어 (WebGL/WebGPU) |
+| [zukbox-lang](https://github.com/zukuapp/zukbox-lang) | 에디터 i18n JSON |
+| [zukbox-runtime](https://github.com/zukuapp/zukbox-runtime) | `.zwf` WASM 런타임 |
+| [zuku-engine-next2d](https://github.com/zukuapp/zuku-engine-next2d) | Jump 공개 엔진·매니페스트 |
 
-## Related Sites
-* [How to use](https://next2d.app/en/usage)
-* [Youtube](https://www.youtube.com/channel/UCKWvYSKSa8huzkr9T6GAPUw)
+## 개발
+
+```bash
+npm install
+npm run dev
+```
+
+플레이어는 로컬에서 `../player`(또는 워크스페이스 배치)를 peer로 참조합니다.  
+자세한 워크스페이스 배치는 팀 로컬 `zukbox/` 가이드를 따릅니다.
+
+## 라이선스
+
+업스트림과 동일하게 [MIT](LICENSE) (저장소 LICENSE 파일 기준).
+
+## ZUKU 플랫폼
+
+저작 산출물은 Jump 배급·샌드박스 **경계** 계약과 맞춰집니다.  
+플랫폼 설계: [`zuku-docs`](https://github.com/zukuapp/zuku-docs) · 서비스: [zuzunza.com](https://zuzunza.com)
+
+---
+
+**ZUKBOX** · **ZUKU (즈쿠)** · Tresillo
