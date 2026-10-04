@@ -45,7 +45,7 @@ workspace/
 ```
 
 Install the player's dependencies with `npm ci --ignore-scripts`. Build the
-runtime's WASM with `npm run build:wasm` in `runtime`. In `editor`, run
+runtime's WASM with `npm run build:wasm` in `runtime` (0.1.2 or later). In `editor`, run
 `npm ci --ignore-scripts`, `npm ci --prefix npm/editor --ignore-scripts`, then
 `npm run build --prefix npm/editor`. This uses the original Next2D TypeScript
 entry and inline workers directly; it does not require emitted player JavaScript
