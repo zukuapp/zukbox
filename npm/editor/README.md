@@ -1,6 +1,11 @@
 # ZUKU Editor
 
-<img src="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-dark.png" width="320" alt="ZUKU">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-light.png">
+  <img src="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-dark.png" width="320" alt="ZUKU">
+</picture>
+
+ZUKU - 내가 불러 일으키는 새로운 창작.
 
 `@zuku/editor` packages the maintained MIT Next2D/ZUKBOX browser animation
 editor as static files, with an embedding helper. It is a local game authoring
