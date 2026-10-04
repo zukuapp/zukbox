@@ -7,7 +7,7 @@ describe("UserSettingMenuPublishTypeChangeEventServiceTest", () =>
     it("execute test", () =>
     {
         const object1 = userSettingObjectGetService();
-        expect(object1.type).toBe("zlib");
+        expect(object1.type).toBe("zwf");
 
         const mock1 = {
             "stopPropagation": () => { return null },

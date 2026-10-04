@@ -1,0 +1,16 @@
+{
+  "name": "@zuku/editor",
+  "version": "0.1.0",
+  "description": "ZUKU browser game animation editor and isolated embedding helper",
+  "type": "module",
+  "license": "MIT",
+  "author": "Toshiyuki Ienaga (Next2D), ZUKU contributors",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": { ".": { "types": "./index.d.ts", "import": "./index.js" }, "./editor": "./dist/index.html" },
+  "files": ["index.js", "index.d.ts", "dist/", "LICENSE", "THIRD_PARTY_NOTICES.md", "README.md"],
+  "publishConfig": { "access": "public" },
+  "repository": { "type": "git", "url": "git+https://github.com/zukuapp/zukbox.git", "directory": "npm/editor" },
+  "scripts": { "build": "node build.mjs", "test:packed": "node test-packed.mjs" },
+  "devDependencies": { "ace-builds": "1.44.0", "fake-indexeddb": "6.2.4" }
+}
