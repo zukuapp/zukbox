@@ -107,7 +107,7 @@ const flattenFrameMajor = (
         }
         for (let depth = 0; depth < depthCount; ++depth) {
             const value = row[depth];
-            out[depth * totalFrame + frame] = value == null ? -1 : value;
+            out[depth * totalFrame + frame] = value === null || value === undefined ? -1 : value;
         }
     }
     return out;
@@ -260,7 +260,7 @@ export const encodeShapeBody = (shape: IShapePublishJson): Uint8Array =>
     if (shape.grid) {
         flags |= SHAPE_FLAG_HAS_GRID;
     }
-    if (shape.bitmapId != null) {
+    if (shape.bitmapId !== null && shape.bitmapId !== undefined) {
         flags |= SHAPE_FLAG_HAS_BITMAP_ID;
     }
 
@@ -280,7 +280,7 @@ export const encodeShapeBody = (shape: IShapePublishJson): Uint8Array =>
             writeF32(shape.grid.h)
         );
     }
-    if (shape.bitmapId != null) {
+    if (shape.bitmapId !== null && shape.bitmapId !== undefined) {
         parts.push(writeU32(shape.bitmapId));
     }
 
@@ -407,7 +407,7 @@ export const encodeSymbols = (symbols: Array<[string, number]>): Uint8Array =>
         const nameBytes = new TextEncoder().encode(name);
         parts.push(writeU32(nameBytes.length));
         parts.push(nameBytes);
-        const pad = (4 - ((4 + nameBytes.length) % 4)) % 4;
+        const pad = (4 - (4 + nameBytes.length) % 4) % 4;
         if (pad) {
             parts.push(new Uint8Array(pad));
         }

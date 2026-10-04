@@ -16,7 +16,7 @@ const CRC_TABLE = (() =>
     for (let idx = 0; idx < 256; ++idx) {
         let crc = idx;
         for (let bit = 0; bit < 8; ++bit) {
-            crc = crc & 1 ? (crc >>> 1) ^ 0xedb88320 : crc >>> 1;
+            crc = crc & 1 ? crc >>> 1 ^ 0xedb88320 : crc >>> 1;
         }
         table[idx] = crc >>> 0;
     }
@@ -27,7 +27,7 @@ export const crc32 = (bytes: Uint8Array): number =>
 {
     let crc = 0xffffffff;
     for (let idx = 0; idx < bytes.length; ++idx) {
-        crc = (crc >>> 8) ^ CRC_TABLE[(crc ^ bytes[idx]) & 0xff];
+        crc = crc >>> 8 ^ CRC_TABLE[(crc ^ bytes[idx]) & 0xff];
     }
     return (crc ^ 0xffffffff) >>> 0;
 };
@@ -75,12 +75,12 @@ export const parseBgColor = (color: string): number =>
 {
     const hex = color.replace("#", "");
     if (hex.length === 6) {
-        return (parseInt(hex, 16) << 8) | 0xff;
+        return parseInt(hex, 16) << 8 | 0xff;
     }
     if (hex.length === 8) {
         const rgb = parseInt(hex.slice(0, 6), 16);
         const alpha = parseInt(hex.slice(6, 8), 16);
-        return (rgb << 8) | alpha;
+        return rgb << 8 | alpha;
     }
     return 0x000000ff;
 };
