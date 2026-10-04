@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Ajouter le cadre %s4 au PLACEHOLDER 2ème cadre du calque [%s2] de [%s1]"
+    "Ajouter %s4 images à l'image %s3 du calque [%s2] de [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Rapport de bug"
   ],
   [
-    "{{設定}}",
-    "paramètre"
-  ],
-  [
     "{{タブを追加}}",
     "ajouter un onglet"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Si le projet n'est pas enregistré, les données du projet sur cet onglet ne peuvent pas être récupérées.Voulez-vous supprimer l'onglet ?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Style"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Hauteur du calque"
+  ],
+  [
+    "{{作業履歴}}",
+    "Historique"
+  ],
+  [
+    "{{吸着}}",
+    "Magnétisme"
   ]
 ]

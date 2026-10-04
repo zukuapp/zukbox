@@ -85,7 +85,7 @@
   ],
   [
     "{{新規Shape[%s1]を追加}}",
-    "Aggiunta nuova forma[XPLACEholderX0X]"
+    "Aggiunta nuova forma[%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
@@ -105,11 +105,11 @@
   ],
   [
     "{{ステージの高さを%s1から%s2に変更}}",
-    "Altezza del palco modificata da %s1 a XPLACEholderx1X"
+    "Altezza del palco modificata da %s1 a %s2"
   ],
   [
     "{{ステージの幅を%s1から%s2に変更}}",
-    "Larghezza del palco modificata da XPLACEholderx0X a XPLACEholderx1X"
+    "Larghezza del palco modificata da %s1 a %s2"
   ],
   [
     "{{[%s1]の%s2フレームのラベルを削除}}",
@@ -229,7 +229,7 @@
   ],
   [
     "{{新規MovieClip[%s1]を追加}}",
-    "Aggiunto nuovo filmato [XPLACEholderX0X]"
+    "Aggiunto nuovo filmato [%s1]"
   ],
   [
     "{{音声[%s1]を取り込み}}",
@@ -1192,10 +1192,6 @@
     "Segnalazione di bug"
   ],
   [
-    "{{設定}}",
-    "collocamento"
-  ],
-  [
     "{{タブを追加}}",
     "aggiungi scheda"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Se il progetto non viene salvato, i dati del progetto in questa scheda non possono essere recuperati.Vuoi rimuovere la scheda?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stile"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Altezza del livello"
+  ],
+  [
+    "{{作業履歴}}",
+    "Cronologia"
+  ],
+  [
+    "{{吸着}}",
+    "Aggancio"
   ]
 ]

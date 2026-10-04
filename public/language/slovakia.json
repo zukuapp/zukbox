@@ -1192,10 +1192,6 @@
     "Hlásenie chyby"
   ],
   [
-    "{{設定}}",
-    "nastavenia"
-  ],
-  [
     "{{タブを追加}}",
     "kartapridané"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Ak projekt nie je uložený, dáta projektu tejto karty nie je možné obnoviť.Chcete sa kartavymazane?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Štýl"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Výška vrstvy"
+  ],
+  [
+    "{{作業履歴}}",
+    "História"
+  ],
+  [
+    "{{吸着}}",
+    "Prichytávanie"
   ]
 ]

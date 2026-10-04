@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Voeg %s4 frame toe aan PLACEHOLDER 2e frame van laag [%s2] van [%s1]"
+    "Voeg %s4 frames toe bij frame %s3 van laag [%s2] van [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Bugrapport"
   ],
   [
-    "{{設定}}",
-    "instelling"
-  ],
-  [
     "{{タブを追加}}",
     "tabblad toevoegen"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Als het project niet is opgeslagen, kunnen de projectgegevens op dit tabblad niet worden hersteld.Wilt u het tabblad verwijderen?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stijl"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Laaghoogte"
+  ],
+  [
+    "{{作業履歴}}",
+    "Geschiedenis"
+  ],
+  [
+    "{{吸着}}",
+    "Uitlijnen"
   ]
 ]

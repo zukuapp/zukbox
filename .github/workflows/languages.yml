@@ -1,0 +1,49 @@
+name: Language synchronization
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  language-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          path: editor
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Read pinned language source
+        id: source
+        working-directory: editor
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+          ref = json.load(open('.github/language-source.json'))['commit']
+          assert re.fullmatch(r'[0-9a-f]{40}', ref)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'ref={ref}\n')
+          PY
+      - uses: actions/checkout@v6
+        with:
+          repository: zukuapp/zukbox-lang
+          ref: ${{ steps.source.outputs.ref }}
+          path: locales
+      - name: Check pinned hashes, complete locale set and actual UI source keys
+        working-directory: editor
+        run: python3 scripts/check_languages.py --source ../locales
+      - name: Exercise actual editor lookup and every translated history template
+        working-directory: editor
+        env:
+          ZUKBOX_EDITOR: .
+          ZUKBOX_LOCALES: public/language
+        run: node --experimental-strip-types --test ../locales/tests/runtime-interpolation.mjs

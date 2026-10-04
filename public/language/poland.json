@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Dodaj ramkę %s4 do drugiej klatki PLACEHOLDER warstwy [%s2] z [%s1]"
+    "Dodaj %s4 klatki przy klatce %s3 warstwy [%s2] w [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Raport o błędzie"
   ],
   [
-    "{{設定}}",
-    "ustawienie"
-  ],
-  [
     "{{タブを追加}}",
     "dodaj zakładkę"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Jeśli projekt nie zostanie zapisany, danych projektu znajdujących się na tej zakładce nie będzie można odzyskać.Czy chcesz usunąć zakładkę?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Styl"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Wysokość warstwy"
+  ],
+  [
+    "{{作業履歴}}",
+    "Historia"
+  ],
+  [
+    "{{吸着}}",
+    "Przyciąganie"
   ]
 ]

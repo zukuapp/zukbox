@@ -65,3 +65,22 @@ npm run build
 - [ZUKU 개발자 문서](https://zukuapp.github.io/docs/): 플랫폼 개요와 저장소별 개발 경로
 
 기여 방법은 [조직 공통 가이드](https://github.com/zukuapp/.github/blob/main/CONTRIBUTING.md), 취약점 신고 방법은 [보안 정책](SECURITY.md)을 확인해 주세요.
+
+## 언어 리소스 검증 / Language resource checks
+
+`public/language/`의 20개 파일은 [ZUKBOX 언어 저장소](https://github.com/zukuapp/zukbox-lang)의
+`.github/language-source.json`에 기록된 커밋과 SHA256 해시를 사용합니다. 각 언어는
+390개 고유 키를 제공하며, 원문 키와 번호가 있는 자리표시자를 보존합니다.
+언어 파일을 갱신할 때는 언어 저장소의 검사기로 먼저 확인하고 두 저장소의
+리소스·해시 기록을 함께 갱신합니다. 이 검사는 사이트를 배포하지 않습니다.
+
+```bash
+python3 scripts/check_languages.py --source ../zukbox-lang
+ZUKBOX_EDITOR=. ZUKBOX_LOCALES=public/language node --experimental-strip-types --test ../zukbox-lang/tests/runtime-interpolation.mjs
+```
+
+The checks require Python 3 and Node.js 24 or later. They verify the pinned
+language commit, all 20 file hashes, unique keys, numbered placeholders, and
+static UI lookup keys. The regression test executes this editor's actual
+`LanguageUtil.ts`; no editor dependency installation is required. Unobserved
+dynamic keys remain available. CI runs the same checks against the pinned source.

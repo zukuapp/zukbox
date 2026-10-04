@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Fügen Sie den %s4-Frame zum zweiten PLACEHOLDER-Frame der Ebene [%s2] von [%s1] hinzu."
+    "Fügen Sie %s4 Frames bei Frame %s3 der Ebene [%s2] von [%s1] hinzu."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Fehlerbericht"
   ],
   [
-    "{{設定}}",
-    "Einstellung"
-  ],
-  [
     "{{タブを追加}}",
     "Registerkarte hinzufügen"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Wenn das Projekt nicht gespeichert wird, können die Projektdaten auf dieser Registerkarte nicht wiederhergestellt werden.Möchten Sie die Registerkarte entfernen?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stil"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Ebenenhöhe"
+  ],
+  [
+    "{{作業履歴}}",
+    "Verlauf"
+  ],
+  [
+    "{{吸着}}",
+    "Einrasten"
   ]
 ]

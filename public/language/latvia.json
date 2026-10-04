@@ -1192,10 +1192,6 @@
     "Kļūdu ziņojums"
   ],
   [
-    "{{設定}}",
-    "iestatījumi"
-  ],
-  [
     "{{タブを追加}}",
     "cilnepievienots"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Ja projekts netiek saglabāts, šo cilne projekta datus nevar atgūt.Vai vēlaties cilnedzēst?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stils"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Slāņa augstums"
+  ],
+  [
+    "{{作業履歴}}",
+    "Vēsture"
+  ],
+  [
+    "{{吸着}}",
+    "Piesaistīšana"
   ]
 ]

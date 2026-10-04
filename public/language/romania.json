@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Adăugați cadru %s4 la PLACEHOLDER Al doilea cadru al stratului [%s2] din [%s1]"
+    "Adăugați %s4 cadre la cadrul %s3 al stratului [%s2] din [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Raport de eroare"
   ],
   [
-    "{{設定}}",
-    "setare"
-  ],
-  [
     "{{タブを追加}}",
     "adăugați fila"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Dacă proiectul nu este salvat, datele proiectului din această filă nu pot fi recuperate.Doriți să eliminați fila?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stil"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Înălțimea stratului"
+  ],
+  [
+    "{{作業履歴}}",
+    "Istoric"
+  ],
+  [
+    "{{吸着}}",
+    "Aliniere"
   ]
 ]

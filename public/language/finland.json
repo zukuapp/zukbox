@@ -1192,10 +1192,6 @@
     "Virheraportti"
   ],
   [
-    "{{設定}}",
-    "asetukset"
-  ],
-  [
     "{{タブを追加}}",
     "välilehtilisätty"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Jos projektia ei ole tallennettu, projektitietoja ei ole mahdollista palauttaa.Haluatko välilehtipoistettua?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Tyyli"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Tason korkeus"
+  ],
+  [
+    "{{作業履歴}}",
+    "Historia"
+  ],
+  [
+    "{{吸着}}",
+    "Kohdistus"
   ]
 ]

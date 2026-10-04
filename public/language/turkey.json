@@ -1,7 +1,7 @@
 [
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
-    "%s3 çerçevesini ve [%s1] katmanının %s4 derinliğini %s5 derinliğine taşıyın"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğini %s5 derinliğine taşıyın."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
@@ -9,7 +9,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の行列を%s5°から%s6°に変更}}",
-    "%s3 çerçevesinin matrisini ve [%s1] katmanının %s4 derinliğini %s1°'den %s6°'ye değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki matrisi %s5°'den %s6°'ye değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のブレンドモードを[%s5]から[%s6]に変更}}",
@@ -33,7 +33,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分オフセットを%s5から%s6に変更}}",
-    "%s3 çerçevesinin kırmızı bileşen ofseti ve [%s1] katmanının %s4 derinliği %s5'ten %s6'e değiştirildi"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki kırmızı bileşen ofsetini %s5'ten %s6'ya değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の赤色成分を%s5%から%s6%に変更}}",
@@ -41,11 +41,11 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度オフセットを%s5から%s6に変更}}",
-    "%s3 çerçevesinin şeffaflık ofsetini ve [%s1] katmanının %s4 derinliğini %s5'ten %s6'e değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki şeffaflık ofsetini %s5'ten %s6'ya değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の透明度を%s5%から%s6%に変更}}",
-    "%s3 çerçevesinin şeffaflığını ve [%s1] katmanının %s4 derinliğini XPLACEHOLDERX%4X'ten %%s6'e değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki şeffaflığı %s5%'ten %s6%'ya değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の中心点のx座標を%s5から%s6に変更}}",
@@ -61,15 +61,15 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の回転を%s5°から%s6°に変更}}",
-    "%s3 çerçevesinin dönüşünü ve [%s1] katmanının %s4 derinliğini %s5°'den %s6°'ye değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki dönüşü %s5°'den %s6°'ye değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のyスケールを%s5%から%s6%に変更}}",
-    "%s3 çerçevesinin y ölçeğini ve [%s1] katmanının %s4 derinliğini %%s5'ten %%s6'e değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki y ölçeğini %s5%'ten %s6%'ya değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のxスケールを%s5%から%s6%に変更}}",
-    "%s3 çerçevesinin x ölçeğini ve [%s1] katmanının %s4 derinliğini XPLACEHOLDERX%4X'ten %%s6'e değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki x ölçeğini %s5%'ten %s6%'ya değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の名前を%s5に変更}}",
@@ -89,11 +89,11 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のy座標を%s5から%s6に変更}}",
-    "%s3 çerçevesinin y koordinatını ve [%s1] katmanının %s4 derinliğini %s5'ten %s6'e değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki y koordinatını %s5'ten %s6'ya değiştirin."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4のx座標を%s5から%s6に変更}}",
-    "%s3 çerçevesinin x koordinatını ve [%s1] katmanının %s4 derinliğini %s5'ten %s6'e değiştirin"
+    "[%s1] içindeki [%s2] katmanının %s3 karesinde %s4 derinliğindeki x koordinatını %s5'ten %s6'ya değiştirin."
   ],
   [
     "{{ステージの背景色を[%s1]から[%s2]に変更}}",
@@ -1192,10 +1192,6 @@
     "Hata raporu"
   ],
   [
-    "{{設定}}",
-    "ayar"
-  ],
-  [
     "{{タブを追加}}",
     "sekme ekle"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Proje kaydedilmezse bu sekmedeki proje verileri kurtarılamaz.Sekmeyi kaldırmak istiyor musunuz?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stil"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Katman yüksekliği"
+  ],
+  [
+    "{{作業履歴}}",
+    "Geçmiş"
+  ],
+  [
+    "{{吸着}}",
+    "Yapışma"
   ]
 ]

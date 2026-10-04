@@ -1,7 +1,7 @@
 [
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4を深度%s5に移動}}",
-    "A [%s1] [%s2] réteg [%s2] %s3 képkockájának és %s4 mélységének áthelyezése a %s5 mélységbe."
+    "A [%s1] [%s2] réteg %s3 képkockájának és %s4 mélységének áthelyezése a %s5 mélységbe."
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム・深度%s4の[%s5]を削除}}",
@@ -1192,10 +1192,6 @@
     "Hibajelentés"
   ],
   [
-    "{{設定}}",
-    "beállítások"
-  ],
-  [
     "{{タブを追加}}",
     "laphozzáadva"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Ha a projekt nincs elmentve, a körprojekt adatai nem állíthatók vissza.Laptörölve akarsz?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Stílus"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Rétegmagasság"
+  ],
+  [
+    "{{作業履歴}}",
+    "Előzmények"
+  ],
+  [
+    "{{吸着}}",
+    "Igazítás"
   ]
 ]

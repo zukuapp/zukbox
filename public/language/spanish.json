@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Agregue el marco %s4 al segundo marco PLACEHOLDER de la capa [%s2] de [%s1]"
+    "Agregue %s4 fotogramas en el fotograma %s3 de la capa [%s2] de [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Informe de error"
   ],
   [
-    "{{設定}}",
-    "configuración"
-  ],
-  [
     "{{タブを追加}}",
     "agregar pestaña"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "Si el proyecto no se guarda, los datos del proyecto en esta pestaña no se podrán recuperar.¿Quieres eliminar la pestaña?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Estilo"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Altura de capa"
+  ],
+  [
+    "{{作業履歴}}",
+    "Historial"
+  ],
+  [
+    "{{吸着}}",
+    "Ajuste"
   ]
 ]

@@ -177,7 +177,7 @@
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレーム目に%s4フレームを追加}}",
-    "Add %s4 frame to PLACEHOLDER 2nd frame of layer [%s2] of [%s1]"
+    "Add %s4 frame to frame %s3 of layer [%s2] of [%s1]"
   ],
   [
     "{{[%s1]のレイヤー[%s2]の%s3フレームの空のキーフレームを分割}}",
@@ -1192,10 +1192,6 @@
     "Bug report"
   ],
   [
-    "{{設定}}",
-    "setting"
-  ],
-  [
     "{{タブを追加}}",
     "add tab"
   ],
@@ -1542,5 +1538,25 @@
   [
     "{{プロジェクトが保存されていない場合、このタブのプロジェクトデータを復旧する事はできません。タブを削除しますか？}}",
     "If the project is not saved, the project data on this tab cannot be recovered.Do you want to remove the tab?"
+  ],
+  [
+    "{{Photopea}}",
+    "Photopea"
+  ],
+  [
+    "{{スタイル}}",
+    "Style"
+  ],
+  [
+    "{{レイヤーの高さ}}",
+    "Layer height"
+  ],
+  [
+    "{{作業履歴}}",
+    "History"
+  ],
+  [
+    "{{吸着}}",
+    "Snap"
   ]
 ]
