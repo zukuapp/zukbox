@@ -1,8 +1,8 @@
 # ZUKU Editor
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-light.png">
-  <img src="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-dark.png" width="320" alt="ZUKU">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-dark.png">
+  <img src="https://raw.githubusercontent.com/zukuapp/zukbox/main/.github/branding/zuku-logo-light.png" width="320" alt="ZUKU">
 </picture>
 
 ZUKU - 내가 불러 일으키는 새로운 창작.

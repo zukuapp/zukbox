@@ -1,6 +1,6 @@
 {
   "name": "@zuku/editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ZUKU browser game animation editor and isolated embedding helper",
   "type": "module",
   "license": "MIT",
