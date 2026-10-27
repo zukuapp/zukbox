@@ -1,7 +1,7 @@
 {
     "name": "example-product-name",
     "version": "0.0.1",
-    "description": "Your Production Description",
+    "description": "ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터.",
     "main": "index.js",
     "config": {
         "forge": {
