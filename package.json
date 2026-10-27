@@ -1,6 +1,6 @@
 {
   "name": "@zukbox/editor",
-  "description": "ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터. Flash/AviUtl 스타일의 직관적 타임라인·툴바 UI로 텍스트, 이미지, 오디오, 비디오를 조합해 제작합니다.",
+  "description": "ZUKBOX — zuku Jump Studio용 웹 기반 2D 애니메이션·인터랙티브 콘텐츠 에디터. Flash/AviUtl 스타일의 타임라인·툴바 UI로 텍스트, 이미지, 오디오, 비디오를 조합합니다.",
   "private": true,
   "version": "0.300.0",
   "homepage": "https://jump.zuzunza.com",
